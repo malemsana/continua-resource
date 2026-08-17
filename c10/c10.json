@@ -1,0 +1,30 @@
+{
+  "id": "c10",
+  "classNumber": 10,
+  "subjects": [
+    {
+      "name": "Chemistry",
+      "abbreviation": "chem",
+      "chapters": [
+        {
+          "id": "c10_chem_ch3",
+          "chapterNumber": 3,
+          "friendlyName": "Metals and Non-metals",
+          "indexFile": "c10_chem_ch3.json"
+        }
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "abbreviation": "math",
+      "chapters": [
+        {
+          "id": "c10_mathemat_ch1",
+          "chapterNumber": 1,
+          "friendlyName": "Real Numbers",
+          "indexFile": "c10_mathemat_ch1.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c10_chem_ch3_sol",
+  "chapterId": "c10_chem_ch3",
+  "friendlyName": "NCERT Solutions",
+  "groups": [
+    {
+      "id": "a7",
+      "friendlyName": "Exercise 3.1",
+      "displayOrder": 1,
+      "questions": [
+        {
+          "id": "c10_chem_ch3_sol_a7_q1",
+          "displayOrder": 1,
+          "questionText": "Question text modified by Editor B",
+          "solutionText": "Solution by Editor B",
+          "options": [
+            {
+              "id": "c10_chem_ch3_sol_a7_q1_r3_o1",
+              "text": "Option A",
+              "displayOrder": 1,
+              "isCorrect": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

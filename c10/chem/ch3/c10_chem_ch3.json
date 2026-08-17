@@ -1,0 +1,32 @@
+{
+  "id": "c10_chem_ch3",
+  "classNumber": 10,
+  "subject": "Chemistry",
+  "chapterNumber": 3,
+  "friendlyName": "Metals and Non-metals",
+  "resources": {
+    "ncert": {
+      "exists": false
+    },
+    "formulaSheet": {
+      "exists": false
+    },
+    "solutions": {
+      "exists": true,
+      "groupCount": 1,
+      "fileName": "c10_chem_ch3_sol.json"
+    },
+    "pyq": {
+      "exists": false
+    },
+    "referenceFiles": {
+      "exists": false
+    },
+    "mockTests": {
+      "exists": false
+    },
+    "freeFlow": {
+      "exists": false
+    }
+  }
+}
