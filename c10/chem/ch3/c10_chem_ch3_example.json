@@ -1,0 +1,54 @@
+{
+  "id": "c10_chem_ch3_example",
+  "chapterId": "c10_chem_ch3",
+  "friendlyName": "Examples",
+  "questions": [
+    {
+      "id": "c10_chem_ch3_example_main_q1",
+      "displayOrder": 1,
+      "questionText": "Example 3.1: An element reacts with oxygen to give a compound with a high melting point.",
+      "solutionText": "The element is Calcium (Ca). Calcium reacts with oxygen to form calcium oxide (CaO) which is ionic and soluble in water.",
+      "options": []
+    },
+    {
+      "id": "c10_chem_ch3_example_main_q2",
+      "displayOrder": 2,
+      "questionText": "Example 3.2: Why is sodium kept immersed in kerosene oil?",
+      "solutionText": "Sodium is a highly reactive metal. It reacts vigorously with atmospheric oxygen and moisture. To prevent accidental fires, it is stored in kerosene.",
+      "sourceInfo": "NCERT Exemplar 3.2",
+      "options": []
+    },
+    {
+      "id": "c10_chem_ch3_example_main_q3",
+      "displayOrder": 3,
+      "questionText": "Example 3.3: Which of the following metals does not react with oxygen even at high temperatures?",
+      "solutionText": "Gold and Silver do not react with oxygen even at high temperatures because of their very low reactivity.",
+      "options": [
+        {
+          "id": "c10_chem_ch3_example_main_q3_r1_o1",
+          "text": "Silver (Ag) and Gold (Au)",
+          "displayOrder": 1,
+          "isCorrect": true
+        },
+        {
+          "id": "c10_chem_ch3_example_main_q3_r1_o2",
+          "text": "Copper (Cu)",
+          "displayOrder": 2,
+          "isCorrect": false
+        },
+        {
+          "id": "c10_chem_ch3_example_main_q3_r1_o3",
+          "text": "Iron (Fe)",
+          "displayOrder": 3,
+          "isCorrect": false
+        },
+        {
+          "id": "c10_chem_ch3_example_main_q3_r1_o4",
+          "text": "Aluminium (Al)",
+          "displayOrder": 4,
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}

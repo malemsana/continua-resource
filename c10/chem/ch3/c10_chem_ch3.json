@@ -16,6 +16,11 @@
       "groupCount": 1,
       "fileName": "c10_chem_ch3_sol.json"
     },
+    "examples": {
+      "exists": true,
+      "questionCount": 3,
+      "fileName": "c10_chem_ch3_example.json"
+    },
     "pyq": {
       "exists": false
     },
@@ -26,6 +31,9 @@
       "exists": false
     },
     "freeFlow": {
+      "exists": false
+    },
+    "assets": {
       "exists": false
     }
   }

@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NCERT Solutions Maker</title>
+<style>
+:root{
+  --bg:#0A0A0A;--surface:#111111;--surface2:#1A1A1A;--border:#444444;
+  --text:#FFFFFF;--secondary:#A0A0A0;--muted:#666666;--accent:#4A90E2;
+  --accent-hover:#357ABD;--success:#22C55E;--error:#EF4444;--warning:#D6A83A;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+header{height:60px;border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 20px;max-width:1200px;margin:auto}
+header h1{font-size:20px;font-weight:600;margin:0}
+header .state{margin-left:auto;color:var(--muted);font-size:12px}
+main{width:min(1000px,calc(100% - 32px));margin:0 auto;padding:24px 0 48px}
+section{margin-bottom:32px}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:12px}
+h2{font-size:18px;font-weight:600;margin:0}
+.description{font-size:13px;color:var(--secondary);margin:4px 0 0}
+label{display:block;color:var(--secondary);font-size:12px;margin:0 0 6px}
+input[type=text],input[type=file]{width:100%;background:var(--surface2);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:10px}
+input:focus{outline:0;border-color:var(--accent);box-shadow:0 0 0 2px rgba(74,144,226,.12)}
+button{background:#222;color:#E0E0E0;border:1px solid var(--border);border-radius:8px;padding:10px 18px;cursor:pointer;transition:.12s}
+button:hover{background:#333}
+button:active{transform:scale(.98)}
+button:disabled{opacity:.45;cursor:not-allowed}
+button.primary{background:var(--accent);border-color:var(--accent);color:white;font-weight:600}
+button.primary:hover{background:var(--accent-hover);border-color:var(--accent-hover)}
+button.small{font-size:12px;padding:4px 10px}
+.row{display:flex;gap:12px;align-items:end}.row>div{flex:1}
+.meta{font-size:12px;color:var(--muted)}
+.source-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.source{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px}
+.source-title{font-weight:600;margin-bottom:3px}.hint{font-size:12px;color:var(--muted);margin-bottom:12px}
+.actions{display:flex;gap:8px;align-items:center}
+.dropzone{border:1px dashed var(--border);border-radius:12px;padding:14px;background:rgba(255,255,255,.02)}
+#questions{display:flex;flex-direction:column;gap:10px}
+.question{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px}
+.question:hover{border-color:#5a5a5a}
+.qtop{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.qnum{font-weight:600}.badge{font-size:11px;color:#E7C76B;border:1px solid #66552B;border-radius:999px;padding:2px 8px}
+.qtext{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:14px;margin-top:12px;white-space:pre-wrap}
+.qactions{display:flex;align-items:center;gap:8px;margin-top:12px}
+.status{font-size:12px;color:var(--muted);margin-left:auto}.status.done{color:var(--success)}.status.running{color:#82B8EA}.status.bad{color:var(--error)}
+.review{display:none;margin-top:16px;padding-top:16px;border-top:1px solid var(--border)}
+.review.open{display:block}.review-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.review-box{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:12px}
+.review-box b{font-size:12px}.review-box pre{margin-top:8px;white-space:pre-wrap;color:#D8D8D8;font:12px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace}
+.progress{height:4px;background:#1A1A1A;border-radius:5px;overflow:hidden;margin-top:10px}.progress div{height:100%;background:var(--accent);width:0}
+.empty{border:1px dashed var(--border);border-radius:12px;padding:40px 20px;text-align:center;color:var(--muted)}
+#extractBtn{margin-top:12px}
+@media(max-width:800px){.source-grid,.review-grid{grid-template-columns:1fr}.row{flex-direction:column;align-items:stretch}}
+
+.source-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;border:1px solid var(--border);background:var(--surface);border-radius:12px;padding:14px 16px;margin-bottom:24px}
+.source-bar-title{font-weight:600}.source-bar button{padding:7px 12px}
+.overlay{position:fixed;inset:0;z-index:20;display:none}.overlay.open{display:flex;align-items:center;justify-content:center}
+.overlay-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.72)}
+.source-panel{position:relative;width:min(820px,calc(100vw - 48px));max-height:calc(100vh - 64px);background:var(--surface);border:1px solid var(--border);border-radius:14px;display:flex;flex-direction:column;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.panel-head{display:flex;justify-content:space-between;align-items:flex-start;padding:20px 22px;border-bottom:1px solid var(--border)}
+.panel-head h2{margin:0}.icon-btn{width:34px;height:34px;padding:0;font-size:22px;line-height:1}
+.source-list{padding:14px 18px;overflow:auto}.source-item{border:1px solid var(--border);border-radius:10px;background:#0f0f0f;margin-bottom:9px;overflow:hidden}
+.source-toggle{width:100%;border:0;background:transparent;border-radius:0;padding:15px 16px;display:flex;align-items:center;justify-content:space-between;text-align:left}
+.source-toggle:hover{background:#171717}.source-toggle span:first-child{display:flex;flex-direction:column;gap:2px}
+.source-toggle small{font-size:12px;color:var(--muted);font-weight:400}.chevron{font-size:20px;color:var(--muted);transition:transform .12s}
+.source-item.open .chevron{transform:rotate(90deg)}.source-content{display:none;padding:0 14px 14px}.source-item.open .source-content{display:block}
+.dropzone{border:1px dashed var(--border);border-radius:10px;padding:12px;background:rgba(255,255,255,.015)}
+.dropzone:focus{outline:0;border-color:var(--accent)}.source-file-row{display:flex;align-items:center;gap:8px;min-width:0}
+.source-file-row input{min-width:0}.file-hint{font-size:12px;color:var(--secondary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.paste-hint{font-size:11px;color:var(--muted);margin-top:7px}.panel-foot{border-top:1px solid var(--border);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.preview-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px;margin-top:12px}
+.preview{position:relative;background:#0b0b0b;border:1px solid var(--border);border-radius:8px;overflow:hidden;aspect-ratio:4/3}
+.preview img{width:100%;height:100%;display:block;object-fit:contain;background:#0a0a0a}
+.preview .preview-name{position:absolute;left:0;right:0;bottom:0;padding:5px 7px;background:rgba(0,0,0,.78);font-size:10px;color:#ddd;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.preview .remove-preview{position:absolute;right:5px;top:5px;width:24px;height:24px;padding:0;border-radius:6px;background:rgba(0,0,0,.8);font-size:15px;line-height:20px}
+.preview-empty{font-size:11px;color:var(--muted);padding:8px 0}
+@media(max-width:700px){.source-panel{width:calc(100vw - 20px);max-height:calc(100vh - 20px)}.panel-foot{align-items:flex-start;flex-direction:column}}
+
+</style>
+</head>
+<body>
+<header>
+  <h1>NCERT Solutions Maker</h1>
+  <span class="state" id="serverState">Gateway: checking</span>
+</header>
+
+<main>
+<section class="card">
+  <h2>Chapter</h2>
+  <div class="row">
+    <div><label>Class</label><input id="className" type="text" value="10"></div>
+    <div><label>Subject</label><input id="subject" type="text" value="Mathematics"></div>
+    <div><label>Chapter</label><input id="chapter" type="text" placeholder="e.g. Real Numbers"></div>
+  </div>
+</section>
+
+<section class="source-bar">
+  <div>
+    <div class="source-bar-title">Chapter sources</div>
+    <div class="description" id="sourceSummary">Question pages required · Solutions optional · Chapter PDF optional</div>
+  </div>
+  <div class="actions">
+    <button id="sourcesBtn" type="button">Configure sources</button>
+    <button id="extractBtn" class="primary">Extract Questions</button>
+  </div>
+</section>
+
+<div id="sourcesOverlay" class="overlay" aria-hidden="true">
+  <div class="overlay-backdrop" id="overlayBackdrop"></div>
+  <section class="source-panel" role="dialog" aria-modal="true" aria-label="Chapter sources">
+    <div class="panel-head">
+      <div>
+        <h2>Chapter sources</h2>
+        <div class="description">Configure once for this chapter.</div>
+      </div>
+      <button id="closeSources" type="button" class="icon-btn" aria-label="Close">×</button>
+    </div>
+
+    <div class="source-list">
+      <div class="source-item" data-source="questions">
+        <button class="source-toggle" type="button">
+          <span><b>Question images</b><small>Required · relevant/cropped pages</small></span>
+          <span class="chevron">›</span>
+        </button>
+        <div class="source-content">
+          <div class="dropzone paste-target" tabindex="0">
+            <div class="source-file-row">
+              <input id="questionImages" type="file" accept="image/*" multiple>
+              <span class="file-hint" id="questionHint">Choose files</span>
+            </div>
+            <div class="paste-hint">You can also paste images here.</div>
+            <div class="preview-grid" id="questionPreview"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="source-item" data-source="solutions">
+        <button class="source-toggle" type="button">
+          <span><b>Solutions</b><small>Optional · PDF or images</small></span>
+          <span class="chevron">›</span>
+        </button>
+        <div class="source-content">
+          <div class="dropzone paste-target" tabindex="0">
+            <div class="source-file-row">
+              <input id="solutionsFiles" type="file" accept=".pdf,image/*" multiple>
+              <span class="file-hint" id="solutionsHint">Choose files</span>
+            </div>
+            <div class="paste-hint">You can also paste images here.</div>
+            <div class="preview-grid" id="solutionsPreview"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="source-item" data-source="chapter">
+        <button class="source-toggle" type="button">
+          <span><b>Chapter PDF</b><small>Optional · used for book relevance</small></span>
+          <span class="chevron">›</span>
+        </button>
+        <div class="source-content">
+          <div class="dropzone">
+            <div class="source-file-row">
+              <input id="chapterPdf" type="file" accept=".pdf">
+              <span class="file-hint" id="chapterHint">Choose file</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel-foot">
+      <div class="description">Sources are kept with this chapter while this page is open.</div>
+      <button id="doneSources" type="button" class="primary">Done</button>
+    </div>
+  </section>
+</div>
+
+<section class="card">
+  <div class="row">
+    <div><h2>Questions</h2><div class="description">Extracted questions and their processing state.</div><div id="meta" class="status">No questions extracted.</div></div>
+    <div style="flex:0 0 auto"><button id="solveAllBtn" class="primary" disabled>Solve All</button></div>
+  </div>
+  <div class="progress"><div id="progress"></div></div>
+  <div id="questions" style="margin-top:14px">
+    <div class="empty">No questions yet.</div>
+  </div>
+</section>
+</main>
+
+<script>
+const state={questions:[],running:false};
+const sourceFiles={questions:[],solutions:[],chapter:[]};
+let selectedSource="questions";
+function openSources(){const el=document.getElementById('sourcesOverlay');if(!el)return;el.classList.add('open');el.setAttribute('aria-hidden','false')}
+function closeSources(){const el=document.getElementById('sourcesOverlay');if(!el)return;el.classList.remove('open');el.setAttribute('aria-hidden','true')}
+function setSelectedSource(name){
+  selectedSource=name;
+  document.querySelectorAll('.source-item').forEach(x=>x.classList.toggle('selected',x.dataset.source===name));
+}
+function updateSourceHint(kind){
+  const input=document.getElementById(kind==='questions'?'questionImages':kind==='solutions'?'solutionsFiles':'chapterPdf');
+  const hint=document.getElementById(kind==='questions'?'questionHint':kind==='solutions'?'solutionsHint':'chapterHint');
+  if(!input||!hint)return;
+  const files=[...input.files];
+  hint.textContent=files.length ? `${files.length} file${files.length>1?'s':''} selected` : (kind==='chapter'?'Choose file':'Choose files');
+  sourceFiles[kind]=files;
+  if(kind!=='chapter') renderPreviews(kind,files);
+  const q=sourceFiles.questions.length,s=sourceFiles.solutions.length,c=sourceFiles.chapter.length;
+  document.getElementById('sourceSummary').textContent=
+    `${q?q+' question page'+(q>1?'s':''):'No question pages'} · ${s?s+' solution file'+(s>1?'s':''):'No solutions'} · ${c?'Chapter PDF selected':'No chapter PDF'}`;
+}
+function renderPreviews(kind,files){
+  const el=document.getElementById(kind==='questions'?'questionPreview':'solutionsPreview');
+  if(!el)return;
+  const images=files.filter(f=>f.type.startsWith('image/'));
+  if(!images.length){
+    el.innerHTML=files.length?'<div class="preview-empty">PDF selected. Image preview is not available for this file.</div>':'';
+    return;
+  }
+  el.innerHTML=images.map((file,i)=>{
+    const url=URL.createObjectURL(file);
+    return `<div class="preview">
+      <img src="${url}" alt="${esc(file.name)}">
+      <button type="button" class="remove-preview" title="Remove" data-kind="${kind}" data-index="${i}">×</button>
+      <div class="preview-name">${esc(file.name)}</div>
+    </div>`;
+  }).join('');
+  el.querySelectorAll('.remove-preview').forEach(btn=>btn.onclick=()=>removeSourceFile(btn.dataset.kind,Number(btn.dataset.index)));
+}
+function removeSourceFile(kind,index){
+  const input=document.getElementById(kind==='questions'?'questionImages':'solutionsFiles');
+  if(!input)return;
+  const files=[...input.files].filter((_,i)=>i!==index);
+  const dt=new DataTransfer();files.forEach(f=>dt.items.add(f));input.files=dt.files;
+  updateSourceHint(kind);
+}
+function installSourceUI(){
+  document.querySelectorAll('.source-toggle').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const item=btn.closest('.source-item');
+      const wasOpen=item.classList.contains('open');
+      document.querySelectorAll('.source-item').forEach(x=>x.classList.remove('open'));
+      if(!wasOpen){item.classList.add('open');setSelectedSource(item.dataset.source)}
+    });
+  });
+  document.querySelectorAll('.source-item').forEach(item=>{
+    const kind=item.dataset.source;
+    const input=item.querySelector('input[type=file]');
+    input.addEventListener('change',()=>updateSourceHint(kind));
+    item.querySelector('.paste-target')?.addEventListener('click',()=>setSelectedSource(kind));
+    item.querySelector('.paste-target')?.addEventListener('focus',()=>setSelectedSource(kind));
+  });
+  document.addEventListener('paste',e=>{
+    if(!document.getElementById('sourcesOverlay').classList.contains('open'))return;
+    if(!selectedSource)return;
+    const imageItems=[...e.clipboardData.items].filter(i=>i.type.startsWith('image/'));
+    if(!imageItems.length)return;
+    const input=document.getElementById(selectedSource==='questions'?'questionImages':selectedSource==='solutions'?'solutionsFiles':null);
+    if(!input){return}
+    const dt=new DataTransfer();
+    [...input.files].forEach(f=>dt.items.add(f));
+    imageItems.forEach((item,i)=>{
+      const blob=item.getAsFile();
+      if(blob)dt.items.add(new File([blob],`pasted-${Date.now()}-${i+1}.png`,{type:blob.type||'image/png'}));
+    });
+    input.files=dt.files;
+    updateSourceHint(selectedSource);
+    e.preventDefault();
+  });
+  document.getElementById('sourcesBtn').onclick=openSources;
+  document.getElementById('closeSources').onclick=closeSources;
+  document.getElementById('doneSources').onclick=closeSources;
+  document.getElementById('overlayBackdrop').onclick=closeSources;
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')closeSources()});
+}
+
+const $=id=>document.getElementById(id);
+const uid=()=>crypto.randomUUID();
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function logStatus(q,msg,cls=''){q.status=msg;q.statusClass=cls;render()}
+function render(){
+  const done=state.questions.filter(q=>q.pipeline?.final?.status==='done').length;
+  $('meta').textContent=state.questions.length?`${state.questions.length} question${state.questions.length>1?'s':''} extracted`:'No questions extracted.';
+  $('solveAllBtn').disabled=!state.questions.length||state.running;
+  $('progress').style.width=(state.questions.length?done/state.questions.length*100:0)+'%';
+  $('questions').innerHTML=state.questions.length?state.questions.map(q=>{
+    const warning=q.warn==='yes';
+    const pipelineStatus=q.pipeline?.final?.status||q.status||'Not solved';
+    return `<article class="question">
+      <div class="qtop">
+        <div class="qnum">${esc(q.source?.exercise||'')} ${esc(q.source?.number||'')}</div>
+        ${warning?'<span class="badge">⚠ Human review</span>':''}
+      </div>
+      <div class="qtext">${esc(q.questionText)}</div>
+      ${q.options?.length?'<div class="hint" style="margin-top:7px">Options: '+q.options.map(esc).join(' • ')+'</div>':''}
+      <div class="qactions">
+        <button onclick="solveOne('${q.id}')" ${state.running?'disabled':''}>Solve</button>
+        <button onclick="toggleReview('${q.id}')">Review</button>
+        <span class="status ${q.statusClass||''}" style="margin-left:auto;align-self:center">${esc(pipelineStatus)}</span>
+      </div>
+      <div class="review" id="review-${q.id}">
+        <div class="review-grid">
+          <div class="review-box"><b>Generated solutions</b><pre>${esc((q.pipeline?.solvers||[]).map(s=>(s.modelFamily||'Model')+':\\n'+(s.solutionText||'')).join('\\n\\n')||'Not solved yet.')}</pre></div>
+          <div class="review-box"><b>Book relevance</b><pre>${esc(q.pipeline?.review?.bookRelevance?.reason||'Not checked yet.')}</pre></div>
+        </div>
+        <div class="qactions">
+          <button onclick="acceptOne('${q.id}')">Accept candidate</button>
+          <button onclick="rejectOne('${q.id}')">Reject</button>
+        </div>
+      </div>
+    </article>`
+  }).join(''):'<div class="empty">No questions yet.</div>';
+}
+function toggleReview(id){const el=$('review-'+id);el.classList.toggle('open')}
+async function api(path,body){
+  const r=await fetch('/api'+path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+  if(!r.ok)throw new Error(await r.text());return r.json();
+}
+async function checkGateway(){try{await fetch('/api/health');$('serverState').textContent='Gateway: online';$('serverState').style.color='#8bd6a1'}catch{$('serverState').textContent='Gateway: offline';$('serverState').style.color='#efc878'}}
+async function extractQuestions(){
+  const qfiles=[...$('questionImages').files], sfiles=[...$('solutionsFiles').files], cfile=$('chapterPdf').files[0];
+  if(!qfiles.length){alert('Upload the question page images first.');return}
+  $('extractBtn').disabled=true;
+  try{
+    const form=new FormData();
+    form.append('className',$('className').value);
+    form.append('subject',$('subject').value);
+    form.append('chapter',$('chapter').value);
+    qfiles.forEach(f=>form.append('question_images',f,f.name));
+    sfiles.forEach(f=>form.append('solutions_files',f,f.name));
+    if(cfile)form.append('chapter_pdf',cfile,cfile.name);
+    const r=await fetch('/api/extract',{method:'POST',body:form});
+    const result=await r.json();
+    if(!r.ok)throw new Error(result.error||'Extraction request failed.');
+    state.questions=result.questions||[];
+    render();
+  }catch(e){alert('Extraction failed: '+e.message)}
+  $('extractBtn').disabled=false;
+}
+async function solveOne(id){
+  const q=state.questions.find(x=>x.id===id);if(!q)return;
+  q.pipeline=q.pipeline||{solvers:[],verification:{},review:{},final:{}};
+  q.status='Solving…';q.statusClass='running';render();
+  try{
+    const result=await api('/pipeline/solve',{question:q,config:{solverCount:3,minFamilies:3}});
+    q.pipeline=result.pipeline;q.status=result.pipeline.final.status==='done'?'Complete':'Review needed';q.statusClass=result.pipeline.final.status==='done'?'done':'bad';
+  }catch(e){q.status='Failed: '+e.message;q.statusClass='bad'}
+  render();
+}
+async function solveAll(){
+  if(state.running)return;state.running=true;render();
+  for(const q of state.questions)if(q.pipeline?.final?.status!=='done')await solveOne(q.id);
+  state.running=false;render();
+}
+function acceptOne(id){const q=state.questions.find(x=>x.id===id);if(q){q.reviewDecision='accept';render()}}
+function rejectOne(id){const q=state.questions.find(x=>x.id===id);if(q){q.reviewDecision='reject';render()}}
+installSourceUI();
+const extractBtn=$('extractBtn'), solveAllBtn=$('solveAllBtn'); if(extractBtn)extractBtn.onclick=extractQuestions; if(solveAllBtn)solveAllBtn.onclick=solveAll;
+checkGateway();setInterval(checkGateway,5000);render();
+</script>
+</body>
+</html>
