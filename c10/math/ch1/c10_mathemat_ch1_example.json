@@ -2,5 +2,947 @@
   "id": "c10_mathemat_ch1_example",
   "chapterId": "c10_mathemat_ch1",
   "friendlyName": "Examples",
-  "questions": []
+  "questions": [
+    {
+      "id": "c10_mathemat_ch1_example_main_q21",
+      "displayOrder": 21,
+      "questionText": "Two numbers are in the ratio $5 : 7$ and their LCM is $420$. Find the HCF and the two numbers.",
+      "solutionText": "Let the two numbers be $a = 5k$ and $b = 7k$, where $k$ is a positive integer.\n\nSince $5$ and $7$ are prime to each other ($\\gcd(5, 7) = 1$):\n\n$$\n\\text{LCM}(5k, 7k) = 5 \\times 7 \\times k = 35k\n$$\n\nWe are given that $\\text{LCM} = 420$:\n\n$$\n35k = 420 \\implies k = \\frac{420}{35} = 12\n$$\n\nSince $\\text{HCF}(5k, 7k) = k$, we have:\n\n$$\n\\text{HCF} = 12\n$$\n\nThe two numbers are:\n\n$$\na = 5 \\times 12 = 60\n$$\n\n$$\nb = 7 \\times 12 = 84\n$$\n\n**Answer:** $\\text{HCF} = 12$; the numbers are $60$ and $84$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q1",
+      "displayOrder": 1,
+      "questionText": "Express the number $420$ as a product of its prime factors in ascending order of primes.",
+      "solutionText": "To express $420$ as a product of prime factors, we divide successively by the smallest possible prime numbers:\n\n$$\n\\begin{aligned}\n420 \\div 2 &= 210 \\\\\n210 \\div 2 &= 105 \\\\\n105 \\div 3 &= 35 \\\\\n35 \\div 5 &= 7 \\\\\n7 \\div 7 &= 1\n\\end{aligned}\n$$\n\nWriting these prime factors in ascending order:\n\n$$\n420 = 2 \\times 2 \\times 3 \\times 5 \\times 7 = 2^2 \\times 3 \\times 5 \\times 7\n$$\n\n**Answer:** $420 = 2^2 \\times 3 \\times 5 \\times 7$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q2",
+      "displayOrder": 2,
+      "questionText": "Express $7560$ as a product of powers of its prime factors.",
+      "solutionText": "We perform prime factorisation on $7560$:\n\n$$\n\\begin{aligned}\n7560 \\div 2 &= 3780 \\\\\n3780 \\div 2 &= 1890 \\\\\n1890 \\div 2 &= 945 \\\\\n945 \\div 3 &= 315 \\\\\n315 \\div 3 &= 105 \\\\\n105 \\div 3 &= 35 \\\\\n35 \\div 5 &= 7 \\\\\n7 \\div 7 &= 1\n\\end{aligned}\n$$\n\nGrouping the identical prime factors into powers:\n\n$$\n7560 = 2^3 \\times 3^3 \\times 5 \\times 7\n$$\n\n**Answer:** $7560 = 2^3 \\times 3^3 \\times 5 \\times 7$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q3",
+      "displayOrder": 3,
+      "questionText": "In the given factor tree, find the values of the missing integers $x$, $y$, and $z$:\n\n- $x$ branches into $2$ and $y$\n- $y$ branches into $3$ and $z$\n- $z$ branches into $5$ and $7$",
+      "solutionText": "In a factor tree, any parent node is the product of its two child branches. Working from the bottom upward:\n\n1. For the lowest branch:\n$$\nz = 5 \\times 7 = 35\n$$\n\n2. For the middle branch:\n$$\ny = 3 \\times z = 3 \\times 35 = 105\n$$\n\n3. For the top node:\n$$\nx = 2 \\times y = 2 \\times 105 = 210\n$$\n\n**Answer:** $x = 210$, $y = 105$, $z = 35$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q4",
+      "displayOrder": 4,
+      "questionText": "If the prime factorisation of a natural number $N$ is given by $N = 2^a \\times 3^b \\times 5^c \\times 7^d$, and $N = 2520$, find the value of $2a + 3b - c + d$.",
+      "solutionText": "First, factorise $2520$ into its prime factors:\n\n$$\n\\begin{aligned}\n2520 &= 2 \\times 1260 \\\\\n&= 2^2 \\times 630 \\\\\n&= 2^3 \\times 315 \\\\\n&= 2^3 \\times 3 \\times 105 \\\\\n&= 2^3 \\times 3^2 \\times 35 \\\\\n&= 2^3 \\times 3^2 \\times 5^1 \\times 7^1\n\\end{aligned}\n$$\n\nComparing $2^a \\times 3^b \\times 5^c \\times 7^d$ with $2^3 \\times 3^2 \\times 5^1 \\times 7^1$, we get:\n\n$$\na = 3, \\quad b = 2, \\quad c = 1, \\quad d = 1\n$$\n\nNow, substitute these values into the required algebraic expression:\n\n$$\n2a + 3b - c + d = 2(3) + 3(2) - 1 + 1 = 6 + 6 - 1 + 1 = 12\n$$\n\n**Answer:** $12$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q5",
+      "displayOrder": 5,
+      "questionText": "Find the sum of the exponents of the prime factors in the prime factorisation of $1764$.",
+      "solutionText": "Let us find the prime factorisation of $1764$:\n\n$$\n\\begin{aligned}\n1764 &= 2 \\times 882 \\\\\n&= 2^2 \\times 441 \\\\\n&= 2^2 \\times 3 \\times 147 \\\\\n&= 2^2 \\times 3^2 \\times 49 \\\\\n&= 2^2 \\times 3^2 \\times 7^2\n\\end{aligned}\n$$\n\nThe exponents of the prime factors $2$, $3$, and $7$ are $2$, $2$, and $2$ respectively.\n\n$$\n\\text{Sum of exponents} = 2 + 2 + 2 = 6\n$$\n\n**Answer:** Option 3 ($6$)",
+      "options": [
+        {
+          "id": "c10_mathemat_ch1_example_main_q5_r1_o1",
+          "text": "$4$",
+          "displayOrder": 1,
+          "isCorrect": false
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q5_r1_o2",
+          "text": "$5$",
+          "displayOrder": 2,
+          "isCorrect": false
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q5_r1_o3",
+          "text": "$6$",
+          "displayOrder": 3,
+          "isCorrect": true
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q5_r1_o4",
+          "text": "$7$",
+          "displayOrder": 4,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q6",
+      "displayOrder": 6,
+      "questionText": "State whether the following statement is true or false and justify your answer:\n\n\"The prime factorisation of every composite natural number is unique, irrespective of the order of the prime factors.\"",
+      "solutionText": "The statement is **True**.\n\n**Justification:**\n\nAccording to the **Fundamental Theorem of Arithmetic**, every composite number can be expressed as a product of primes, and this decomposition is unique except for the order in which the prime factors are written.\n\nFor example, $30$ can be written as $2 \\times 3 \\times 5$ or $5 \\times 2 \\times 3$, but the set of prime factors $\\{2, 3, 5\\}$ and their respective powers are uniquely determined.\n\n**Answer:** True. By the Fundamental Theorem of Arithmetic, the prime factorisation of any composite natural number is unique apart from the order of factors.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q7",
+      "displayOrder": 7,
+      "questionText": "Check whether $6^n$ can end with the digit $0$ for any natural number $n \\in \\mathbb{N}$.",
+      "solutionText": "A number ends with the digit $0$ if and only if it is divisible by $10$, which means its prime factorisation must contain both the prime factors $2$ and $5$.\n\nThe prime factorisation of $6^n$ is:\n\n$$\n6^n = (2 \\times 3)^n = 2^n \\times 3^n\n$$\n\nThe only prime factors in the prime factorisation of $6^n$ are $2$ and $3$.\n\nBy the uniqueness part of the Fundamental Theorem of Arithmetic, no other primes can appear in the factorisation of $6^n$.\n\nSince the prime factor $5$ does not occur in the prime factorisation of $6^n$, $6^n$ is not divisible by $5$ for any natural number $n$.\n\nTherefore, $6^n$ cannot end with the digit $0$ for any natural number $n$.\n\n**Answer:** No, $6^n$ cannot end with the digit $0$ for any $n \\in \\mathbb{N}$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q8",
+      "displayOrder": 8,
+      "questionText": "Check whether $15^n$ can end with the digit $0$ for any natural number $n$. Also, determine what the last digit of $15^n$ will always be for any $n \\ge 1$.",
+      "solutionText": "1. **Checking if $15^n$ ends with the digit $0$:**\nFor a number to end with the digit $0$, it must be divisible by $10 = 2 \\times 5$, so its prime factorisation must contain both $2$ and $5$.\n\nThe prime factorisation of $15^n$ is:\n$$\n15^n = (3 \\times 5)^n = 3^n \\times 5^n\n$$\n\nThe only prime factors of $15^n$ are $3$ and $5$. Since the prime factor $2$ does not appear in the prime factorisation of $15^n$, $15^n$ is not divisible by $2$.\n\nHence, by the Fundamental Theorem of Arithmetic, $15^n$ can never end with the digit $0$ for any natural number $n$.\n\n2. **Determining the last digit:**\nSince $15^n$ contains the factor $5$ and does not contain the factor $2$, it is an odd multiple of $5$. Any odd multiple of $5$ always has $5$ as its units digit.\n\nIndeed:\n- $15^1 = 15$\n- $15^2 = 225$\n- $15^3 = 3375$\n\n**Answer:** $15^n$ cannot end with the digit $0$ for any natural number $n$; its units digit is always $5$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q9",
+      "displayOrder": 9,
+      "questionText": "Show that $8^n$ cannot end with the digit $5$ for any natural number $n$.",
+      "solutionText": "For a number to end with the digit $5$, it must be an odd number and a multiple of $5$.\n\nThe prime factorisation of $8^n$ is:\n\n$$\n8^n = (2^3)^n = 2^{3n}\n$$\n\nThe only prime factor of $8^n$ is $2$. This implies that:\n1. $8^n$ is even for all natural numbers $n \\ge 1$.\n2. The prime factor $5$ does not occur in the prime factorisation of $8^n$.\n\nSince all numbers ending in $5$ are odd and divisible by $5$, and $8^n$ is both even and not divisible by $5$, $8^n$ can never end with the digit $5$.\n\n**Answer:** $8^n$ cannot end with the digit $5$ for any natural number $n$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q10",
+      "displayOrder": 10,
+      "questionText": "Explain why $7 \\times 11 \\times 13 + 13$ is a composite number.",
+      "solutionText": "A composite number is a positive integer that has at least one divisor other than $1$ and itself (i.e., it can be written as a product of two or more prime numbers).\n\nWe have:\n\n$$\n\\begin{aligned}\n7 \\times 11 \\times 13 + 13 &= 13 \\times (7 \\times 11 + 1) \\\\\n&= 13 \\times (77 + 1) \\\\\n&= 13 \\times 78\n\\end{aligned}\n$$\n\nNow factorise $78$:\n\n$$\n78 = 2 \\times 3 \\times 13\n$$\n\nTherefore:\n\n$$\n7 \\times 11 \\times 13 + 13 = 2 \\times 3 \\times 13^2\n$$\n\nSince the given number can be expressed as a product of prime factors, it has factors other than $1$ and itself. Hence, it is a composite number.\n\n**Answer:** The number is composite because it can be factored as $2 \\times 3 \\times 13^2$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q11",
+      "displayOrder": 11,
+      "questionText": "Explain why $5 \\times 7 \\times 11 \\times 13 + 55$ is a composite number.",
+      "solutionText": "Given expression:\n\n$$\nE = 5 \\times 7 \\times 11 \\times 13 + 55\n$$\n\nNotice that $55 = 5 \\times 11$. Therefore, we can factor out $5 \\times 11 = 55$:\n\n$$\n\\begin{aligned}\nE &= (5 \\times 11) \\times (7 \\times 13) + 55 \\\\\n&= 55 \\times (91) + 55 \\\\\n&= 55 \\times (91 + 1) \\\\\n&= 55 \\times 92\n\\end{aligned}\n$$\n\nNow, write each factor in terms of prime numbers:\n\n$$\n55 = 5 \\times 11\n$$\n\n$$\n92 = 2^2 \\times 23\n$$\n\nThus:\n\n$$\nE = 2^2 \\times 5 \\times 11 \\times 23\n$$\n\nSince $E$ is written as a product of prime factors, it is a composite number.\n\n**Answer:** The number is composite because it can be expressed as $2^2 \\times 5 \\times 11 \\times 23$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q12",
+      "displayOrder": 12,
+      "questionText": "Find the smallest natural number by which $392$ must be multiplied so that the resulting product is a perfect square.",
+      "solutionText": "First, find the prime factorisation of $392$:\n\n$$\n\\begin{aligned}\n392 &= 2 \\times 196 \\\\\n&= 2^2 \\times 98 \\\\\n&= 2^3 \\times 49 \\\\\n&= 2^3 \\times 7^2\n\\end{aligned}\n$$\n\nFor a number to be a perfect square, the exponent of every prime factor in its prime factorisation must be even.\n\nIn $392 = 2^3 \\times 7^2$:\n- The exponent of $7$ is $2$ (which is even).\n- The exponent of $2$ is $3$ (which is odd).\n\nTo make the exponent of $2$ even, we must multiply by $2^1 = 2$:\n\n$$\n392 \\times 2 = 2^4 \\times 7^2 = (2^2 \\times 7)^2 = 28^2 = 784\n$$\n\nThus, the smallest natural number is $2$.\n\n**Answer:** $2$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q13",
+      "displayOrder": 13,
+      "questionText": "Find the smallest natural number by which $1080$ must be divided so that the quotient is a perfect cube.",
+      "solutionText": "Find the prime factorisation of $1080$:\n\n$$\n\\begin{aligned}\n1080 &= 10 \\times 108 \\\\\n&= (2 \\times 5) \\times (4 \\times 27) \\\\\n&= (2 \\times 5) \\times (2^2 \\times 3^3) \\\\\n&= 2^3 \\times 3^3 \\times 5^1\n\\end{aligned}\n$$\n\nFor a number to be a perfect cube, the exponent of each prime factor must be a multiple of $3$.\n\nIn $1080 = 2^3 \\times 3^3 \\times 5^1$:\n- $2^3$ and $3^3$ are already perfect cubes.\n- The prime factor $5$ has an exponent of $1$, which is not divisible by $3$.\n\nTo eliminate $5^1$, we divide $1080$ by $5$:\n\n$$\n\\frac{1080}{5} = 2^3 \\times 3^3 = (2 \\times 3)^3 = 6^3 = 216\n$$\n\n**Answer:** $5$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q14",
+      "displayOrder": 14,
+      "questionText": "Find the HCF and LCM of $72$ and $120$ by the prime factorisation method.",
+      "solutionText": "First, write down the prime factorisation of both numbers:\n\n$$\n72 = 2^3 \\times 3^2\n$$\n\n$$\n120 = 2^3 \\times 3^1 \\times 5^1\n$$\n\n1. **To find the HCF:**\nTake the product of the smallest power of each common prime factor:\n\n$$\n\\text{Common prime factors are } 2 \\text{ and } 3.\n$$\n\n$$\n\\text{Smallest power of } 2 = 2^3\n$$\n\n$$\n\\text{Smallest power of } 3 = 3^1\n$$\n\n$$\n\\text{HCF}(72, 120) = 2^3 \\times 3^1 = 8 \\times 3 = 24\n$$\n\n2. **To find the LCM:**\nTake the product of the greatest power of each prime factor involved:\n\n$$\n\\text{Greatest power of } 2 = 2^3\n$$\n\n$$\n\\text{Greatest power of } 3 = 3^2\n$$\n\n$$\n\\text{Greatest power of } 5 = 5^1\n$$\n\n$$\n\\text{LCM}(72, 120) = 2^3 \\times 3^2 \\times 5^1 = 8 \\times 9 \\times 5 = 360\n$$\n\n**Answer:** $\\text{HCF} = 24$, $\\text{LCM} = 360$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q15",
+      "displayOrder": 15,
+      "questionText": "Find the HCF and LCM of $144$ and $198$ using the prime factorisation method.",
+      "solutionText": "Prime factorise both numbers:\n\n$$\n\\begin{aligned}\n144 &= 12^2 = (2^2 \\times 3)^2 = 2^4 \\times 3^2 \\\\\n198 &= 2 \\times 99 = 2 \\times 9 \\times 11 = 2^1 \\times 3^2 \\times 11^1\n\\end{aligned}\n$$\n\n1. **HCF calculation:**\n$$\n\\text{HCF}(144, 198) = 2^{\\min(4,1)} \\times 3^{\\min(2,2)} = 2^1 \\times 3^2 = 2 \\times 9 = 18\n$$\n\n2. **LCM calculation:**\n$$\n\\text{LCM}(144, 198) = 2^{\\max(4,1)} \\times 3^{\\max(2,2)} \\times 11^{\\max(0,1)} = 2^4 \\times 3^2 \\times 11^1 = 16 \\times 9 \\times 11 = 1584\n$$\n\n**Answer:** $\\text{HCF}(144, 198) = 18$, $\\text{LCM}(144, 198) = 1584$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q16",
+      "displayOrder": 16,
+      "questionText": "Find the HCF and LCM of $252$ and $594$ by prime factorisation, and verify that:\n\n$$\n\\text{HCF}(a, b) \\times \\text{LCM}(a, b) = a \\times b\n$$",
+      "solutionText": "**Step 1: Prime factorisation**\n\n$$\n\\begin{aligned}\n252 &= 2^2 \\times 3^2 \\times 7^1 \\\\\n594 &= 2^1 \\times 3^3 \\times 11^1\n\\end{aligned}\n$$\n\n**Step 2: Calculate HCF and LCM**\n\n$$\n\\text{HCF}(252, 594) = 2^1 \\times 3^2 = 2 \\times 9 = 18\n$$\n\n$$\n\\text{LCM}(252, 594) = 2^2 \\times 3^3 \\times 7^1 \\times 11^1 = 4 \\times 27 \\times 7 \\times 11 = 8316\n$$\n\n**Step 3: Verification**\n\n- Product of HCF and LCM:\n$$\n\\text{HCF} \\times \\text{LCM} = 18 \\times 8316 = 149728 \\quad \\text{Wait: } 18 \\times 8316 = 149688\n$$\nLet us compute carefully:\n$$\n18 \\times 8316 = 18 \\times (8000 + 300 + 16) = 144000 + 5400 + 288 = 149688\n$$\n\n- Product of the two numbers:\n$$\na \\times b = 252 \\times 594 = 252 \\times (600 - 6) = 151200 - 1512 = 149688\n$$\n\nSince $\\text{HCF} \\times \\text{LCM} = a \\times b = 149688$, the relation is verified.\n\n**Answer:** $\\text{HCF} = 18$, $\\text{LCM} = 8316$, and $\\text{HCF} \\times \\text{LCM} = a \\times b = 149688$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q17",
+      "displayOrder": 17,
+      "questionText": "Given that $\\text{HCF}(306, 657) = 9$, find $\\text{LCM}(306, 657)$ using the formula relating HCF and LCM.",
+      "solutionText": "For any two positive integers $a$ and $b$:\n\n$$\n\\text{HCF}(a, b) \\times \\text{LCM}(a, b) = a \\times b\n$$\n\nRearranging for $\\text{LCM}(a, b)$:\n\n$$\n\\text{LCM}(a, b) = \\frac{a \\times b}{\\text{HCF}(a, b)}\n$$\n\nSubstitute $a = 306$, $b = 657$, and $\\text{HCF} = 9$:\n\n$$\n\\text{LCM}(306, 657) = \\frac{306 \\times 657}{9}\n$$\n\nDividing $306$ by $9$:\n\n$$\n\\frac{306}{9} = 34\n$$\n\nNow calculate $34 \\times 657$:\n\n$$\n34 \\times 657 = 34 \\times (600 + 50 + 7) = 20400 + 1700 + 238 = 22338\n$$\n\n**Answer:** $22338$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q18",
+      "displayOrder": 18,
+      "questionText": "The HCF of two numbers is $16$ and their product is $3072$. Find their LCM.",
+      "solutionText": "We know that for any two positive integers $a$ and $b$:\n\n$$\n\\text{HCF}(a, b) \\times \\text{LCM}(a, b) = a \\times b\n$$\n\nGiven:\n- $\\text{HCF}(a, b) = 16$\n- $a \\times b = 3072$\n\nSubstituting these values into the formula:\n\n$$\n16 \\times \\text{LCM}(a, b) = 3072\n$$\n\n$$\n\\text{LCM}(a, b) = \\frac{3072}{16} = 192\n$$\n\n**Answer:** $192$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q19",
+      "displayOrder": 19,
+      "questionText": "If $\\text{HCF}(x, 36) = 4$ and $\\text{LCM}(x, 36) = 180$, find the value of the positive integer $x$.",
+      "solutionText": "Using the product relationship for two numbers:\n\n$$\n\\text{HCF}(x, 36) \\times \\text{LCM}(x, 36) = x \\times 36\n$$\n\nSubstitute the given values:\n\n$$\n4 \\times 180 = 36x\n$$\n\n$$\n720 = 36x\n$$\n\n$$\nx = \\frac{720}{36} = 20\n$$\n\n**Answer:** $x = 20$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q20",
+      "displayOrder": 20,
+      "questionText": "Two numbers are in the ratio $3 : 4$ and their HCF is $6$. Find the two numbers and their LCM.",
+      "solutionText": "Let the two numbers be $a$ and $b$.\n\nSince the numbers are in the ratio $3 : 4$, they can be written as:\n\n$$\na = 3k \\quad \\text{and} \\quad b = 4k\n$$\n\nwhere $k$ is a positive integer.\n\nSince $3$ and $4$ are coprime ($\\text{HCF}(3, 4) = 1$), the HCF of $3k$ and $4k$ is:\n\n$$\n\\text{HCF}(3k, 4k) = k\n$$\n\nWe are given that $\\text{HCF} = 6$. Therefore:\n\n$$\nk = 6\n$$\n\nThe numbers are:\n\n$$\na = 3 \\times 6 = 18\n$$\n\n$$\nb = 4 \\times 6 = 24\n$$\n\nTo find the LCM:\n\n$$\n\\text{LCM}(a, b) = \\frac{a \\times b}{\\text{HCF}(a, b)} = \\frac{18 \\times 24}{6} = 18 \\times 4 = 72\n$$\n\n**Answer:** The numbers are $18$ and $24$; their $\\text{LCM} = 72$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q22",
+      "displayOrder": 22,
+      "questionText": "Can two numbers have $15$ as their HCF and $175$ as their LCM? Give reasons for your answer.",
+      "solutionText": "For any two positive integers, the HCF is a divisor of each number, and the LCM is a multiple of each number. Consequently, the HCF must always divide the LCM completely without leaving a remainder.\n\nLet us test whether $15$ divides $175$:\n\n$$\n\\frac{175}{15} = \\frac{35}{3} = 11\\frac{2}{3} \\notin \\mathbb{Z}\n$$\n\nSince $175$ is not divisible by $15$, the LCM is not a multiple of the HCF.\n\nTherefore, two numbers cannot have $15$ as their HCF and $175$ as their LCM.\n\n**Answer:** No, because the HCF must always be a factor of the LCM, and $15$ does not divide $175$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q23",
+      "displayOrder": 23,
+      "questionText": "If two positive integers $p$ and $q$ are expressed as $p = x^3 y^2$ and $q = x y^4$, where $x$ and $y$ are distinct prime numbers, find $\\text{HCF}(p, q)$ and $\\text{LCM}(p, q)$.",
+      "solutionText": "Given:\n\n$$\np = x^3 y^2\n$$\n\n$$\nq = x^1 y^4\n$$\n\n1. **HCF calculation:**\nThe HCF is the product of the smallest power of each common prime factor:\n$$\n\\text{HCF}(p, q) = x^{\\min(3, 1)} \\cdot y^{\\min(2, 4)} = x^1 y^2 = x y^2\n$$\n\n2. **LCM calculation:**\nThe LCM is the product of the greatest power of each prime factor:\n$$\n\\text{LCM}(p, q) = x^{\\max(3, 1)} \\cdot y^{\\max(2, 4)} = x^3 y^4\n$$\n\n**Answer:** $\\text{HCF}(p, q) = x y^2$, $\\text{LCM}(p, q) = x^3 y^4$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q24",
+      "displayOrder": 24,
+      "questionText": "If $a = 2^3 \\times 3^2 \\times 5^1$ and $b = 2^2 \\times 3^3 \\times 5^2 \\times 7^1$, find the ratio $\\frac{\\text{LCM}(a, b)}{\\text{HCF}(a, b)}$.",
+      "solutionText": "**Step 1: Find $\\text{HCF}(a, b)$**\n\nTake the lowest power of each common prime:\n\n$$\n\\text{HCF}(a, b) = 2^2 \\times 3^2 \\times 5^1\n$$\n\n**Step 2: Find $\\text{LCM}(a, b)$**\n\nTake the highest power of each prime involved:\n\n$$\n\\text{LCM}(a, b) = 2^3 \\times 3^3 \\times 5^2 \\times 7^1\n$$\n\n**Step 3: Calculate the ratio**\n\n$$\n\\frac{\\text{LCM}(a, b)}{\\text{HCF}(a, b)} = \\frac{2^3 \\times 3^3 \\times 5^2 \\times 7^1}{2^2 \\times 3^2 \\times 5^1} = 2^{3-2} \\times 3^{3-2} \\times 5^{2-1} \\times 7^1\n$$\n\n$$\n= 2^1 \\times 3^1 \\times 5^1 \\times 7 = 2 \\times 3 \\times 5 \\times 7 = 210\n$$\n\n**Answer:** $210$ (or the ratio is $210 : 1$)",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q25",
+      "displayOrder": 25,
+      "questionText": "Find the smallest positive integer that is divisible by all integers from $1$ to $10$ (both inclusive).",
+      "solutionText": "The required number is the Least Common Multiple ($\\text{LCM}$) of all integers from $1$ to $10$:\n\n$$\n\\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}\n$$\n\nWrite the prime factorisation for each integer:\n\n$$\n\\begin{aligned}\n1 &= 1 \\\\\n2 &= 2^1 \\\\\n3 &= 3^1 \\\\\n4 &= 2^2 \\\\\n5 &= 5^1 \\\\\n6 &= 2^1 \\times 3^1 \\\\\n7 &= 7^1 \\\\\n8 &= 2^3 \\\\\n9 &= 3^2 \\\\\n10 &= 2^1 \\times 5^1\n\\end{aligned}\n$$\n\nTo find the LCM, take the highest power of each prime factor present ($2, 3, 5, 7$):\n- Highest power of $2 = 2^3 = 8$\n- Highest power of $3 = 3^2 = 9$\n- Highest power of $5 = 5^1 = 5$\n- Highest power of $7 = 7^1 = 7$\n\n$$\n\\text{LCM}(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) = 2^3 \\times 3^2 \\times 5^1 \\times 7^1 = 8 \\times 9 \\times 5 \\times 7 = 72 \\times 35 = 2520\n$$\n\n**Answer:** $2520$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q26",
+      "displayOrder": 26,
+      "questionText": "If two positive integers $a$ and $b$ are coprime, what is their HCF and what is their LCM?",
+      "solutionText": "By definition, two positive integers $a$ and $b$ are said to be **coprime** if they have no common positive factors other than $1$.\n\nTherefore:\n\n$$\n\\text{HCF}(a, b) = 1\n$$\n\nUsing the fundamental relationship:\n\n$$\n\\text{HCF}(a, b) \\times \\text{LCM}(a, b) = a \\times b\n$$\n\n$$\n1 \\times \\text{LCM}(a, b) = ab \\implies \\text{LCM}(a, b) = ab\n$$\n\n**Answer:** Option 2 ($\\text{HCF} = 1, \\text{LCM} = ab$)",
+      "options": [
+        {
+          "id": "c10_mathemat_ch1_example_main_q26_r1_o1",
+          "text": "$\\text{HCF} = 0, \\text{LCM} = a + b$",
+          "displayOrder": 1,
+          "isCorrect": false
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q26_r1_o2",
+          "text": "$\\text{HCF} = 1, \\text{LCM} = ab$",
+          "displayOrder": 2,
+          "isCorrect": true
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q26_r1_o3",
+          "text": "$\\text{HCF} = a, \\text{LCM} = b$",
+          "displayOrder": 3,
+          "isCorrect": false
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q26_r1_o4",
+          "text": "$\\text{HCF} = 1, \\text{LCM} = \\frac{a}{b}$",
+          "displayOrder": 4,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q27",
+      "displayOrder": 27,
+      "questionText": "Find the HCF and LCM of the three integers $12$, $15$, and $21$ using the prime factorisation method.",
+      "solutionText": "Write the prime factorisation of each number:\n\n$$\n\\begin{aligned}\n12 &= 2^2 \\times 3^1 \\\\\n15 &= 3^1 \\times 5^1 \\\\\n21 &= 3^1 \\times 7^1\n\\end{aligned}\n$$\n\n1. **HCF calculation:**\nThe only common prime factor in all three numbers is $3$, with the lowest power being $3^1$.\n\n$$\n\\text{HCF}(12, 15, 21) = 3\n$$\n\n2. **LCM calculation:**\nTake the greatest power of each prime factor occurring in any of the factorisations ($2, 3, 5, 7$):\n\n$$\n\\text{LCM}(12, 15, 21) = 2^2 \\times 3^1 \\times 5^1 \\times 7^1 = 4 \\times 3 \\times 5 \\times 7 = 420\n$$\n\n**Answer:** $\\text{HCF} = 3$, $\\text{LCM} = 420$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q28",
+      "displayOrder": 28,
+      "questionText": "Find the HCF and LCM of $24$, $36$, and $40$ by prime factorisation.",
+      "solutionText": "Write the prime factorisation of each number:\n\n$$\n\\begin{aligned}\n24 &= 2^3 \\times 3^1 \\\\\n36 &= 2^2 \\times 3^2 \\\\\n40 &= 2^3 \\times 5^1\n\\end{aligned}\n$$\n\n1. **HCF:**\nThe common prime factor present in all three numbers is $2$.\n\n$$\n\\text{Smallest power of } 2 = 2^2 = 4\n$$\n\nPrime factors $3$ and $5$ are not common to all three numbers.\n\n$$\n\\text{HCF}(24, 36, 40) = 4\n$$\n\n2. **LCM:**\nTake the maximum power of each prime factor ($2, 3, 5$):\n\n$$\n\\text{Greatest power of } 2 = 2^3 = 8\n$$\n\n$$\n\\text{Greatest power of } 3 = 3^2 = 9\n$$\n\n$$\n\\text{Greatest power of } 5 = 5^1 = 5\n$$\n\n$$\n\\text{LCM}(24, 36, 40) = 2^3 \\times 3^2 \\times 5^1 = 8 \\times 9 \\times 5 = 360\n$$\n\n**Answer:** $\\text{HCF} = 4$, $\\text{LCM} = 360$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q29",
+      "displayOrder": 29,
+      "questionText": "Find the HCF and LCM of three prime numbers $17$, $23$, and $29$.",
+      "solutionText": "The numbers $17$, $23$, and $29$ are all prime numbers.\n\nTheir prime factorisations are:\n\n$$\n17 = 17^1, \\quad 23 = 23^1, \\quad 29 = 29^1\n$$\n\n1. **HCF:**\nSince they have no common prime factor, their only common factor is $1$:\n\n$$\n\\text{HCF}(17, 23, 29) = 1\n$$\n\n2. **LCM:**\nThe LCM is the product of all three primes:\n\n$$\n\\text{LCM}(17, 23, 29) = 17 \\times 23 \\times 29\n$$\n\n$$\n17 \\times 23 = 391\n$$\n\n$$\n391 \\times 29 = 391 \\times (30 - 1) = 11730 - 391 = 11339\n$$\n\n**Answer:** $\\text{HCF} = 1$, $\\text{LCM} = 11339$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q30",
+      "displayOrder": 30,
+      "questionText": "Show by an example that for three positive integers $p, q, r$:\n\n$$\n\\text{HCF}(p, q, r) \\times \\text{LCM}(p, q, r) \\neq p \\times q \\times r\n$$",
+      "solutionText": "Let the three integers be $p = 6$, $q = 8$, and $r = 12$.\n\n1. **Find their prime factorisations:**\n$$\n6 = 2^1 \\times 3^1\n$$\n$$\n8 = 2^3\n$$\n$$\n12 = 2^2 \\times 3^1\n$$\n\n2. **Calculate HCF and LCM:**\n$$\n\\text{HCF}(6, 8, 12) = 2^1 = 2\n$$\n$$\n\\text{LCM}(6, 8, 12) = 2^3 \\times 3^1 = 8 \\times 3 = 24\n$$\n\n3. **Compute the product of HCF and LCM:**\n$$\n\\text{HCF}(6, 8, 12) \\times \\text{LCM}(6, 8, 12) = 2 \\times 24 = 48\n$$\n\n4. **Compute the product of the three numbers:**\n$$\np \\times q \\times r = 6 \\times 8 \\times 12 = 48 \\times 12 = 576\n$$\n\nSince $48 \\neq 576$, we have:\n\n$$\n\\text{HCF}(6, 8, 12) \\times \\text{LCM}(6, 8, 12) \\neq 6 \\times 8 \\times 12\n$$\n\nHence, the product of three numbers is not equal to the product of their HCF and LCM.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q31",
+      "displayOrder": 31,
+      "questionText": "Given three positive integers $p = 6$, $q = 8$, and $r = 12$, use the three-number formula:\n\n$$\n\\text{LCM}(p, q, r) = \\frac{p \\cdot q \\cdot r \\cdot \\text{HCF}(p, q, r)}{\\text{HCF}(p, q) \\cdot \\text{HCF}(q, r) \\cdot \\text{HCF}(p, r)}\n$$\n\nto compute $\\text{LCM}(6, 8, 12)$.",
+      "solutionText": "Given $p = 6$, $q = 8$, $r = 12$.\n\n1. Calculate product $p \\cdot q \\cdot r$:\n$$\np \\cdot q \\cdot r = 6 \\times 8 \\times 12 = 576\n$$\n\n2. Calculate overall HCF:\n$$\n\\text{HCF}(6, 8, 12) = 2\n$$\n\n3. Calculate pairwise HCFs:\n$$\n\\text{HCF}(6, 8) = 2\n$$\n$$\n\\text{HCF}(8, 12) = 4\n$$\n$$\n\\text{HCF}(6, 12) = 6\n$$\n\n4. Substitute into the formula:\n$$\n\\text{LCM}(6, 8, 12) = \\frac{576 \\times 2}{2 \\times 4 \\times 6} = \\frac{1152}{48}\n$$\n\nDividing:\n$$\n\\frac{1152}{48} = 24\n$$\n\nThis matches the direct computation $\\text{LCM}(6, 8, 12) = 24$.\n\n**Answer:** $\\text{LCM}(6, 8, 12) = 24$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q32",
+      "displayOrder": 32,
+      "questionText": "Three numbers are given as $a = 2^3 \\times 3$, $b = 2 \\times 3 \\times 5$, and $c = 2^n \\times 3^2$. If $\\text{LCM}(a, b, c) = 2^3 \\times 3^2 \\times 5 = 360$, find the possible values of $n$ where $n$ is a non-negative integer.",
+      "solutionText": "We are given:\n\n$$\na = 2^3 \\times 3^1\n$$\n\n$$\nb = 2^1 \\times 3^1 \\times 5^1\n$$\n\n$$\nc = 2^n \\times 3^2\n$$\n\nThe LCM is obtained by taking the maximum power of each prime factor:\n\n$$\n\\text{LCM}(a, b, c) = 2^{\\max(3, 1, n)} \\times 3^{\\max(1, 1, 2)} \\times 5^{\\max(0, 1, 0)}\n$$\n\nGiven $\\text{LCM}(a, b, c) = 2^3 \\times 3^2 \\times 5^1$, we compare the exponent of $2$:\n\n$$\n\\max(3, 1, n) = 3\n$$\n\nFor $\\max(3, 1, n)$ to equal $3$, $n$ cannot exceed $3$. Since $n$ is a non-negative integer:\n\n$$\nn \\in \\{0, 1, 2, 3\\}\n$$\n\n**Answer:** $n \\in \\{0, 1, 2, 3\\}$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q33",
+      "displayOrder": 33,
+      "questionText": "A bookshop has $96$ Science books, $240$ English books, and $336$ Hindi books. The shopkeeper wants to stack the books subject-wise such that each stack has the same height and contains the maximum possible number of books.\n\n1. Find the number of books in each stack.\n2. Find the total number of stacks formed.",
+      "solutionText": "1. **Number of books in each stack:**\nTo make each stack of equal height with the maximum possible number of books, the number of books in each stack must be the Highest Common Factor ($\\text{HCF}$) of $96$, $240$, and $336$.\n\nPrime factorising the three numbers:\n$$\n96 = 2^5 \\times 3^1\n$$\n$$\n240 = 2^4 \\times 3^1 \\times 5^1\n$$\n$$\n336 = 2^4 \\times 3^1 \\times 7^1\n$$\n\n$$\n\\text{HCF}(96, 240, 336) = 2^4 \\times 3^1 = 16 \\times 3 = 48\n$$\n\nTherefore, each stack contains $48$ books.\n\n2. **Total number of stacks:**\n$$\n\\text{Number of Science stacks} = \\frac{96}{48} = 2\n$$\n$$\n\\text{Number of English stacks} = \\frac{240}{48} = 5\n$$\n$$\n\\text{Number of Hindi stacks} = \\frac{336}{48} = 7\n$$\n\n$$\n\\text{Total stacks} = 2 + 5 + 7 = 14\n$$\n\n**Answer:** Each stack has $48$ books; total number of stacks is $14$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q34",
+      "displayOrder": 34,
+      "questionText": "Two milk tankers contain $850\\text{ litres}$ and $680\\text{ litres}$ of milk respectively. Find the maximum capacity of a container which can measure the milk of both tankers an exact number of times.",
+      "solutionText": "The maximum capacity of the container must be the Highest Common Factor ($\\text{HCF}$) of $850$ and $680$.\n\nPrime factorisation of $850$ and $680$:\n\n$$\n850 = 10 \\times 85 = (2 \\times 5) \\times (5 \\times 17) = 2^1 \\times 5^2 \\times 17^1\n$$\n\n$$\n680 = 10 \\times 68 = (2 \\times 5) \\times (4 \\times 17) = 2^3 \\times 5^1 \\times 17^1\n$$\n\nTake the smallest power of each common prime factor:\n\n$$\n\\text{HCF}(850, 680) = 2^1 \\times 5^1 \\times 17^1 = 10 \\times 17 = 170\n$$\n\nThus, the maximum capacity of the measuring container is $170\\text{ litres}$.\n\n**Answer:** $170\\text{ litres}$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q35",
+      "displayOrder": 35,
+      "questionText": "The floor of a rectangular room is $15\\text{ m } 17\\text{ cm}$ long and $9\\text{ m } 2\\text{ cm}$ broad. It is to be paved with square tiles of equal size. Find:\n\n1. The largest size of each square tile.\n2. The minimum number of such square tiles required to cover the floor.",
+      "solutionText": "**Step 1: Convert dimensions into centimetres**\n\n$$\n\\text{Length } L = 15\\text{ m } 17\\text{ cm} = 1517\\text{ cm}\n$$\n\n$$\n\\text{Breadth } B = 9\\text{ m } 2\\text{ cm} = 902\\text{ cm}\n$$\n\n**Step 2: Find the side of the largest square tile**\n\nThe side of the largest square tile is $\\text{HCF}(1517, 902)$.\n\nLet us prime factorise $902$ and $1517$:\n\n$$\n902 = 2 \\times 451 = 2 \\times 11 \\times 41\n$$\n\nTesting the factors $2, 11, 41$ on $1517$:\n- $1517$ is odd (not divisible by $2$).\n- $1517 / 11 = 137.9...$ (not divisible by $11$).\n- $1517 / 41 = 37$ (divisible by $41$).\n\nSo:\n\n$$\n1517 = 37 \\times 41\n$$\n\nTherefore:\n\n$$\n\\text{HCF}(1517, 902) = 41\\text{ cm}\n$$\n\nThe side of each square tile is $41\\text{ cm}$.\n\n**Step 3: Minimum number of tiles required**\n\n$$\n\\text{Number of tiles} = \\frac{\\text{Area of floor}}{\\text{Area of one tile}} = \\frac{1517 \\times 902}{41 \\times 41}\n$$\n\n$$\n= \\left(\\frac{1517}{41}\\right) \\times \\left(\\frac{902}{41}\\right) = 37 \\times 22 = 814\n$$\n\n**Answer:** Largest tile size is $41\\text{ cm} \\times 41\\text{ cm}$; minimum number of tiles required is $814$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q36",
+      "displayOrder": 36,
+      "questionText": "Three bells toll together at intervals of $9$, $12$, and $15$ minutes respectively. If they toll together now, after how many hours will they toll together next?",
+      "solutionText": "The bells will toll together after a time period that is the Least Common Multiple ($\\text{LCM}$) of $9$, $12$, and $15$ minutes.\n\nFind the prime factorisation:\n\n$$\n\\begin{aligned}\n9 &= 3^2 \\\\\n12 &= 2^2 \\times 3^1 \\\\\n15 &= 3^1 \\times 5^1\n\\end{aligned}\n$$\n\n$$\n\\text{LCM}(9, 12, 15) = 2^2 \\times 3^2 \\times 5^1 = 4 \\times 9 \\times 5 = 180\\text{ minutes}\n$$\n\nConvert minutes into hours:\n\n$$\n\\text{Time in hours} = \\frac{180}{60} = 3\\text{ hours}\n$$\n\n**Answer:** $3\\text{ hours}$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q37",
+      "displayOrder": 37,
+      "questionText": "Three runners $A$, $B$, and $C$ start running around a circular sports track from the same point, at the same time, and in the same direction. $A$ completes a round in $20\\text{ minutes}$, $B$ in $30\\text{ minutes}$, and $C$ in $45\\text{ minutes}$.\n\nAfter how many minutes will they all meet again at the starting point?",
+      "solutionText": "To find the time when all three runners meet again at the starting point, we must find the Least Common Multiple ($\\text{LCM}$) of their individual lap times: $20$, $30$, and $45$ minutes.\n\nPrime factorisation:\n\n$$\n\\begin{aligned}\n20 &= 2^2 \\times 5^1 \\\\\n30 &= 2^1 \\times 3^1 \\times 5^1 \\\\\n45 &= 3^2 \\times 5^1\n\\end{aligned}\n$$\n\nTo find the LCM, take the highest power of all prime factors ($2, 3, 5$):\n\n$$\n\\text{LCM}(20, 30, 45) = 2^2 \\times 3^2 \\times 5^1 = 4 \\times 9 \\times 5 = 180\\text{ minutes}\n$$\n\nThus, they will meet again at the starting point after $180\\text{ minutes}$ (or $3\\text{ hours}$).\n\n**Answer:** $180\\text{ minutes}$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q38",
+      "displayOrder": 38,
+      "questionText": "A teacher has $1001$ pens and $910$ pencils. She wants to distribute them among students in such a way that each student gets the same number of pens and the same number of pencils. Find the maximum possible number of students who can receive these items.",
+      "solutionText": "The maximum number of students who can receive the pens and pencils equally is given by $\\text{HCF}(1001, 910)$.\n\nPrime factorisation:\n\n$$\n910 = 10 \\times 91 = (2 \\times 5) \\times (7 \\times 13) = 2 \\times 5 \\times 7 \\times 13\n$$\n\n$$\n1001 = 11 \\times 91 = 11 \\times 7 \\times 13 = 7 \\times 11 \\times 13\n$$\n\nThe common prime factors are $7$ and $13$:\n\n$$\n\\text{HCF}(1001, 910) = 7 \\times 13 = 91\n$$\n\nEach of the $91$ students receives:\n- $\\frac{1001}{91} = 11$ pens\n- $\\frac{910}{91} = 10$ pencils\n\n**Answer:** $91\\text{ students}$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q39",
+      "displayOrder": 39,
+      "questionText": "Let $p$ be a prime number. Prove that if $p$ divides $a^2$, then $p$ divides $a$, where $a$ is a positive integer.",
+      "solutionText": "Let the prime factorisation of the positive integer $a$ be:\n\n$$\na = p_1 p_2 \\dots p_n\n$$\n\nwhere $p_1, p_2, \\dots, p_n$ are prime numbers (not necessarily all distinct).\n\nSquaring both sides:\n\n$$\na^2 = (p_1 p_2 \\dots p_n)(p_1 p_2 \\dots p_n) = p_1^2 p_2^2 \\dots p_n^2\n$$\n\nWe are given that $p$ divides $a^2$.\n\nBy the **Fundamental Theorem of Arithmetic**, the prime factorisation of $a^2$ is unique.\n\nTherefore, the only prime factors of $a^2$ are $p_1, p_2, \\dots, p_n$.\n\nSince $p$ is a prime dividing $a^2$, $p$ must be one of the prime factors $p_1, p_2, \\dots, p_n$.\n\nSince $a = p_1 p_2 \\dots p_n$ and $p \\in \\{p_1, p_2, \\dots, p_n\\}$, it directly follows that $p$ divides $a$.\n\nHence proved.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q40",
+      "displayOrder": 40,
+      "questionText": "Prove that $\\sqrt{5}$ is an irrational number.",
+      "solutionText": "Let us assume, to the contrary, that $\\sqrt{5}$ is a rational number.\n\nThen, there exist positive coprime integers $a$ and $b$ ($b \\neq 0$, with no common factor other than $1$) such that:\n\n$$\n\\sqrt{5} = \\frac{a}{b}\n$$\n\nCross-multiplying:\n\n$$\nb\\sqrt{5} = a\n$$\n\nSquaring both sides:\n\n$$\n5b^2 = a^2 \\quad \\text{--- (1)}\n$$\n\nEquation (1) shows that $5$ divides $a^2$.\n\nSince $5$ is a prime number, if $5$ divides $a^2$, then by Theorem 1.2, $5$ must also divide $a$.\n\nTherefore, we can write:\n\n$$\na = 5c \\quad \\text{for some integer } c\n$$\n\nSubstitute $a = 5c$ into equation (1):\n\n$$\n5b^2 = (5c)^2 = 25c^2\n$$\n\nDividing both sides by $5$:\n\n$$\nb^2 = 5c^2 \\quad \\text{--- (2)}\n$$\n\nEquation (2) shows that $5$ divides $b^2$.\n\nBy Theorem 1.2, since $5$ is prime and divides $b^2$, $5$ must also divide $b$.\n\nFrom our findings, both $a$ and $b$ are divisible by $5$, meaning $a$ and $b$ have at least $5$ as a common factor.\n\nHowever, this contradicts our initial fact that $a$ and $b$ are coprime.\n\nThis contradiction arises because of our incorrect assumption that $\\sqrt{5}$ is rational.\n\nHence, $\\sqrt{5}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q41",
+      "displayOrder": 41,
+      "questionText": "Prove that $\\sqrt{7}$ is irrational.",
+      "solutionText": "Assume, to the contrary, that $\\sqrt{7}$ is rational.\n\nThen we can find coprime integers $a$ and $b$ ($b \\neq 0$) such that:\n\n$$\n\\sqrt{7} = \\frac{a}{b}\n$$\n\nRearranging and squaring both sides:\n\n$$\nb\\sqrt{7} = a \\implies 7b^2 = a^2 \\quad \\text{--- (1)}\n$$\n\nThis shows that $7$ divides $a^2$. Since $7$ is a prime number, $7$ also divides $a$.\n\nThus, let $a = 7k$ for some integer $k$.\n\nSubstituting $a = 7k$ into equation (1):\n\n$$\n7b^2 = (7k)^2 = 49k^2 \\implies b^2 = 7k^2\n$$\n\nThis shows that $7$ divides $b^2$, and hence $7$ divides $b$.\n\nThus, $7$ is a common factor of both $a$ and $b$.\n\nThis contradicts the premise that $a$ and $b$ are coprime (having no common factor other than $1$).\n\nOur assumption that $\\sqrt{7}$ is rational must therefore be false.\n\nHence, $\\sqrt{7}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q42",
+      "displayOrder": 42,
+      "questionText": "Show that $3 + 2\\sqrt{5}$ is an irrational number, given that $\\sqrt{5}$ is irrational.",
+      "solutionText": "Let us assume, to the contrary, that $3 + 2\\sqrt{5}$ is rational.\n\nThen there exist coprime integers $a$ and $b$ with $b \\neq 0$ such that:\n\n$$\n3 + 2\\sqrt{5} = \\frac{a}{b}\n$$\n\nRearranging the equation to isolate the radical term $\\sqrt{5}$:\n\n$$\n2\\sqrt{5} = \\frac{a}{b} - 3 = \\frac{a - 3b}{b}\n$$\n\nDividing by $2$:\n\n$$\n\\sqrt{5} = \\frac{a - 3b}{2b}\n$$\n\nSince $a$ and $b$ are integers and $b \\neq 0$, the numerator $a - 3b$ is an integer and the denominator $2b$ is a non-zero integer.\n\nTherefore, the right-hand side $\\frac{a - 3b}{2b}$ is a rational number.\n\nThis implies that $\\sqrt{5}$ is rational.\n\nHowever, this contradicts the given fact that $\\sqrt{5}$ is irrational.\n\nThis contradiction has arisen because of our incorrect assumption that $3 + 2\\sqrt{5}$ is rational.\n\nHence, $3 + 2\\sqrt{5}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q43",
+      "displayOrder": 43,
+      "questionText": "Prove that $5 - \\sqrt{3}$ is irrational.",
+      "solutionText": "Assume, to the contrary, that $5 - \\sqrt{3}$ is rational.\n\nThen we can find coprime integers $a$ and $b$ ($b \\neq 0$) such that:\n\n$$\n5 - \\sqrt{3} = \\frac{a}{b}\n$$\n\nRearranging the equation:\n\n$$\n5 - \\frac{a}{b} = \\sqrt{3}\n$$\n\n$$\n\\frac{5b - a}{b} = \\sqrt{3}\n$$\n\nSince $a$ and $b$ are integers, $5b - a$ is an integer and $b \\neq 0$, which means $\\frac{5b - a}{b}$ is a rational number.\n\nThis means $\\sqrt{3}$ is rational.\n\nBut this contradicts the known fact that $\\sqrt{3}$ is irrational.\n\nHence, our assumption was incorrect, and $5 - \\sqrt{3}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q44",
+      "displayOrder": 44,
+      "questionText": "Prove that $7\\sqrt{5}$ is irrational.",
+      "solutionText": "Let us assume, to the contrary, that $7\\sqrt{5}$ is rational.\n\nThen there exist coprime integers $a$ and $b$ ($b \\neq 0$) such that:\n\n$$\n7\\sqrt{5} = \\frac{a}{b}\n$$\n\nDividing both sides by $7$:\n\n$$\n\\sqrt{5} = \\frac{a}{7b}\n$$\n\nSince $a, b,$ and $7$ are integers with $7b \\neq 0$, the expression $\\frac{a}{7b}$ is a rational number.\n\nThis implies that $\\sqrt{5}$ is a rational number.\n\nHowever, this contradicts the fact that $\\sqrt{5}$ is irrational.\n\nTherefore, our assumption that $7\\sqrt{5}$ is rational is false.\n\nHence, $7\\sqrt{5}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q45",
+      "displayOrder": 45,
+      "questionText": "Prove that $\\frac{1}{\\sqrt{2}}$ is irrational.",
+      "solutionText": "Let us assume, to the contrary, that $\\frac{1}{\\sqrt{2}}$ is rational.\n\nThen there exist coprime integers $a$ and $b$ with $a \\neq 0, b \\neq 0$ such that:\n\n$$\n\\frac{1}{\\sqrt{2}} = \\frac{a}{b}\n$$\n\nTaking the reciprocal on both sides:\n\n$$\n\\sqrt{2} = \\frac{b}{a}\n$$\n\nSince $a$ and $b$ are non-zero integers, $\\frac{b}{a}$ is a rational number.\n\nThis implies that $\\sqrt{2}$ is rational.\n\nHowever, this contradicts the established theorem that $\\sqrt{2}$ is irrational.\n\nThus, our assumption is false, and $\\frac{1}{\\sqrt{2}}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q46",
+      "displayOrder": 46,
+      "questionText": "Prove that $\\frac{2 - 3\\sqrt{5}}{7}$ is an irrational number, given that $\\sqrt{5}$ is irrational.",
+      "solutionText": "Let us assume, to the contrary, that $\\frac{2 - 3\\sqrt{5}}{7}$ is rational.\n\nThen:\n\n$$\n\\frac{2 - 3\\sqrt{5}}{7} = \\frac{a}{b}\n$$\n\nwhere $a$ and $b$ are integers with $b \\neq 0$.\n\nMultiplying both sides by $7$:\n\n$$\n2 - 3\\sqrt{5} = \\frac{7a}{b}\n$$\n\nRearranging to isolate $-3\\sqrt{5}$:\n\n$$\n3\\sqrt{5} = 2 - \\frac{7a}{b} = \\frac{2b - 7a}{b}\n$$\n\nDividing by $3$:\n\n$$\n\\sqrt{5} = \\frac{2b - 7a}{3b}\n$$\n\nSince $a, b$ are integers and $3b \\neq 0$, the expression $\\frac{2b - 7a}{3b}$ represents a rational number.\n\nThis means that $\\sqrt{5}$ must be rational, which contradicts the fact that $\\sqrt{5}$ is irrational.\n\nHence, $\\frac{2 - 3\\sqrt{5}}{7}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q47",
+      "displayOrder": 47,
+      "questionText": "Prove that $\\sqrt{2} + \\sqrt{3}$ is irrational.",
+      "solutionText": "Let us assume, to the contrary, that $\\sqrt{2} + \\sqrt{3}$ is rational.\n\nLet:\n\n$$\nx = \\sqrt{2} + \\sqrt{3}\n$$\n\nwhere $x$ is rational ($x \\neq 0$).\n\nRearranging:\n\n$$\nx - \\sqrt{2} = \\sqrt{3}\n$$\n\nSquaring both sides:\n\n$$\n(x - \\sqrt{2})^2 = (\\sqrt{3})^2\n$$\n\n$$\nx^2 - 2x\\sqrt{2} + 2 = 3\n$$\n\nRearranging to isolate the term with $\\sqrt{2}$:\n\n$$\nx^2 + 2 - 3 = 2x\\sqrt{2}\n$$\n\n$$\nx^2 - 1 = 2x\\sqrt{2}\n$$\n\nSince $x \\neq 0$, we divide by $2x$:\n\n$$\n\\sqrt{2} = \\frac{x^2 - 1}{2x}\n$$\n\nSince $x$ is rational and non-zero, $x^2 - 1$ is rational and $2x$ is rational and non-zero.\n\nTherefore, the right-hand side $\\frac{x^2 - 1}{2x}$ is a rational number.\n\nThis implies that $\\sqrt{2}$ is rational, which contradicts the fact that $\\sqrt{2}$ is irrational.\n\nHence, our assumption is false, and $\\sqrt{2} + \\sqrt{3}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q48",
+      "displayOrder": 48,
+      "questionText": "Which of the following statements is **always true**?",
+      "solutionText": "Let us evaluate each option:\n\n1. **Option 1 is false:** $\\sqrt{2} + (-\\sqrt{2}) = 0$, which is rational.\n2. **Option 2 is false:** $\\sqrt{3} \\times \\sqrt{3} = 3$, which is rational.\n3. **Option 3 is true:** Let $r \\in \\mathbb{Q}$ ($r \\neq 0$) and $x \\notin \\mathbb{Q}$. If $r \\cdot x = q \\in \\mathbb{Q}$, then $x = \\frac{q}{r} \\in \\mathbb{Q}$, a contradiction.\n4. **Option 4 is false:** $\\sqrt{3} - \\sqrt{2}$ is irrational.\n\n**Answer:** Option 3 (The product of a non-zero rational number and an irrational number is always irrational.)",
+      "options": [
+        {
+          "id": "c10_mathemat_ch1_example_main_q48_r1_o1",
+          "text": "The sum of two irrational numbers is always irrational.",
+          "displayOrder": 1,
+          "isCorrect": false
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q48_r1_o2",
+          "text": "The product of two irrational numbers is always irrational.",
+          "displayOrder": 2,
+          "isCorrect": false
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q48_r1_o3",
+          "text": "The product of a non-zero rational number and an irrational number is always irrational.",
+          "displayOrder": 3,
+          "isCorrect": true
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q48_r1_o4",
+          "text": "The difference of two irrational numbers is always rational.",
+          "displayOrder": 4,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q49",
+      "displayOrder": 49,
+      "questionText": "If $p$ and $q$ are distinct prime numbers, prove that $\\sqrt{p} + \\sqrt{q}$ is irrational.",
+      "solutionText": "Assume, to the contrary, that $\\sqrt{p} + \\sqrt{q}$ is rational.\n\nLet:\n\n$$\nx = \\sqrt{p} + \\sqrt{q}, \\quad \\text{where } x \\in \\mathbb{Q} \\text{ and } x > 0\n$$\n\nRearranging:\n\n$$\nx - \\sqrt{p} = \\sqrt{q}\n$$\n\nSquaring both sides:\n\n$$\n(x - \\sqrt{p})^2 = (\\sqrt{q})^2\n$$\n\n$$\nx^2 - 2x\\sqrt{p} + p = q\n$$\n\nIsolate the term containing $\\sqrt{p}$:\n\n$$\nx^2 + p - q = 2x\\sqrt{p}\n$$\n\nSince $x > 0$, dividing by $2x$:\n\n$$\n\\sqrt{p} = \\frac{x^2 + p - q}{2x}\n$$\n\nSince $x, p, q$ are rational and $2x \\neq 0$, the right-hand side is a rational number.\n\nThis implies that $\\sqrt{p}$ is rational.\n\nHowever, since $p$ is a prime number, $\\sqrt{p}$ is irrational.\n\nThis contradiction proves that our initial assumption was false.\n\nHence, $\\sqrt{p} + \\sqrt{q}$ is irrational for any distinct primes $p$ and $q$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q50",
+      "displayOrder": 50,
+      "questionText": "An army contingent of $616$ members is to march behind an army band of $32$ members in a parade. The two groups are to march in the same number of columns.\n\nWhat is the maximum number of columns in which they can march?",
+      "solutionText": "The maximum number of columns is the Highest Common Factor ($\\text{HCF}$) of $616$ and $32$.\n\nPrime factorising both numbers:\n\n$$\n32 = 2^5\n$$\n\n$$\n616 = 2 \\times 308 = 2^2 \\times 154 = 2^3 \\times 77 = 2^3 \\times 7 \\times 11\n$$\n\nTake the lowest power of the common prime factor $2$:\n\n$$\n\\text{HCF}(616, 32) = 2^3 = 8\n$$\n\nTherefore, the maximum number of columns in which they can march is $8$.\n\n**Answer:** $8\\text{ columns}$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q51",
+      "displayOrder": 51,
+      "questionText": "The LCM of two numbers is $14$ times their HCF. The sum of the LCM and HCF is $600$. If one of the numbers is $280$, find the other number.",
+      "solutionText": "Let the HCF of the two numbers be $h$, and their LCM be $l$.\n\nAccording to the problem:\n1. $l = 14h$\n2. $l + h = 600$\n\nSubstitute $l = 14h$ into the second equation:\n\n$$\n14h + h = 600\n$$\n\n$$\n15h = 600 \\implies h = \\frac{600}{15} = 40\n$$\n\nNow find $l$:\n\n$$\nl = 14 \\times 40 = 560\n$$\n\nLet the two numbers be $a$ and $b$, with $a = 280$.\n\nUsing the relationship:\n\n$$\na \\times b = \\text{HCF} \\times \\text{LCM}\n$$\n\n$$\n280 \\times b = 40 \\times 560\n$$\n\n$$\nb = \\frac{40 \\times 560}{280} = 40 \\times 2 = 80\n$$\n\n**Answer:** The other number is $80$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q52",
+      "displayOrder": 52,
+      "questionText": "Find the largest number that divides $205$ and $382$ leaving remainders $5$ and $7$ respectively.",
+      "solutionText": "If a number divides $205$ leaving a remainder of $5$, it must divide $205 - 5 = 200$ exactly.\n\nIf the same number divides $382$ leaving a remainder of $7$, it must divide $382 - 7 = 375$ exactly.\n\nThe required largest number is therefore the $\\text{HCF}(200, 375)$.\n\nPrime factorisation:\n\n$$\n200 = 2^3 \\times 5^2\n$$\n\n$$\n375 = 3^1 \\times 5^3\n$$\n\nThe common prime factor is $5$, with the smallest power being $5^2$:\n\n$$\n\\text{HCF}(200, 375) = 5^2 = 25\n$$\n\n**Answer:** $25$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q53",
+      "displayOrder": 53,
+      "questionText": "Find the least number which when divided by $12$, $16$, $24$, and $36$ leaves a remainder of $7$ in each case.",
+      "solutionText": "The required number will be:\n\n$$\n\\text{Required Number} = \\text{LCM}(12, 16, 24, 36) + 7\n$$\n\n**Step 1: Find the LCM of $12, 16, 24, 36$**\n\nPrime factorisations:\n\n$$\n\\begin{aligned}\n12 &= 2^2 \\times 3^1 \\\\\n16 &= 2^4 \\\\\n24 &= 2^3 \\times 3^1 \\\\\n36 &= 2^2 \\times 3^2\n\\end{aligned}\n$$\n\nTaking the highest power of each prime factor ($2, 3$):\n\n$$\n\\text{LCM}(12, 16, 24, 36) = 2^4 \\times 3^2 = 16 \\times 9 = 144\n$$\n\n**Step 2: Add the remainder**\n\n$$\n\\text{Required Number} = 144 + 7 = 151\n$$\n\n**Check:**\n- $151 = 12 \\times 12 + 7$\n- $151 = 16 \\times 9 + 7$\n- $151 = 24 \\times 6 + 7$\n- $151 = 36 \\times 4 + 7$\n\n**Answer:** $151$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q54",
+      "displayOrder": 54,
+      "questionText": "Four traffic lights at different road crossings change after every $24\\text{ seconds}$, $36\\text{ seconds}$, $54\\text{ seconds}$, and $72\\text{ seconds}$ respectively. If they all change simultaneously at $8\\text{:}00\\text{ AM}$, at what time will they change simultaneously again?",
+      "solutionText": "The time interval after which the lights change simultaneously is given by $\\text{LCM}(24, 36, 54, 72)$.\n\nPrime factorisation:\n\n$$\n\\begin{aligned}\n24 &= 2^3 \\times 3^1 \\\\\n36 &= 2^2 \\times 3^2 \\\\\n54 &= 2^1 \\times 3^3 \\\\\n72 &= 2^3 \\times 3^2\n\\end{aligned}\n$$\n\nTaking the greatest power of each prime factor ($2$ and $3$):\n\n$$\n\\text{LCM}(24, 36, 54, 72) = 2^3 \\times 3^3 = 8 \\times 27 = 216\\text{ seconds}\n$$\n\nConvert $216\\text{ seconds}$ into minutes and seconds:\n\n$$\n216\\text{ seconds} = 3\\text{ minutes and } 36\\text{ seconds}\n$$\n\nAdding this to the starting time ($8\\text{:}00\\text{:}00\\text{ AM}$):\n\n$$\n8\\text{:}00\\text{ AM} + 3\\text{ min } 36\\text{ sec} = 8\\text{:}03\\text{:}36\\text{ AM}\n$$\n\n**Answer:** $8\\text{:}03\\text{:}36\\text{ AM}$ (or $216\\text{ seconds}$ after $8\\text{:}00\\text{ AM}$)",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q55",
+      "displayOrder": 55,
+      "questionText": "Find the prime factorisation of $43200$ and determine the total number of distinct prime factors.",
+      "solutionText": "We factorise $43200$ into prime factors by successive division:\n\n$$\n\\begin{aligned}\n43200 &= 432 \\times 100 \\\\\n&= (16 \\times 27) \\times (4 \\times 25) \\\\\n&= (2^4 \\times 3^3) \\times (2^2 \\times 5^2) \\\\\n&= 2^{4+2} \\times 3^3 \\times 5^2 \\\\\n&= 2^6 \\times 3^3 \\times 5^2\n\\end{aligned}\n$$\n\nThe distinct prime factors in the factorisation of $43200$ are $2$, $3$, and $5$.\n\nTherefore, the total number of distinct prime factors is $3$.\n\n**Answer:** $43200 = 2^6 \\times 3^3 \\times 5^2$; total number of distinct prime factors is $3$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q56",
+      "displayOrder": 56,
+      "questionText": "If the prime factorisation of a natural number is given by $38808 = p_1^{x_1} \\times p_2^{x_2} \\times p_3^{x_3} \\times p_4^{x_4}$, where $p_1 < p_2 < p_3 < p_4$ are prime numbers, find the values of $p_1, p_2, p_3, p_4$ and the sum of their exponents $x_1 + x_2 + x_3 + x_4$.",
+      "solutionText": "Perform prime factorisation on $38808$:\n\n$$\n\\begin{aligned}\n38808 \\div 2 &= 19404 \\\\\n19404 \\div 2 &= 9702 \\\\\n9702 \\div 2 &= 4851 \\\\\n4851 \\div 3 &= 1617 \\\\\n1617 \\div 3 &= 539 \\\\\n539 \\div 7 &= 77 \\\\\n77 \\div 7 &= 11 \\\\\n11 \\div 11 &= 1\n\\end{aligned}\n$$\n\nWriting the prime factors in ascending order:\n\n$$\n38808 = 2^3 \\times 3^2 \\times 7^2 \\times 11^1\n$$\n\nComparing with $p_1^{x_1} \\times p_2^{x_2} \\times p_3^{x_3} \\times p_4^{x_4}$:\n\n$$\np_1 = 2, \\quad x_1 = 3\n$$\n\n$$\np_2 = 3, \\quad x_2 = 2\n$$\n\n$$\np_3 = 7, \\quad x_3 = 2\n$$\n\n$$\np_4 = 11, \\quad x_4 = 1\n$$\n\nThe sum of the exponents is:\n\n$$\nx_1 + x_2 + x_3 + x_4 = 3 + 2 + 2 + 1 = 8\n$$\n\n**Answer:** $p_1 = 2, p_2 = 3, p_3 = 7, p_4 = 11$, and $x_1 + x_2 + x_3 + x_4 = 8$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q57",
+      "displayOrder": 57,
+      "questionText": "Check whether $12^n$ can end with the digit $0$ for any natural number $n \\in \\mathbb{N}$.",
+      "solutionText": "A number ends with the digit $0$ if and only if it is divisible by $10 = 2 \\times 5$. Therefore, its prime factorisation must contain both $2$ and $5$ as prime factors.\n\nThe prime factorisation of $12^n$ is:\n\n$$\n12^n = (2^2 \\times 3)^n = 2^{2n} \\times 3^n\n$$\n\nThe only prime factors of $12^n$ are $2$ and $3$.\n\nBy the uniqueness property of the Fundamental Theorem of Arithmetic, no other prime factor can occur in the factorisation of $12^n$.\n\nSince the prime factor $5$ does not occur in the prime factorisation of $12^n$, $12^n$ is not divisible by $5$ for any $n \\in \\mathbb{N}$.\n\nHence, $12^n$ cannot end with the digit $0$ for any natural number $n$.\n\n**Answer:** No, $12^n$ cannot end with the digit $0$ for any natural number $n$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q58",
+      "displayOrder": 58,
+      "questionText": "Check whether $45^n$ can end with the digit $0$ for any natural number $n$.",
+      "solutionText": "For $45^n$ to end with the digit $0$, it must be divisible by $10$, meaning its prime factorisation must contain both the prime factors $2$ and $5$.\n\nFinding the prime factorisation of $45^n$:\n\n$$\n45^n = (3^2 \\times 5)^n = 3^{2n} \\times 5^n\n$$\n\nThe only prime factors of $45^n$ are $3$ and $5$.\n\nBy the Fundamental Theorem of Arithmetic, this prime factorisation is unique.\n\nSince $2$ is not a prime factor of $45^n$, $45^n$ is not divisible by $2$ for any natural number $n$.\n\nTherefore, $45^n$ cannot end with the digit $0$ for any natural number $n$.\n\n**Answer:** No, $45^n$ cannot end with the digit $0$ for any $n \\in \\mathbb{N}$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q59",
+      "displayOrder": 59,
+      "questionText": "Find the smallest natural number $k$ such that $(14k)^n$ ends with the digit $0$ for all natural numbers $n \\ge 1$.",
+      "solutionText": "For $(14k)^n$ to end with the digit $0$, the base $14k$ must be a multiple of $10 = 2 \\times 5$.\n\nThe prime factorisation of $14$ is:\n\n$$\n14 = 2 \\times 7\n$$\n\nThus:\n\n$$\n14k = 2 \\times 7 \\times k\n$$\n\nFor $14k$ to contain both prime factors $2$ and $5$, the integer $k$ must contain at least one factor of $5$.\n\nThe smallest natural number containing the prime factor $5$ is:\n\n$$\nk = 5\n$$\n\nWhen $k = 5$, $14k = 14 \\times 5 = 70 = 2 \\times 5 \\times 7$, so $(70)^n$ ends with $0$ for all $n \\ge 1$.\n\n**Answer:** $k = 5$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q60",
+      "displayOrder": 60,
+      "questionText": "Explain why $2 \\times 3 \\times 5 \\times 7 \\times 11 + 11$ is a composite number.",
+      "solutionText": "A composite number is a positive integer greater than $1$ that has factors other than $1$ and itself.\n\nGiven expression:\n\n$$\nE = 2 \\times 3 \\times 5 \\times 7 \\times 11 + 11\n$$\n\nFactor out the common factor $11$:\n\n$$\n\\begin{aligned}\nE &= 11 \\times (2 \\times 3 \\times 5 \\times 7 + 1) \\\\\n&= 11 \\times (210 + 1) \\\\\n&= 11 \\times 211\n\\end{aligned}\n$$\n\nSince $211$ is a prime number, $E = 11 \\times 211$ is explicitly expressed as a product of two prime numbers.\n\nBecause $E$ has divisors other than $1$ and itself (namely $11$ and $211$), it is a composite number.\n\n**Answer:** The number is composite because it factorises as $11 \\times 211$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q61",
+      "displayOrder": 61,
+      "questionText": "Explain why $3 \\times 5 \\times 7 \\times 11 \\times 13 + 3 \\times 11$ is a composite number.",
+      "solutionText": "Let:\n\n$$\nE = 3 \\times 5 \\times 7 \\times 11 \\times 13 + 3 \\times 11\n$$\n\nObserve that $3 \\times 11 = 33$ is common to both terms:\n\n$$\n\\begin{aligned}\nE &= (3 \\times 11) \\times (5 \\times 7 \\times 13 + 1) \\\\\n&= 33 \\times (455 + 1) \\\\\n&= 33 \\times 456\n\\end{aligned}\n$$\n\nFactorising both components:\n\n$$\n33 = 3 \\times 11\n$$\n\n$$\n456 = 2^3 \\times 3 \\times 19\n$$\n\nThus:\n\n$$\nE = 2^3 \\times 3^2 \\times 11 \\times 19\n$$\n\nSince $E$ can be expressed as a product of prime factors, it is a composite number.\n\n**Answer:** The number is composite because it can be written as $2^3 \\times 3^2 \\times 11 \\times 19$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q62",
+      "displayOrder": 62,
+      "questionText": "Show that $(17 \\times 11 \\times 2) + (17 \\times 11 \\times 5)$ is a composite number.",
+      "solutionText": "Given:\n\n$$\nE = (17 \\times 11 \\times 2) + (17 \\times 11 \\times 5)\n$$\n\nFactoring out the common terms $17 \\times 11$:\n\n$$\n\\begin{aligned}\nE &= 17 \\times 11 \\times (2 + 5) \\\\\n&= 17 \\times 11 \\times 7\n\\end{aligned}\n$$\n\nArranging in ascending order of primes:\n\n$$\nE = 7 \\times 11 \\times 17\n$$\n\nSince $E$ is expressed as a product of three prime factors ($7, 11, 17$), it has more than two factors.\n\nHence, it is a composite number.\n\n**Answer:** The number is composite because it factorises as $7 \\times 11 \\times 17$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q63",
+      "displayOrder": 63,
+      "questionText": "Show that for every odd positive integer $n$, $n^2 - 1$ is divisible by $8$.",
+      "solutionText": "Every odd positive integer $n$ can be written in the form:\n\n$$\nn = 2k + 1 \\quad \\text{for some integer } k \\ge 0\n$$\n\nSubstituting this into $n^2 - 1$:\n\n$$\n\\begin{aligned}\nn^2 - 1 &= (2k + 1)^2 - 1 \\\\\n&= (4k^2 + 4k + 1) - 1 \\\\\n&= 4k^2 + 4k \\\\\n&= 4k(k + 1)\n\\end{aligned}\n$$\n\nNotice that $k$ and $k + 1$ are two consecutive integers. In any two consecutive integers, exactly one of them is even, which means the product $k(k + 1)$ is divisible by $2$.\n\nLet $k(k + 1) = 2m$ for some non-negative integer $m$.\n\nThen:\n\n$$\nn^2 - 1 = 4(2m) = 8m\n$$\n\nSince $n^2 - 1 = 8m$, it is completely divisible by $8$.\n\nHence proved.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q64",
+      "displayOrder": 64,
+      "questionText": "Find the smallest natural number $k$ such that $1800 \\times k$ is a perfect cube.",
+      "solutionText": "First, write the prime factorisation of $1800$:\n\n$$\n\\begin{aligned}\n1800 &= 18 \\times 100 \\\\\n&= (2 \\times 3^2) \\times (2^2 \\times 5^2) \\\\\n&= 2^3 \\times 3^2 \\times 5^2\n\\end{aligned}\n$$\n\nFor a number to be a perfect cube, the exponent of every prime factor in its prime factorisation must be a multiple of $3$.\n\nIn $1800 = 2^3 \\times 3^2 \\times 5^2$:\n- The exponent of $2$ is $3$, which is already a multiple of $3$.\n- The exponent of $3$ is $2$; to reach the next multiple of $3$, we need one more factor of $3$ ($3^1$).\n- The exponent of $5$ is $2$; to reach the next multiple of $3$, we need one more factor of $5$ ($5^1$).\n\nTherefore, the smallest multiplier $k$ is:\n\n$$\nk = 3^1 \\times 5^1 = 15\n$$\n\n**Verification:**\n\n$$\n1800 \\times 15 = (2^3 \\times 3^2 \\times 5^2) \\times (3^1 \\times 5^1) = 2^3 \\times 3^3 \\times 5^3 = (2 \\times 3 \\times 5)^3 = 30^3 = 27000\n$$\n\n**Answer:** $k = 15$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q65",
+      "displayOrder": 65,
+      "questionText": "Find the HCF and LCM of the algebraic monomials $A = 12 x^3 y^4 z^2$ and $B = 18 x^2 y^5 z$, where $x, y, z$ are distinct prime numbers.",
+      "solutionText": "Write both expressions in prime-factorised form:\n\n$$\nA = (2^2 \\times 3^1) \\cdot x^3 \\cdot y^4 \\cdot z^2\n$$\n\n$$\nB = (2^1 \\times 3^2) \\cdot x^2 \\cdot y^5 \\cdot z^1\n$$\n\n1. **HCF calculation:**\nTake the smallest exponent for each common base:\n$$\n\\text{HCF}(A, B) = 2^{\\min(2,1)} \\cdot 3^{\\min(1,2)} \\cdot x^{\\min(3,2)} \\cdot y^{\\min(4,5)} \\cdot z^{\\min(2,1)}\n$$\n$$\n\\text{HCF}(A, B) = 2^1 \\cdot 3^1 \\cdot x^2 \\cdot y^4 \\cdot z^1 = 6 x^2 y^4 z\n$$\n\n2. **LCM calculation:**\nTake the greatest exponent for each base:\n$$\n\\text{LCM}(A, B) = 2^{\\max(2,1)} \\cdot 3^{\\max(1,2)} \\cdot x^{\\max(3,2)} \\cdot y^{\\max(4,5)} \\cdot z^{\\max(2,1)}\n$$\n$$\n\\text{LCM}(A, B) = 2^2 \\cdot 3^2 \\cdot x^3 \\cdot y^5 \\cdot z^2 = 36 x^3 y^5 z^2\n$$\n\n**Answer:** $\\text{HCF} = 6 x^2 y^4 z$, $\\text{LCM} = 36 x^3 y^5 z^2$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q66",
+      "displayOrder": 66,
+      "questionText": "Find the HCF and LCM of three monomials $P = 4a^2 b^3 c$, $Q = 6a^3 b c^2$, and $R = 8a b^2 c^3$, where $a, b, c$ are prime variables.",
+      "solutionText": "Express the numerical coefficients and variable terms in prime factor form:\n\n$$\n\\begin{aligned}\nP &= 2^2 \\cdot a^2 \\cdot b^3 \\cdot c^1 \\\\\nQ &= 2^1 \\cdot 3^1 \\cdot a^3 \\cdot b^1 \\cdot c^2 \\\\\nR &= 2^3 \\cdot a^1 \\cdot b^2 \\cdot c^3\n\\end{aligned}\n$$\n\n1. **HCF:**\n- Numerical part: $\\text{HCF}(4, 6, 8) = 2^1 = 2$\n- Powers of $a$: $\\min(2, 3, 1) = 1 \\implies a^1$\n- Powers of $b$: $\\min(3, 1, 2) = 1 \\implies b^1$\n- Powers of $c$: $\\min(1, 2, 3) = 1 \\implies c^1$\n\n$$\n\\text{HCF}(P, Q, R) = 2abc\n$$\n\n2. **LCM:**\n- Numerical part: $\\text{LCM}(4, 6, 8) = 2^3 \\times 3^1 = 24$\n- Powers of $a$: $\\max(2, 3, 1) = 3 \\implies a^3$\n- Powers of $b$: $\\max(3, 1, 2) = 3 \\implies b^3$\n- Powers of $c$: $\\max(1, 2, 3) = 3 \\implies c^3$\n\n$$\n\\text{LCM}(P, Q, R) = 24 a^3 b^3 c^3\n$$\n\n**Answer:** $\\text{HCF} = 2abc$, $\\text{LCM} = 24 a^3 b^3 c^3$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q67",
+      "displayOrder": 67,
+      "questionText": "Given that $\\text{HCF}(a, b) = 12$ and $\\text{LCM}(a, b) = 720$, find $b$ if $a = 60$.",
+      "solutionText": "For any two positive integers $a$ and $b$:\n\n$$\n\\text{HCF}(a, b) \\times \\text{LCM}(a, b) = a \\times b\n$$\n\nSubstitute the given values:\n\n$$\n12 \\times 720 = 60 \\times b\n$$\n\n$$\n8640 = 60b\n$$\n\n$$\nb = \\frac{8640}{60} = 144\n$$\n\n**Answer:** $b = 144$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q68",
+      "displayOrder": 68,
+      "questionText": "The product of two positive integers is $2028$ and their HCF is $13$. Find the number of possible pairs of such integers.",
+      "solutionText": "Let the two numbers be $a$ and $b$.\n\nSince their HCF is $13$, we can represent them as:\n\n$$\na = 13x \\quad \\text{and} \\quad b = 13y\n$$\n\nwhere $x$ and $y$ are coprime natural numbers ($\\text{HCF}(x, y) = 1$).\n\nGiven:\n\n$$\na \\times b = 2028\n$$\n\n$$\n(13x) \\times (13y) = 2028\n$$\n\n$$\n169 xy = 2028 \\implies xy = \\frac{2028}{169} = 12\n$$\n\nWe need to find all pairs of positive integers $(x, y)$ such that $xy = 12$ and $\\text{HCF}(x, y) = 1$ (with $x \\le y$ to avoid counting order):\n\n- Case 1: $x = 1, y = 12 \\implies \\text{HCF}(1, 12) = 1$ (Valid)\n- Case 2: $x = 2, y = 6 \\implies \\text{HCF}(2, 6) = 2 \\neq 1$ (Invalid)\n- Case 3: $x = 3, y = 4 \\implies \\text{HCF}(3, 4) = 1$ (Valid)\n\nThe valid pairs for $(x, y)$ are $(1, 12)$ and $(3, 4)$.\n\nCorresponding pairs of numbers $(a, b)$ are:\n1. $(13 \\times 1, 13 \\times 12) = (13, 156)$\n2. $(13 \\times 3, 13 \\times 4) = (39, 52)$\n\nThus, there are $2$ possible pairs.\n\n**Answer:** $2\\text{ pairs}$ (the pairs are $(13, 156)$ and $(39, 52)$).",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q69",
+      "displayOrder": 69,
+      "questionText": "The sum of two numbers is $528$ and their HCF is $33$. Find all possible pairs of such numbers.",
+      "solutionText": "Let the two numbers be $a = 33x$ and $b = 33y$, where $x$ and $y$ are coprime positive integers ($\\text{HCF}(x, y) = 1$) and $x \\le y$.\n\nGiven that their sum is $528$:\n\n$$\n33x + 33y = 528\n$$\n\n$$\n33(x + y) = 528 \\implies x + y = \\frac{528}{33} = 16\n$$\n\nWe list all pairs of positive integers $(x, y)$ such that $x + y = 16$ with $x \\le y$ and check if $\\text{HCF}(x, y) = 1$:\n\n1. $x = 1, y = 15 \\implies \\text{HCF}(1, 15) = 1$ (Valid)\n2. $x = 2, y = 14 \\implies \\text{HCF}(2, 14) = 2 \\neq 1$ (Invalid)\n3. $x = 3, y = 13 \\implies \\text{HCF}(3, 13) = 1$ (Valid)\n4. $x = 4, y = 12 \\implies \\text{HCF}(4, 12) = 4 \\neq 1$ (Invalid)\n5. $x = 5, y = 11 \\implies \\text{HCF}(5, 11) = 1$ (Valid)\n6. $x = 6, y = 10 \\implies \\text{HCF}(6, 10) = 2 \\neq 1$ (Invalid)\n7. $x = 7, y = 9 \\implies \\text{HCF}(7, 9) = 1$ (Valid)\n8. $x = 8, y = 8 \\implies \\text{HCF}(8, 8) = 8 \\neq 1$ (Invalid)\n\nThe valid pairs of $(x, y)$ are $(1, 15), (3, 13), (5, 11),$ and $(7, 9)$.\n\nMultiplying each by $33$, the possible pairs of numbers $(a, b)$ are:\n1. $(33, 495)$\n2. $(99, 429)$\n3. $(165, 363)$\n4. $(231, 297)$\n\n**Answer:** There are $4$ possible pairs: $(33, 495)$, $(99, 429)$, $(165, 363)$, and $(231, 297)$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q70",
+      "displayOrder": 70,
+      "questionText": "The HCF of two numbers is $11$ and their LCM is $693$. If one of the numbers is $77$, find the other number.",
+      "solutionText": "Using the relationship:\n\n$$\n\\text{HCF} \\times \\text{LCM} = \\text{Product of the two numbers}\n$$\n\nLet the unknown number be $b$.\n\n$$\n11 \\times 693 = 77 \\times b\n$$\n\n$$\nb = \\frac{11 \\times 693}{77}\n$$\n\nDividing numerator and denominator by $11$:\n\n$$\nb = \\frac{693}{7} = 99\n$$\n\n**Answer:** $99$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q71",
+      "displayOrder": 71,
+      "questionText": "Can two numbers have $18$ as their HCF and $380$ as their LCM? Justify your answer.",
+      "solutionText": "For any two positive integers, the HCF is a factor of both numbers, and the LCM is a common multiple of both numbers. Therefore, the HCF must divide the LCM completely.\n\nLet us test whether $18$ divides $380$:\n\n$$\n\\frac{380}{18} = \\frac{190}{9} = 21.11\\dots\n$$\n\nSince $380$ is not divisible by $18$ (leaves a remainder of $2$), $18$ is not a factor of $380$.\n\nThus, two numbers cannot have $18$ as their HCF and $380$ as their LCM.\n\n**Answer:** No, because the HCF must always divide the LCM without leaving a remainder.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q72",
+      "displayOrder": 72,
+      "questionText": "Prove that any two consecutive natural numbers are always coprime.",
+      "solutionText": "Let $n$ and $n + 1$ be two consecutive natural numbers where $n \\in \\mathbb{N}$.\n\nLet $d = \\text{HCF}(n, n + 1)$.\n\nBy the definition of common divisor:\n- $d$ divides $n$ ($d \\mid n$)\n- $d$ divides $n + 1$ ($d \\mid (n + 1)$)\n\nIf a number divides two integers, it must also divide their difference:\n\n$$\nd \\mid ((n + 1) - n) \\implies d \\mid 1\n$$\n\nSince $d$ is a positive integer dividing $1$, the only possible value is:\n\n$$\nd = 1\n$$\n\nHence, $\\text{HCF}(n, n + 1) = 1$, which proves that any two consecutive natural numbers are coprime.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q73",
+      "displayOrder": 73,
+      "questionText": "Find the HCF of two consecutive even natural numbers.",
+      "solutionText": "Let the two consecutive even natural numbers be $2n$ and $2n + 2$, where $n \\in \\mathbb{N}$.\n\nWe can express their HCF as:\n\n$$\n\\text{HCF}(2n, 2n + 2) = 2 \\times \\text{HCF}(n, n + 1)\n$$\n\nAs proved in Example 72, any two consecutive natural numbers are coprime, so $\\text{HCF}(n, n + 1) = 1$.\n\nTherefore:\n\n$$\n\\text{HCF}(2n, 2n + 2) = 2 \\times 1 = 2\n$$\n\n**Answer:** $2$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q74",
+      "displayOrder": 74,
+      "questionText": "Prove that the HCF of any two consecutive odd natural numbers is always $1$.",
+      "solutionText": "Let two consecutive odd natural numbers be $2n + 1$ and $2n + 3$, where $n \\ge 0$ is an integer.\n\nLet $d = \\text{HCF}(2n + 1, 2n + 3)$.\n\nSince $d$ divides both $2n + 1$ and $2n + 3$, $d$ must divide their difference:\n\n$$\nd \\mid ((2n + 3) - (2n + 1)) \\implies d \\mid 2\n$$\n\nThe positive divisors of $2$ are $1$ and $2$.\n\nHowever, both $2n + 1$ and $2n + 3$ are odd numbers, so they cannot be divisible by $2$.\n\nTherefore, $d \\neq 2$.\n\nThe only remaining possibility is:\n\n$$\nd = 1\n$$\n\nThus, any two consecutive odd natural numbers are coprime.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q75",
+      "displayOrder": 75,
+      "questionText": "Find the smallest $4$-digit number that is completely divisible by $18$, $24$, and $32$.",
+      "solutionText": "**Step 1: Find the LCM of $18, 24,$ and $32$**\n\nPrime factorisation:\n\n$$\n\\begin{aligned}\n18 &= 2^1 \\times 3^2 \\\\\n24 &= 2^3 \\times 3^1 \\\\\n32 &= 2^5\n\\end{aligned}\n$$\n\n$$\n\\text{LCM}(18, 24, 32) = 2^5 \\times 3^2 = 32 \\times 9 = 288\n$$\n\nAny number divisible by $18, 24,$ and $32$ must be a multiple of $288$.\n\n**Step 2: Find the smallest 4-digit multiple of 288**\n\nThe smallest 4-digit number is $1000$.\n\nDivide $1000$ by $288$:\n\n$$\n1000 \\div 288 = 3 \\text{ with remainder } 136 \\quad (1000 = 288 \\times 3 + 136)\n$$\n\nThe smallest multiple of $288$ that has $4$ digits is:\n\n$$\n288 \\times 4 = 1152\n$$\n\n**Answer:** $1152$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q76",
+      "displayOrder": 76,
+      "questionText": "Find the largest $3$-digit number that is completely divisible by $6$, $9$, and $12$.",
+      "solutionText": "**Step 1: Find the LCM of $6, 9,$ and $12$**\n\n$$\n\\begin{aligned}\n6 &= 2 \\times 3 \\\\\n9 &= 3^2 \\\\\n12 &= 2^2 \\times 3\n\\end{aligned}\n$$\n\n$$\n\\text{LCM}(6, 9, 12) = 2^2 \\times 3^2 = 4 \\times 9 = 36\n$$\n\n**Step 2: Find the largest 3-digit multiple of 36**\n\nThe largest 3-digit number is $999$.\n\nDivide $999$ by $36$:\n\n$$\n999 = 36 \\times 27 + 27\n$$\n\nSubtract the remainder from $999$:\n\n$$\n\\text{Largest multiple} = 999 - 27 = 972\n$$\n\n**Answer:** $972$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q77",
+      "displayOrder": 77,
+      "questionText": "Find the greatest $4$-digit number which when divided by $15$, $20$, and $25$ leaves a remainder of $10$ in each case.",
+      "solutionText": "**Step 1: Find the LCM of $15, 20,$ and $25$**\n\n$$\n\\begin{aligned}\n15 &= 3 \\times 5 \\\\\n20 &= 2^2 \\times 5 \\\\\n25 &= 5^2\n\\end{aligned}\n$$\n\n$$\n\\text{LCM}(15, 20, 25) = 2^2 \\times 3 \\times 5^2 = 4 \\times 3 \\times 25 = 300\n$$\n\n**Step 2: Find the greatest 4-digit multiple of 300**\n\nThe greatest 4-digit number is $9999$.\n\n$$\n9999 \\div 300 = 33 \\text{ with remainder } 99\n$$\n\n$$\n\\text{Greatest multiple} = 9999 - 99 = 9900\n$$\n\n**Step 3: Add the required remainder**\n\n$$\n\\text{Required number} = 9900 + 10 = 9910\n$$\n\n**Answer:** $9910$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q78",
+      "displayOrder": 78,
+      "questionText": "Find the least $5$-digit number that is completely divisible by $20$, $25$, $30$, and $36$.",
+      "solutionText": "**Step 1: Find the LCM of $20, 25, 30,$ and $36$**\n\n$$\n\\begin{aligned}\n20 &= 2^2 \\times 5 \\\\\n25 &= 5^2 \\\\\n30 &= 2 \\times 3 \\times 5 \\\\\n36 &= 2^2 \\times 3^2\n\\end{aligned}\n$$\n\n$$\n\\text{LCM}(20, 25, 30, 36) = 2^2 \\times 3^2 \\times 5^2 = 4 \\times 9 \\times 25 = 900\n$$\n\n**Step 2: Find the smallest 5-digit multiple of 900**\n\nThe smallest 5-digit number is $10000$.\n\n$$\n10000 \\div 900 = 11 \\text{ with remainder } 100\n$$\n\nTo find the next multiple:\n\n$$\n\\text{Required multiple} = 900 \\times 12 = 10800\n$$\n\n**Answer:** $10800$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q79",
+      "displayOrder": 79,
+      "questionText": "Find the largest number that divides $285$ and $1249$ leaving remainders $9$ and $7$ respectively.",
+      "solutionText": "If the required number divides $285$ leaving a remainder of $9$, it must divide:\n\n$$\n285 - 9 = 276 \\quad \\text{exactly}\n$$\n\nIf it divides $1249$ leaving a remainder of $7$, it must divide:\n\n$$\n1249 - 7 = 1242 \\quad \\text{exactly}\n$$\n\nThe largest such number is $\\text{HCF}(276, 1242)$.\n\nPrime factorisation:\n\n$$\n\\begin{aligned}\n276 &= 2^2 \\times 3 \\times 23 \\\\\n1242 &= 2 \\times 621 = 2 \\times 3^3 \\times 23\n\\end{aligned}\n$$\n\n$$\n\\text{HCF}(276, 1242) = 2^1 \\times 3^1 \\times 23^1 = 6 \\times 23 = 138\n$$\n\n**Answer:** $138$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q80",
+      "displayOrder": 80,
+      "questionText": "Find the greatest number that divides $398$, $436$, and $542$ leaving remainders $7$, $11$, and $15$ respectively.",
+      "solutionText": "The required number must exactly divide:\n\n$$\n398 - 7 = 391\n$$\n\n$$\n436 - 11 = 425\n$$\n\n$$\n542 - 15 = 527\n$$\n\nThus, we find $\\text{HCF}(391, 425, 527)$.\n\nPrime factorising each number:\n\n$$\n\\begin{aligned}\n391 &= 17 \\times 23 \\\\\n425 &= 5^2 \\times 17 \\\\\n527 &= 17 \\times 31\n\\end{aligned}\n$$\n\nThe common prime factor is $17$:\n\n$$\n\\text{HCF}(391, 425, 527) = 17\n$$\n\n**Answer:** $17$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q81",
+      "displayOrder": 81,
+      "questionText": "Find the greatest number that divides $1356$, $1868$, and $2764$ leaving the same remainder of $12$ in each case.",
+      "solutionText": "Subtracting the remainder $12$ from each number:\n\n$$\n1356 - 12 = 1344\n$$\n\n$$\n1868 - 12 = 1856\n$$\n\n$$\n2764 - 12 = 2752\n$$\n\nThe required number is $\\text{HCF}(1344, 1856, 2752)$.\n\nPrime factorisation:\n\n$$\n\\begin{aligned}\n1344 &= 2^6 \\times 3 \\times 7 \\\\\n1856 &= 2^6 \\times 29 \\\\\n2752 &= 2^6 \\times 43\n\\end{aligned}\n$$\n\nThe only common prime factor is $2^6$:\n\n$$\n\\text{HCF}(1344, 1856, 2752) = 2^6 = 64\n$$\n\n**Answer:** $64$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q82",
+      "displayOrder": 82,
+      "questionText": "Find the greatest number that will divide $43$, $91$, and $183$ so as to leave the same remainder in each case.",
+      "solutionText": "Let the required greatest number be $d$ and the common remainder be $r$.\n\nThen $43 - r$, $91 - r$, and $183 - r$ are all divisible by $d$.\n\nSince $d$ divides these numbers, it must also divide their differences:\n\n$$\n\\begin{aligned}\n(91 - r) - (43 - r) &= 91 - 43 = 48 \\\\\n(183 - r) - (91 - r) &= 183 - 91 = 92 \\\\\n(183 - r) - (43 - r) &= 183 - 43 = 140\n\\end{aligned}\n$$\n\nTherefore, $d = \\text{HCF}(48, 92, 140)$.\n\nPrime factorisation:\n\n$$\n\\begin{aligned}\n48 &= 2^4 \\times 3 \\\\\n92 &= 2^2 \\times 23 \\\\\n140 &= 2^2 \\times 5 \\times 7\n\\end{aligned}\n$$\n\n$$\n\\text{HCF}(48, 92, 140) = 2^2 = 4\n$$\n\n**Verification:**\n- $43 = 4 \\times 10 + 3$\n- $91 = 4 \\times 22 + 3$\n- $183 = 4 \\times 45 + 3$\n\nIn each case, the remainder is $3$.\n\n**Answer:** $4$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q83",
+      "displayOrder": 83,
+      "questionText": "Find the least number which when divided by $20$, $25$, $35$, and $40$ leaves remainders $14$, $19$, $29$, and $34$ respectively.",
+      "solutionText": "Notice the difference between each divisor and its corresponding remainder:\n\n$$\n\\begin{aligned}\n20 - 14 &= 6 \\\\\n25 - 19 &= 6 \\\\\n35 - 29 &= 6 \\\\\n40 - 34 &= 6\n\\end{aligned}\n$$\n\nThe difference $k = 6$ is constant.\n\nTherefore:\n\n$$\n\\text{Required Number} = \\text{LCM}(20, 25, 35, 40) - 6\n$$\n\n**Step 1: Find $\\text{LCM}(20, 25, 35, 40)$**\n\n$$\n\\begin{aligned}\n20 &= 2^2 \\times 5 \\\\\n25 &= 5^2 \\\\\n35 &= 5 \\times 7 \\\\\n40 &= 2^3 \\times 5\n\\end{aligned}\n$$\n\n$$\n\\text{LCM} = 2^3 \\times 5^2 \\times 7 = 8 \\times 25 \\times 7 = 200 \\times 7 = 1400\n$$\n\n**Step 2: Subtract the common difference**\n\n$$\n\\text{Required Number} = 1400 - 6 = 1394\n$$\n\n**Answer:** $1394$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q84",
+      "displayOrder": 84,
+      "questionText": "Two ropes of lengths $64\\text{ m}$ and $80\\text{ m}$ are to be cut into pieces of equal length. Find the maximum possible length of each piece, and the total number of pieces obtained.",
+      "solutionText": "1. **Maximum length of each piece:**\nThe maximum length of each piece must be the $\\text{HCF}(64, 80)$.\n\nPrime factorisations:\n\n$$\n64 = 2^6\n$$\n\n$$\n80 = 2^4 \\times 5\n$$\n\n$$\n\\text{HCF}(64, 80) = 2^4 = 16\\text{ m}\n$$\n\n2. **Total number of pieces:**\n\n$$\n\\text{Pieces from first rope} = \\frac{64}{16} = 4\n$$\n\n$$\n\\text{Pieces from second rope} = \\frac{80}{16} = 5\n$$\n\n$$\n\\text{Total pieces} = 4 + 5 = 9\n$$\n\n**Answer:** Maximum length of each piece is $16\\text{ m}$; total number of pieces is $9$.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q85",
+      "displayOrder": 85,
+      "questionText": "A rectangular courtyard is $20\\text{ m } 16\\text{ cm}$ long and $15\\text{ m } 60\\text{ cm}$ broad. Find the least number of square stones of equal size required to pave it completely.",
+      "solutionText": "**Step 1: Convert dimensions to centimetres**\n\n$$\n\\text{Length } L = 2016\\text{ cm}\n$$\n\n$$\n\\text{Breadth } B = 1560\\text{ cm}\n$$\n\n**Step 2: Find the side of the largest square stone**\n\nThe side of each square stone is $\\text{HCF}(2016, 1560)$.\n\nPrime factorisations:\n\n$$\n\\begin{aligned}\n2016 &= 2^5 \\times 3^2 \\times 7 \\\\\n1560 &= 2^3 \\times 3 \\times 5 \\times 13\n\\end{aligned}\n$$\n\n$$\n\\text{HCF}(2016, 1560) = 2^3 \\times 3 = 8 \\times 3 = 24\\text{ cm}\n$$\n\n**Step 3: Minimum number of square stones**\n\n$$\n\\text{Number of stones} = \\frac{\\text{Area of courtyard}}{\\text{Area of one square stone}} = \\frac{2016 \\times 1560}{24 \\times 24}\n$$\n\n$$\n= \\left(\\frac{2016}{24}\\right) \\times \\left(\\frac{1560}{24}\\right) = 84 \\times 65 = 5460\n$$\n\n**Answer:** $5460\\text{ stones}$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q86",
+      "displayOrder": 86,
+      "questionText": "A sweet seller has $420$ Kaju barfis and $130$ Badam barfis. She wants to stack them in such a way that each stack has the same number, and they take up the least area of the tray.\n\nWhat is the maximum number of barfis that can be placed in each stack for this purpose?",
+      "solutionText": "To minimise the tray area used, the number of barfis in each stack must be maximised. Therefore, the number of barfis in each stack must be the $\\text{HCF}(420, 130)$.\n\nPrime factorisations:\n\n$$\n\\begin{aligned}\n420 &= 2^2 \\times 3 \\times 5 \\times 7 \\\\\n130 &= 2 \\times 5 \\times 13\n\\end{aligned}\n$$\n\nTaking the smallest powers of common prime factors:\n\n$$\n\\text{HCF}(420, 130) = 2^1 \\times 5^1 = 10\n$$\n\nThus, the sweet seller can make stacks of $10$ barfis each.\n\n**Answer:** $10\\text{ barfis per stack}$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q87",
+      "displayOrder": 87,
+      "questionText": "In a town, School $A$'s period bell rings every $40\\text{ minutes}$ and School $B$'s period bell rings every $45\\text{ minutes}$. If both bells ring together at $8\\text{:}00\\text{ AM}$, at what time will they ring together next?",
+      "solutionText": "The time interval between simultaneous rings is the $\\text{LCM}(40, 45)$.\n\nPrime factorisation:\n\n$$\n\\begin{aligned}\n40 &= 2^3 \\times 5 \\\\\n45 &= 3^2 \\times 5\n\\end{aligned}\n$$\n\n$$\n\\text{LCM}(40, 45) = 2^3 \\times 3^2 \\times 5 = 8 \\times 9 \\times 5 = 360\\text{ minutes}\n$$\n\nConvert $360\\text{ minutes}$ into hours:\n\n$$\n\\frac{360}{60} = 6\\text{ hours}\n$$\n\nAdding $6\\text{ hours}$ to $8\\text{:}00\\text{ AM}$:\n\n$$\n8\\text{:}00\\text{ AM} + 6\\text{ hours} = 2\\text{:}00\\text{ PM}\n$$\n\n**Answer:** $2\\text{:}00\\text{ PM}$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q88",
+      "displayOrder": 88,
+      "questionText": "Four cyclists start together around a circular track of length $12\\text{ km}$ with speeds of $3\\text{ km/h}$, $4\\text{ km/h}$, $6\\text{ km/h}$, and $12\\text{ km/h}$ respectively. After how many hours will they meet again at the starting point?",
+      "solutionText": "First, find the time taken by each cyclist to complete one full round:\n\n$$\n\\begin{aligned}\nT_1 &= \\frac{12}{3} = 4\\text{ hours} \\\\\nT_2 &= \\frac{12}{4} = 3\\text{ hours} \\\\\nT_3 &= \\frac{12}{6} = 2\\text{ hours} \\\\\nT_4 &= \\frac{12}{12} = 1\\text{ hour}\n\\end{aligned}\n$$\n\nThey will meet again at the starting point after a time equal to $\\text{LCM}(4, 3, 2, 1)$:\n\n$$\n\\begin{aligned}\n4 &= 2^2 \\\\\n3 &= 3^1 \\\\\n2 &= 2^1 \\\\\n1 &= 1\n\\end{aligned}\n$$\n\n$$\n\\text{LCM}(4, 3, 2, 1) = 2^2 \\times 3^1 = 12\\text{ hours}\n$$\n\n**Answer:** $12\\text{ hours}$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q89",
+      "displayOrder": 89,
+      "questionText": "Three people step off together for a morning walk. Their steps measure $70\\text{ cm}$, $75\\text{ cm}$, and $80\\text{ cm}$ respectively. What is the minimum distance each should walk so that all can cover the same distance in complete steps?",
+      "solutionText": "The required minimum distance is the Least Common Multiple ($\\text{LCM}$) of $70\\text{ cm}$, $75\\text{ cm}$, and $80\\text{ cm}$.\n\nPrime factorisation:\n\n$$\n\\begin{aligned}\n70 &= 2 \\times 5 \\times 7 \\\\\n75 &= 3 \\times 5^2 \\\\\n80 &= 2^4 \\times 5\n\\end{aligned}\n$$\n\n$$\n\\text{LCM}(70, 75, 80) = 2^4 \\times 3^1 \\times 5^2 \\times 7^1 = 16 \\times 3 \\times 25 \\times 7 = 8400\\text{ cm}\n$$\n\nConvert to metres:\n\n$$\n\\frac{8400}{100} = 84\\text{ metres}\n$$\n\n**Answer:** $8400\\text{ cm}$ (or $84\\text{ metres}$)",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q90",
+      "displayOrder": 90,
+      "questionText": "A fruit vendor has $108$ oranges, $144$ apples, and $180$ bananas. He wants to pack them into identical cartons such that each carton contains the same combination of fruits without any fruit left over.\n\n1. What is the maximum number of cartons he can pack?\n2. How many fruits of each type will be in one carton?",
+      "solutionText": "1. **Maximum number of cartons:**\nThe number of cartons must be $\\text{HCF}(108, 144, 180)$.\n\nPrime factorisations:\n\n$$\n\\begin{aligned}\n108 &= 2^2 \\times 3^3 \\\\\n144 &= 2^4 \\times 3^2 \\\\\n180 &= 2^2 \\times 3^2 \\times 5\n\\end{aligned}\n$$\n\n$$\n\\text{HCF}(108, 144, 180) = 2^2 \\times 3^2 = 4 \\times 9 = 36\\text{ cartons}\n$$\n\n2. **Fruits per carton:**\n\n$$\n\\text{Oranges per carton} = \\frac{108}{36} = 3\n$$\n\n$$\n\\text{Apples per carton} = \\frac{144}{36} = 4\n$$\n\n$$\n\\text{Bananas per carton} = \\frac{180}{36} = 5\n$$\n\n**Answer:** Maximum cartons $= 36$; each carton contains $3$ oranges, $4$ apples, and $5$ bananas.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q91",
+      "displayOrder": 91,
+      "questionText": "Given three positive integers $p = 12$, $q = 15$, and $r = 21$, verify the formula:\n\n$$\n\\text{HCF}(p, q, r) = \\frac{p \\cdot q \\cdot r \\cdot \\text{LCM}(p, q, r)}{\\text{LCM}(p, q) \\cdot \\text{LCM}(q, r) \\cdot \\text{LCM}(p, r)}\n$$",
+      "solutionText": "Given $p = 12, q = 15, r = 21$.\n\n1. **Calculate overall LCM and direct HCF:**\n$$\n12 = 2^2 \\times 3, \\quad 15 = 3 \\times 5, \\quad 21 = 3 \\times 7\n$$\n$$\n\\text{HCF}(12, 15, 21) = 3\n$$\n$$\n\\text{LCM}(12, 15, 21) = 2^2 \\times 3 \\times 5 \\times 7 = 420\n$$\n\n2. **Calculate pairwise LCMs:**\n$$\n\\text{LCM}(12, 15) = 60\n$$\n$$\n\\text{LCM}(15, 21) = 105\n$$\n$$\n\\text{LCM}(12, 21) = 84\n$$\n\n3. **Substitute into the formula:**\n$$\n\\text{Numerator} = 12 \\times 15 \\times 21 \\times 420 = 3780 \\times 420 = 1587600\n$$\n$$\n\\text{Denominator} = 60 \\times 105 \\times 84 = 6300 \\times 84 = 529200\n$$\n$$\n\\text{HCF}(12, 15, 21) = \\frac{1587600}{529200} = 3\n$$\n\nThe calculated value equals the direct $\\text{HCF} = 3$. Hence verified.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q92",
+      "displayOrder": 92,
+      "questionText": "Find the HCF and LCM of $44$, $110$, and $132$ using the prime factorisation method.",
+      "solutionText": "Prime factorise each number:\n\n$$\n\\begin{aligned}\n44 &= 2^2 \\times 11 \\\\\n110 &= 2^1 \\times 5^1 \\times 11^1 \\\\\n132 &= 2^2 \\times 3^1 \\times 11^1\n\\end{aligned}\n$$\n\n1. **HCF calculation:**\nCommon prime factors are $2$ and $11$.\n\n$$\n\\text{Smallest power of } 2 = 2^1\n$$\n\n$$\n\\text{Smallest power of } 11 = 11^1\n$$\n\n$$\n\\text{HCF}(44, 110, 132) = 2^1 \\times 11^1 = 22\n$$\n\n2. **LCM calculation:**\nTake the greatest power of each prime factor ($2, 3, 5, 11$):\n\n$$\n\\text{LCM}(44, 110, 132) = 2^2 \\times 3^1 \\times 5^1 \\times 11^1 = 4 \\times 3 \\times 5 \\times 11 = 660\n$$\n\n**Answer:** $\\text{HCF} = 22$, $\\text{LCM} = 660$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q93",
+      "displayOrder": 93,
+      "questionText": "If $\\text{HCF}(a, 8) = 4$ and $\\text{LCM}(a, 8) = 24$, find the value of the positive integer $a$.",
+      "solutionText": "For any two positive integers $a$ and $b$:\n\n$$\n\\text{HCF}(a, b) \\times \\text{LCM}(a, b) = a \\times b\n$$\n\nSubstitute $b = 8$, $\\text{HCF} = 4$, and $\\text{LCM} = 24$:\n\n$$\n4 \\times 24 = a \\times 8\n$$\n\n$$\n96 = 8a \\implies a = \\frac{96}{8} = 12\n$$\n\n**Answer:** $a = 12$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q94",
+      "displayOrder": 94,
+      "questionText": "Prove that $\\sqrt{11}$ is an irrational number.",
+      "solutionText": "Let us assume, to the contrary, that $\\sqrt{11}$ is rational.\n\nThen there exist coprime positive integers $a$ and $b$ ($b \\neq 0$) such that:\n\n$$\n\\sqrt{11} = \\frac{a}{b}\n$$\n\nSquaring both sides:\n\n$$\n11 = \\frac{a^2}{b^2} \\implies 11b^2 = a^2 \\quad \\text{--- (1)}\n$$\n\nThis means $11$ divides $a^2$.\n\nSince $11$ is a prime number, by Theorem 1.2, $11$ must also divide $a$.\n\nLet $a = 11c$ for some integer $c$.\n\nSubstituting $a = 11c$ into equation (1):\n\n$$\n11b^2 = (11c)^2 = 121c^2 \\implies b^2 = 11c^2 \\quad \\text{--- (2)}\n$$\n\nThis shows that $11$ divides $b^2$, which implies $11$ divides $b$.\n\nThus, $11$ is a common factor of both $a$ and $b$.\n\nThis contradicts the assumption that $a$ and $b$ are coprime.\n\nHence, $\\sqrt{11}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q95",
+      "displayOrder": 95,
+      "questionText": "Prove that $\\sqrt{13}$ is irrational.",
+      "solutionText": "Assume, to the contrary, that $\\sqrt{13}$ is rational.\n\nThen there exist coprime positive integers $a$ and $b$ ($b \\neq 0$) such that:\n\n$$\n\\sqrt{13} = \\frac{a}{b}\n$$\n\nSquaring both sides:\n\n$$\n13b^2 = a^2 \\quad \\text{--- (1)}\n$$\n\nThus, $13$ divides $a^2$, which implies $13$ divides $a$ (since $13$ is prime).\n\nLet $a = 13k$ for some integer $k$.\n\nSubstituting into equation (1):\n\n$$\n13b^2 = 169k^2 \\implies b^2 = 13k^2\n$$\n\nThis means $13$ divides $b^2$, and hence $13$ divides $b$.\n\nTherefore, $a$ and $b$ share a common factor of $13$, contradicting the fact that $a$ and $b$ are coprime.\n\nHence, $\\sqrt{13}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q96",
+      "displayOrder": 96,
+      "questionText": "Show that $2 + \\sqrt{3}$ is an irrational number, given that $\\sqrt{3}$ is irrational.",
+      "solutionText": "Let us assume, to the contrary, that $2 + \\sqrt{3}$ is rational.\n\nThen:\n\n$$\n2 + \\sqrt{3} = \\frac{a}{b}\n$$\n\nwhere $a$ and $b$ are coprime integers and $b \\neq 0$.\n\nRearranging:\n\n$$\n\\sqrt{3} = \\frac{a}{b} - 2 = \\frac{a - 2b}{b}\n$$\n\nSince $a$ and $b$ are integers and $b \\neq 0$, the expression $\\frac{a - 2b}{b}$ is a rational number.\n\nThis implies that $\\sqrt{3}$ is rational, which contradicts the given fact that $\\sqrt{3}$ is irrational.\n\nHence, our assumption is incorrect, and $2 + \\sqrt{3}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q97",
+      "displayOrder": 97,
+      "questionText": "Prove that $4 - 3\\sqrt{2}$ is irrational, given that $\\sqrt{2}$ is irrational.",
+      "solutionText": "Assume, to the contrary, that $4 - 3\\sqrt{2}$ is rational.\n\nThen there exist coprime integers $a$ and $b$ with $b \\neq 0$ such that:\n\n$$\n4 - 3\\sqrt{2} = \\frac{a}{b}\n$$\n\nRearranging:\n\n$$\n4 - \\frac{a}{b} = 3\\sqrt{2}\n$$\n\n$$\n\\frac{4b - a}{b} = 3\\sqrt{2}\n$$\n\nDividing by $3$:\n\n$$\n\\sqrt{2} = \\frac{4b - a}{3b}\n$$\n\nSince $a$ and $b$ are integers and $3b \\neq 0$, $\\frac{4b - a}{3b}$ is a rational number.\n\nThis implies $\\sqrt{2}$ is rational, contradicting the fact that $\\sqrt{2}$ is irrational.\n\nHence, $4 - 3\\sqrt{2}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q98",
+      "displayOrder": 98,
+      "questionText": "Prove that $\\frac{5\\sqrt{3}}{2}$ is irrational, given that $\\sqrt{3}$ is irrational.",
+      "solutionText": "Let us assume, to the contrary, that $\\frac{5\\sqrt{3}}{2}$ is rational.\n\nThen:\n\n$$\n\\frac{5\\sqrt{3}}{2} = \\frac{a}{b}\n$$\n\nwhere $a$ and $b$ are coprime integers with $b \\neq 0$.\n\nMultiplying both sides by $\\frac{2}{5}$:\n\n$$\n\\sqrt{3} = \\frac{2a}{5b}\n$$\n\nSince $a$ and $b$ are integers and $5b \\neq 0$, $\\frac{2a}{5b}$ is a rational number.\n\nThis means $\\sqrt{3}$ is rational, which is a contradiction.\n\nHence, $\\frac{5\\sqrt{3}}{2}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q99",
+      "displayOrder": 99,
+      "questionText": "Prove that $\\frac{3}{2\\sqrt{5}}$ is irrational, given that $\\sqrt{5}$ is irrational.",
+      "solutionText": "Assume, to the contrary, that $\\frac{3}{2\\sqrt{5}}$ is rational.\n\nThen:\n\n$$\n\\frac{3}{2\\sqrt{5}} = \\frac{a}{b}\n$$\n\nwhere $a, b$ are non-zero integers.\n\nTaking the reciprocal:\n\n$$\n\\frac{2\\sqrt{5}}{3} = \\frac{b}{a}\n$$\n\nMultiplying by $\\frac{3}{2}$:\n\n$$\n\\sqrt{5} = \\frac{3b}{2a}\n$$\n\nSince $a$ and $b$ are non-zero integers, $\\frac{3b}{2a}$ is rational.\n\nThis implies $\\sqrt{5}$ is rational, contradicting the known fact that $\\sqrt{5}$ is irrational.\n\nHence, $\\frac{3}{2\\sqrt{5}}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q100",
+      "displayOrder": 100,
+      "questionText": "Prove that $2\\sqrt{3} - 7$ is irrational.",
+      "solutionText": "Assume, to the contrary, that $2\\sqrt{3} - 7$ is rational.\n\nLet $2\\sqrt{3} - 7 = \\frac{a}{b}$, where $a, b \\in \\mathbb{Z}$ and $b \\neq 0$.\n\n$$\n2\\sqrt{3} = \\frac{a}{b} + 7 = \\frac{a + 7b}{b}\n$$\n\n$$\n\\sqrt{3} = \\frac{a + 7b}{2b}\n$$\n\nSince $a, b \\in \\mathbb{Z}$ and $2b \\neq 0$, the right-hand side is rational, implying $\\sqrt{3}$ is rational.\n\nThis contradicts the fact that $\\sqrt{3}$ is irrational.\n\nHence, $2\\sqrt{3} - 7$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q101",
+      "displayOrder": 101,
+      "questionText": "Prove that $\\frac{\\sqrt{2}}{3}$ is irrational.",
+      "solutionText": "Assume, to the contrary, that $\\frac{\\sqrt{2}}{3}$ is rational.\n\nLet:\n\n$$\n\\frac{\\sqrt{2}}{3} = \\frac{a}{b}\n$$\n\nwhere $a, b \\in \\mathbb{Z}$ and $b \\neq 0$.\n\nMultiplying both sides by $3$:\n\n$$\n\\sqrt{2} = \\frac{3a}{b}\n$$\n\nSince $3, a,$ and $b$ are integers with $b \\neq 0$, $\\frac{3a}{b}$ is rational.\n\nThis implies $\\sqrt{2}$ is rational, which contradicts the fact that $\\sqrt{2}$ is irrational.\n\nHence, $\\frac{\\sqrt{2}}{3}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q102",
+      "displayOrder": 102,
+      "questionText": "Prove that $\\frac{1}{3 + \\sqrt{2}}$ is irrational.",
+      "solutionText": "Assume, to the contrary, that $\\frac{1}{3 + \\sqrt{2}}$ is rational.\n\nThen:\n\n$$\n\\frac{1}{3 + \\sqrt{2}} = \\frac{a}{b}\n$$\n\nwhere $a, b$ are coprime non-zero integers.\n\nTaking the reciprocal:\n\n$$\n3 + \\sqrt{2} = \\frac{b}{a}\n$$\n\n$$\n\\sqrt{2} = \\frac{b}{a} - 3 = \\frac{b - 3a}{a}\n$$\n\nSince $a, b$ are integers and $a \\neq 0$, $\\frac{b - 3a}{a}$ is rational.\n\nThis implies $\\sqrt{2}$ is rational, which contradicts the theorem that $\\sqrt{2}$ is irrational.\n\nHence, $\\frac{1}{3 + \\sqrt{2}}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q103",
+      "displayOrder": 103,
+      "questionText": "Prove that $\\sqrt{3} + \\sqrt{5}$ is an irrational number.",
+      "solutionText": "Let us assume, to the contrary, that $\\sqrt{3} + \\sqrt{5}$ is rational.\n\nLet:\n\n$$\nx = \\sqrt{3} + \\sqrt{5}, \\quad \\text{where } x \\in \\mathbb{Q} \\text{ and } x > 0\n$$\n\nRearranging:\n\n$$\nx - \\sqrt{3} = \\sqrt{5}\n$$\n\nSquaring both sides:\n\n$$\n(x - \\sqrt{3})^2 = (\\sqrt{5})^2\n$$\n\n$$\nx^2 - 2x\\sqrt{3} + 3 = 5\n$$\n\n$$\nx^2 - 2 = 2x\\sqrt{3}\n$$\n\nDividing by $2x$ (since $x \\neq 0$):\n\n$$\n\\sqrt{3} = \\frac{x^2 - 2}{2x}\n$$\n\nSince $x$ is rational and non-zero, $\\frac{x^2 - 2}{2x}$ is rational.\n\nThis implies that $\\sqrt{3}$ is rational, which is a contradiction.\n\nHence, $\\sqrt{3} + \\sqrt{5}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q104",
+      "displayOrder": 104,
+      "questionText": "Prove that $\\sqrt{5} - \\sqrt{2}$ is irrational.",
+      "solutionText": "Assume, to the contrary, that $\\sqrt{5} - \\sqrt{2}$ is rational.\n\nLet:\n\n$$\nx = \\sqrt{5} - \\sqrt{2}, \\quad x \\in \\mathbb{Q} \\text{ and } x > 0\n$$\n\nRearranging:\n\n$$\nx + \\sqrt{2} = \\sqrt{5}\n$$\n\nSquaring both sides:\n\n$$\n(x + \\sqrt{2})^2 = 5\n$$\n\n$$\nx^2 + 2x\\sqrt{2} + 2 = 5\n$$\n\n$$\n2x\\sqrt{2} = 3 - x^2\n$$\n\n$$\n\\sqrt{2} = \\frac{3 - x^2}{2x}\n$$\n\nSince $x$ is rational and $x \\neq 0$, the right-hand side $\\frac{3 - x^2}{2x}$ is rational.\n\nThis means $\\sqrt{2}$ is rational, which contradicts the fact that $\\sqrt{2}$ is irrational.\n\nHence, $\\sqrt{5} - \\sqrt{2}$ is irrational.",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q105",
+      "displayOrder": 105,
+      "questionText": "Classify the expression $(3 + \\sqrt{7})(3 - \\sqrt{7})$ as rational or irrational, and justify your answer.",
+      "solutionText": "Using the algebraic identity $(a + b)(a - b) = a^2 - b^2$:\n\n$$\n(3 + \\sqrt{7})(3 - \\sqrt{7}) = 3^2 - (\\sqrt{7})^2 = 9 - 7 = 2\n$$\n\nSince $2 = \\frac{2}{1}$ is the ratio of two integers with non-zero denominator, it is a rational number.\n\n**Answer:** Rational ($= 2$)",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q106",
+      "displayOrder": 106,
+      "questionText": "Classify $(2 + \\sqrt{3})^2$ as rational or irrational, giving proper mathematical justification.",
+      "solutionText": "Expanding using the identity $(a + b)^2 = a^2 + 2ab + b^2$:\n\n$$\n(2 + \\sqrt{3})^2 = 2^2 + 2(2)(\\sqrt{3}) + (\\sqrt{3})^2 = 4 + 4\\sqrt{3} + 3 = 7 + 4\\sqrt{3}\n$$\n\nHere, $7$ is a rational number and $4\\sqrt{3}$ is an irrational number (product of non-zero rational $4$ and irrational $\\sqrt{3}$).\n\nThe sum of a rational number and an irrational number is always irrational.\n\nTherefore, $7 + 4\\sqrt{3}$ is irrational.\n\n**Answer:** Irrational ($= 7 + 4\\sqrt{3}$)",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q107",
+      "displayOrder": 107,
+      "questionText": "Simplify $\\frac{(\\sqrt{5} - \\sqrt{2})(\\sqrt{5} + \\sqrt{2})}{6}$ and determine whether the result is rational or irrational.",
+      "solutionText": "Apply the identity $(a - b)(a + b) = a^2 - b^2$ to the numerator:\n\n$$\n(\\sqrt{5} - \\sqrt{2})(\\sqrt{5} + \\sqrt{2}) = (\\sqrt{5})^2 - (\\sqrt{2})^2 = 5 - 2 = 3\n$$\n\nNow divide by $6$:\n\n$$\n\\frac{3}{6} = \\frac{1}{2}\n$$\n\nSince $\\frac{1}{2}$ is the ratio of two integers, it is a rational number.\n\n**Answer:** Rational ($= \\frac{1}{2}$)",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q108",
+      "displayOrder": 108,
+      "questionText": "Which of the following numbers is an irrational number?",
+      "solutionText": "Let us evaluate each option:\n\n1. $\\sqrt{144} = 12 = \\frac{12}{1}$ (Rational)\n2. $\\sqrt{0.04} = \\sqrt{\\frac{4}{100}} = \\frac{2}{10} = \\frac{1}{5}$ (Rational)\n3. $\\sqrt{7}$ cannot be expressed as a ratio of integers because $7$ is a prime number; hence it is **irrational**.\n4. $\\sqrt{2.25} = \\sqrt{\\frac{225}{100}} = \\frac{15}{10} = \\frac{3}{2}$ (Rational)\n\n**Answer:** Option 3 ($\\sqrt{7}$)",
+      "options": [
+        {
+          "id": "c10_mathemat_ch1_example_main_q108_r1_o1",
+          "text": "$\\sqrt{144}$",
+          "displayOrder": 1,
+          "isCorrect": false
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q108_r1_o2",
+          "text": "$\\sqrt{0.04}$",
+          "displayOrder": 2,
+          "isCorrect": false
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q108_r1_o3",
+          "text": "$\\sqrt{7}$",
+          "displayOrder": 3,
+          "isCorrect": true
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q108_r1_o4",
+          "text": "$\\sqrt{2.25}$",
+          "displayOrder": 4,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q109",
+      "displayOrder": 109,
+      "questionText": "If $\\text{HCF}(a, b) = 18$ and $a \\times b = 1944$, find $\\text{LCM}(a, b)$.",
+      "solutionText": "Using the product property:\n\n$$\n\\text{LCM}(a, b) = \\frac{a \\times b}{\\text{HCF}(a, b)} = \\frac{1944}{18}\n$$\n\nDividing:\n\n$$\n1944 \\div 18 = 108\n$$\n\n**Answer:** Option 2 ($108$)",
+      "options": [
+        {
+          "id": "c10_mathemat_ch1_example_main_q109_r1_o1",
+          "text": "$96$",
+          "displayOrder": 1,
+          "isCorrect": false
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q109_r1_o2",
+          "text": "$108$",
+          "displayOrder": 2,
+          "isCorrect": true
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q109_r1_o3",
+          "text": "$112$",
+          "displayOrder": 3,
+          "isCorrect": false
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q109_r1_o4",
+          "text": "$124$",
+          "displayOrder": 4,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q110",
+      "displayOrder": 110,
+      "questionText": "If the prime factorisation of a number is $N = 2^3 \\times 3^2 \\times 5^1$, find the total number of positive factors of $N$.",
+      "solutionText": "If a positive integer $N$ has the prime factorisation $p_1^{a} \\times p_2^{b} \\times p_3^{c}$, then the total number of positive divisors (factors) is given by:\n\n$$\n\\text{Total factors} = (a + 1)(b + 1)(c + 1)\n$$\n\nFor $N = 2^3 \\times 3^2 \\times 5^1$:\n\n$$\na = 3, \\quad b = 2, \\quad c = 1\n$$\n\n$$\n\\text{Total factors} = (3 + 1)(2 + 1)(1 + 1) = 4 \\times 3 \\times 2 = 24\n$$\n\n**Answer:** Option 3 ($24$)",
+      "options": [
+        {
+          "id": "c10_mathemat_ch1_example_main_q110_r1_o1",
+          "text": "$12$",
+          "displayOrder": 1,
+          "isCorrect": false
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q110_r1_o2",
+          "text": "$18$",
+          "displayOrder": 2,
+          "isCorrect": false
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q110_r1_o3",
+          "text": "$24$",
+          "displayOrder": 3,
+          "isCorrect": true
+        },
+        {
+          "id": "c10_mathemat_ch1_example_main_q110_r1_o4",
+          "text": "$30$",
+          "displayOrder": 4,
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q111",
+      "displayOrder": 111,
+      "questionText": "Find the largest positive integer that divides $70$ and $125$, leaving remainders $5$ and $8$ respectively.",
+      "solutionText": "The required number must divide:\n\n$$\n70 - 5 = 65 \\quad \\text{and} \\quad 125 - 8 = 117 \\quad \\text{exactly}\n$$\n\nThus, we find $\\text{HCF}(65, 117)$.\n\nPrime factorisation:\n\n$$\n\\begin{aligned}\n65 &= 5 \\times 13 \\\\\n117 &= 3^2 \\times 13\n\\end{aligned}\n$$\n\nThe common prime factor is $13$:\n\n$$\n\\text{HCF}(65, 117) = 13\n$$\n\n**Answer:** $13$",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q112",
+      "displayOrder": 112,
+      "questionText": "A merchant has three varieties of oil: $403\\text{ litres}$ of mustard oil, $434\\text{ litres}$ of sunflower oil, and $465\\text{ litres}$ of olive oil. He wants to pack them into tins of equal capacity such that no oil is mixed and no oil is left over.\n\nFind the minimum number of tins required.",
+      "solutionText": "**Step 1: Find the capacity of each tin**\n\nTo minimise the number of tins, the capacity of each tin must be the maximum possible, which is $\\text{HCF}(403, 434, 465)$.\n\nPrime factorisation:\n\n$$\n\\begin{aligned}\n403 &= 13 \\times 31 \\\\\n434 &= 2 \\times 7 \\times 31 \\\\\n465 &= 3 \\times 5 \\times 31\n\\end{aligned}\n$$\n\n$$\n\\text{HCF}(403, 434, 465) = 31\\text{ litres}\n$$\n\n**Step 2: Find the total number of tins**\n\n$$\n\\text{Tins for mustard oil} = \\frac{403}{31} = 13\n$$\n\n$$\n\\text{Tins for sunflower oil} = \\frac{434}{31} = 14\n$$\n\n$$\n\\text{Tins for olive oil} = \\frac{465}{31} = 15\n$$\n\n$$\n\\text{Total tins} = 13 + 14 + 15 = 42\n$$\n\n**Answer:** $42\\text{ tins}$ (each of capacity $31\\text{ litres}$)",
+      "options": []
+    },
+    {
+      "id": "c10_mathemat_ch1_example_main_q113",
+      "displayOrder": 113,
+      "questionText": "Let $a$ be a non-zero rational number and $\\sqrt{b}$ be an irrational number. Prove that their product $a\\sqrt{b}$ is always an irrational number.",
+      "solutionText": "Let us assume, to the contrary, that $a\\sqrt{b}$ is a rational number.\n\nLet:\n\n$$\na\\sqrt{b} = r, \\quad \\text{where } r \\in \\mathbb{Q}\n$$\n\nSince $a$ is a non-zero rational number ($a \\neq 0$), we can divide both sides by $a$:\n\n$$\n\\sqrt{b} = \\frac{r}{a}\n$$\n\nSince the set of rational numbers is closed under division by non-zero rational numbers, and both $r$ and $a$ are rational with $a \\neq 0$, the quotient $\\frac{r}{a}$ is a rational number.\n\nThis implies that $\\sqrt{b}$ is rational.\n\nHowever, this directly contradicts the given hypothesis that $\\sqrt{b}$ is irrational.\n\nThis contradiction arose because of our assumption that $a\\sqrt{b}$ is rational.\n\nTherefore, $a\\sqrt{b}$ is irrational.\n\nHence proved.",
+      "options": []
+    }
+  ]
 }

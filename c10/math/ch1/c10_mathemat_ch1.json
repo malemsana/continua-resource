@@ -10,7 +10,8 @@
       "fileName": "c10_mathemat_ch1_ncert.pdf"
     },
     "formulaSheet": {
-      "exists": false
+      "exists": true,
+      "fileName": "c10_mathemat_ch1_formula.json"
     },
     "solutions": {
       "exists": true,
@@ -18,7 +19,9 @@
       "fileName": "c10_mathemat_ch1_sol.json"
     },
     "examples": {
-      "exists": false
+      "exists": true,
+      "questionCount": 113,
+      "fileName": "c10_mathemat_ch1_example.json"
     },
     "pyq": {
       "exists": false
