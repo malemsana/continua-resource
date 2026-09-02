@@ -2,5 +2,61 @@
   "id": "c10_mathemat_ch1_pyq",
   "chapterId": "c10_mathemat_ch1",
   "friendlyName": "Past Years Questions",
-  "groups": []
+  "groups": [
+    {
+      "id": "2026",
+      "friendlyName": "2026 (Set 1)",
+      "displayOrder": 1,
+      "questions": [
+        {
+          "id": "c10_mathemat_ch1_pyq_2026_q1",
+          "displayOrder": 1,
+          "questionText": "In a school, there are two Sections A and B of Class X. There are 48 students in Section A and 36 students in Section B. Determine the minimum number of books required for their class library so that they can be distributed equally among the students of Section A or that of Section B.",
+          "solutionText": "To find the minimum number of books required so that they can be distributed equally among the 48 students of Section A or the 36 students of Section B, we need to determine the Least Common Multiple (LCM) of 48 and 36.\n\n**Step 1: Express 48 and 36 as products of their prime factors:**\n$$48 = 2^4 \\times 3$$\n$$36 = 2^2 \\times 3^2$$\n\n**Step 2: Find the LCM:**\n$$\\text{LCM}(48, 36) = 2^{\\max(4,2)} \\times 3^{\\max(1,2)} = 2^4 \\times 3^2 = 16 \\times 9 = 144$$\n\nTherefore, the minimum number of books required for their class library is **144**.",
+          "sourceInfo": "CBSE Board 2026 (Set 1), Q21",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch1_pyq_2026_q2",
+          "displayOrder": 2,
+          "questionText": "Case Study - 1\nA Mathematics exhibition is being conducted in your school and one of your friends is making a model of a 'factor tree'. He has some difficulty and asks for your help in completing a quiz for the audience.\n\nObserve the following 'factor tree' and answer the following questions :\n*(Note: The original question contains a factor tree diagram where the root node $a$ branches into $5$ and $4823$; the node $4823$ branches into $371$ and $b$; and the node $371$ branches into $7$ and $c$.)*\n\n(i) What is the value of a?\n(ii) (a) What is the value of b?\nOR\n(b) What is the value of c?\n(iii) Write the prime factorisation of 24115.",
+          "solutionText": "**(i) Value of $a$:**\nFrom the factor tree, the node $a$ splits into factors $5$ and $4823$:\n$$a = 5 \\times 4823 = 24115$$\n\n**(ii) (a) Value of $b$:**\nFrom the factor tree, $4823$ splits into factors $371$ and $b$:\n$$4823 = 371 \\times b$$\n$$b = \\frac{4823}{371} = 13$$\n\n**OR**\n\n**(ii) (b) Value of $c$:**\nFrom the factor tree, $371$ splits into factors $7$ and $c$:\n$$371 = 7 \\times c$$\n$$c = \\frac{371}{7} = 53$$\n\n**(iii) Prime factorisation of 24115:**\nUsing the values found from the factor tree:\n$$24115 = 5 \\times 4823 = 5 \\times b \\times 371 = 5 \\times 13 \\times 7 \\times 53$$\nWriting the prime factors in ascending order:\n$$24115 = 5 \\times 7 \\times 13 \\times 53$$",
+          "sourceInfo": "CBSE Board 2026 (Set 1), Q36",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch1_pyq_2026_q3",
+          "displayOrder": 3,
+          "questionText": "In a school, there are two Sections A and B of Class X. There are 48 students in Section A and 36 students in Section B. Determine the minimum number of books required for their class library so that they can be distributed equally among the students of Section A or that of Section B.",
+          "solutionText": "To find the minimum number of books required so that they can be distributed equally among the 48 students of Section A or the 36 students of Section B, we need to determine the Least Common Multiple (LCM) of 48 and 36.\n\n**Step 1: Express 48 and 36 as products of their prime factors:**\n$$48 = 2^4 \\times 3$$\n$$36 = 2^2 \\times 3^2$$\n\n**Step 2: Find the LCM:**\n$$\\text{LCM}(48, 36) = 2^{\\max(4,2)} \\times 3^{\\max(1,2)} = 2^4 \\times 3^2 = 16 \\times 9 = 144$$\n\nTherefore, the minimum number of books required for their class library is **144**.",
+          "sourceInfo": "CBSE Board 2026 (Set 2), Q23",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch1_pyq_2026_q4",
+          "displayOrder": 4,
+          "questionText": "Case Study - 2\nA Mathematics exhibition is being conducted in your school and one of your friends is making a model of a 'factor tree'. He has some difficulty and asks for your help in completing a quiz for the audience.\n\nObserve the following 'factor tree' and answer the following questions :\n*(Note: The original question contains a factor tree diagram where the root node $a$ branches into $5$ and $4823$; the node $4823$ branches into $371$ and $b$; and the node $371$ branches into $7$ and $c$.)*\n\n(i) What is the value of a?\n(ii) (a) What is the value of b?\nOR\n(b) What is the value of c?\n(iii) Write the prime factorisation of 24115.",
+          "solutionText": "**(i) Value of $a$:**\nFrom the factor tree, the node $a$ splits into factors $5$ and $4823$:\n$$a = 5 \\times 4823 = 24115$$\n\n**(ii) (a) Value of $b$:**\nFrom the factor tree, $4823$ splits into factors $371$ and $b$:\n$$4823 = 371 \\times b$$\n$$b = \\frac{4823}{371} = 13$$\n\n**OR**\n\n**(ii) (b) Value of $c$:**\nFrom the factor tree, $371$ splits into factors $7$ and $c$:\n$$371 = 7 \\times c$$\n$$c = \\frac{371}{7} = 53$$\n\n**(iii) Prime factorisation of 24115:**\nUsing the values found from the factor tree:\n$$24115 = 5 \\times 4823 = 5 \\times b \\times 371 = 5 \\times 13 \\times 7 \\times 53$$\nWriting the prime factors in ascending order:\n$$24115 = 5 \\times 7 \\times 13 \\times 53$$",
+          "sourceInfo": "CBSE Board 2026 (Set 2), Q37",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch1_pyq_2026_q5",
+          "displayOrder": 5,
+          "questionText": "In a school, there are two Sections A and B of Class X. There are 48 students in Section A and 36 students in Section B. Determine the minimum number of books required for their class library so that they can be distributed equally among the students of Section A or that of Section B.",
+          "solutionText": "To find the minimum number of books required so that they can be distributed equally among the 48 students of Section A or the 36 students of Section B, we need to determine the Least Common Multiple (LCM) of 48 and 36.\n\n**Step 1: Express 48 and 36 as products of their prime factors:**\n$$48 = 2^4 \\times 3$$\n$$36 = 2^2 \\times 3^2$$\n\n**Step 2: Find the LCM:**\n$$\\text{LCM}(48, 36) = 2^{\\max(4,2)} \\times 3^{\\max(1,2)} = 2^4 \\times 3^2 = 16 \\times 9 = 144$$\n\nTherefore, the minimum number of books required for their class library is **144**.",
+          "sourceInfo": "CBSE Board 2026 (Set 3), Q23",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch1_pyq_2026_q6",
+          "displayOrder": 6,
+          "questionText": "Case Study - 3\nA Mathematics exhibition is being conducted in your school and one of your friends is making a model of a 'factor tree'. He has some difficulty and asks for your help in completing a quiz for the audience.\n\nObserve the following 'factor tree' and answer the following questions :\n*(Note: The original question contains a factor tree diagram where the root node $a$ branches into $5$ and $4823$; the node $4823$ branches into $371$ and $b$; and the node $371$ branches into $7$ and $c$.)*\n\n(i) What is the value of a?\n(ii) (a) What is the value of b?\nOR\n(b) What is the value of c?\n(iii) Write the prime factorisation of 24115.",
+          "solutionText": "**(i) Value of $a$:**\nFrom the factor tree, the node $a$ splits into factors $5$ and $4823$:\n$$a = 5 \\times 4823 = 24115$$\n\n**(ii) (a) Value of $b$:**\nFrom the factor tree, $4823$ splits into factors $371$ and $b$:\n$$4823 = 371 \\times b$$\n$$b = \\frac{4823}{371} = 13$$\n\n**OR**\n\n**(ii) (b) Value of $c$:**\nFrom the factor tree, $371$ splits into factors $7$ and $c$:\n$$371 = 7 \\times c$$\n$$c = \\frac{371}{7} = 53$$\n\n**(iii) Prime factorisation of 24115:**\nUsing the values found from the factor tree:\n$$24115 = 5 \\times 4823 = 5 \\times b \\times 371 = 5 \\times 13 \\times 7 \\times 53$$\nWriting the prime factors in ascending order:\n$$24115 = 5 \\times 7 \\times 13 \\times 53$$",
+          "sourceInfo": "CBSE Board 2026 (Set 3), Q38",
+          "options": []
+        }
+      ]
+    }
+  ]
 }

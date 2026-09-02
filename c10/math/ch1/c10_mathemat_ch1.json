@@ -24,7 +24,9 @@
       "fileName": "c10_mathemat_ch1_example.json"
     },
     "pyq": {
-      "exists": false
+      "exists": true,
+      "yearCount": 1,
+      "fileName": "c10_mathemat_ch1_pyq.json"
     },
     "referenceFiles": {
       "exists": false
