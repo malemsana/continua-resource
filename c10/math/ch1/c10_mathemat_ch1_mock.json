@@ -1,0 +1,19 @@
+{
+  "id": "c10_mathemat_ch1_mock",
+  "chapterId": "c10_mathemat_ch1",
+  "friendlyName": "Mock Tests / Sample Papers",
+  "groups": [
+    {
+      "id": "c10_mathemat_ch1_mock_jv",
+      "friendlyName": "20 Mark Periodic Tests",
+      "files": [
+        {
+          "id": "mock_1788351240798_kd2p1",
+          "fileName": "Class10-20m-Mock-test-1.pdf",
+          "fileSizeBytes": 88343,
+          "downloadPath": "mocktest/Class10-20m-Mock-test-1.pdf"
+        }
+      ]
+    }
+  ]
+}

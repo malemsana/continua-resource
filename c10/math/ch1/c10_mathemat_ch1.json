@@ -30,7 +30,9 @@
       "exists": false
     },
     "mockTests": {
-      "exists": false
+      "exists": true,
+      "fileCount": 1,
+      "fileName": "c10_mathemat_ch1_mock.json"
     },
     "freeFlow": {
       "exists": false
