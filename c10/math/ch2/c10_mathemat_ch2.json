@@ -1,0 +1,41 @@
+{
+  "id": "c10_mathemat_ch2",
+  "classNumber": 10,
+  "subject": "Mathematics",
+  "chapterNumber": 2,
+  "friendlyName": "Polynomials",
+  "resources": {
+    "ncert": {
+      "exists": true,
+      "fileName": "c10_mathemat_ch2_ncert.pdf"
+    },
+    "formulaSheet": {
+      "exists": false
+    },
+    "solutions": {
+      "exists": true,
+      "groupCount": 2,
+      "fileName": "c10_mathemat_ch2_sol.json"
+    },
+    "examples": {
+      "exists": false
+    },
+    "pyq": {
+      "exists": false
+    },
+    "referenceFiles": {
+      "exists": false
+    },
+    "mockTests": {
+      "exists": false
+    },
+    "freeFlow": {
+      "exists": false
+    },
+    "assets": {
+      "exists": true,
+      "count": 1,
+      "folder": "assets"
+    }
+  }
+}

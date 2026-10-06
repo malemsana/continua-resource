@@ -1,0 +1,42 @@
+{
+  "id": "c10_mathemat_ch3",
+  "classNumber": 10,
+  "subject": "Mathematics",
+  "chapterNumber": 3,
+  "friendlyName": "Pair of Linier Equations",
+  "resources": {
+    "ncert": {
+      "exists": true,
+      "fileName": "c10_mathemat_ch3_ncert.pdf"
+    },
+    "formulaSheet": {
+      "exists": true,
+      "fileName": "c10_mathemat_ch3_formula.json"
+    },
+    "solutions": {
+      "exists": true,
+      "groupCount": 3,
+      "fileName": "c10_mathemat_ch3_sol.json"
+    },
+    "examples": {
+      "exists": false
+    },
+    "pyq": {
+      "exists": false
+    },
+    "referenceFiles": {
+      "exists": false
+    },
+    "mockTests": {
+      "exists": false
+    },
+    "freeFlow": {
+      "exists": false
+    },
+    "assets": {
+      "exists": true,
+      "count": 3,
+      "folder": "assets"
+    }
+  }
+}

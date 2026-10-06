@@ -1,0 +1,125 @@
+{
+  "id": "c10_mathemat_ch2_sol",
+  "chapterId": "c10_mathemat_ch2",
+  "friendlyName": "NCERT Solutions",
+  "groups": [
+    {
+      "id": "mb",
+      "friendlyName": "Exercise 2.1",
+      "displayOrder": 1,
+      "questions": [
+        {
+          "id": "c10_mathemat_ch2_sol_mb_q1",
+          "displayOrder": 1,
+          "questionText": "The graphs of y = p(x) are given in Fig. 2.10 below, for some polynomials p(x). Find the number of zeroes of p(x), in each case. \n\n![Figure](assets/sol_q_1788965483222_1_9aa5.webp)\n\n",
+          "solutionText": "The number of zeroes of a polynomial \\( p(x) \\) is equal to the number of points where the graph of \\( y = p(x) \\) intersects or touches the \\(x\\)-axis.\n\nBased on the given graphs in Fig. 2.10, the number of zeroes for each case is determined as follows:\n\n**(i)** The graph is a straight line parallel to the \\(x\\)-axis. Since it does not intersect the \\(x\\)-axis at any point, the number of zeroes is **0**.\n\n**(ii)** The graph intersects the \\(x\\)-axis at exactly one point. Therefore, the number of zeroes is **1**.\n\n**(iii)** The graph intersects the \\(x\\)-axis at three distinct points. Therefore, the number of zeroes is **3**.\n\n**(iv)** The graph intersects the \\(x\\)-axis at two distinct points. Therefore, the number of zeroes is **2**.\n\n**(v)** The graph intersects the \\(x\\)-axis at four distinct points. Therefore, the number of zeroes is **4**.\n\n**(vi)** The graph intersects the \\(x\\)-axis at one point and touches it at two other points. In total, it meets the \\(x\\)-axis at three points. Therefore, the number of zeroes is **3**.",
+          "sourceInfo": "Exercise 2.1 Q1",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "ll",
+      "friendlyName": "Exercise 2.2",
+      "displayOrder": 2,
+      "questions": [
+        {
+          "id": "c10_mathemat_ch2_sol_ll_q1",
+          "displayOrder": 1,
+          "questionText": "Find the zeroes of the following quadratic polynomials and verify the relationship between the zeroes and the coefficients: x^2 - 2x - 8",
+          "solutionText": "### Solution\n\n**Given:**\nThe quadratic polynomial is \\(p(x) = x^2 - 2x - 8\\).\n\n**To Find:**\nThe zeroes of the polynomial and verify the relationship between the zeroes and the coefficients.\n\n**Finding the Zeroes:**\nTo find the zeroes of \\(p(x)\\), we set \\(p(x) = 0\\):\n\\[\nx^2 - 2x - 8 = 0\n\\]\nWe factorize the quadratic expression by splitting the middle term:\n\\[\nx^2 - 4x + 2x - 8 = 0\n\\]\n\\[\nx(x - 4) + 2(x - 4) = 0\n\\]\n\\[\n(x - 4)(x + 2) = 0\n\\]\nSetting each factor to zero, we get:\n\\[\nx - 4 = 0 \\implies x = 4\n\\]\n\\[\nx + 2 = 0 \\implies x = -2\n\\]\nThus, the zeroes of the polynomial are \\(\\alpha = 4\\) and \\(\\beta = -2\\).\n\n**Verification of Relationship between Zeroes and Coefficients:**\nComparing \\(x^2 - 2x - 8\\) with the standard form \\(ax^2 + bx + c\\), we have:\n\\(a = 1\\), \\(b = -2\\), and \\(c = -8\\).\n\n1. **Sum of zeroes:**\n\\[\n\\alpha + \\beta = 4 + (-2) = 2\n\\]\nUsing the coefficient formula:\n\\[\n-\\frac{b}{a} = -\\frac{(-2)}{1} = 2\n\\]\nSince \\(\\alpha + \\beta = -\\frac{b}{a}\\), the relationship is verified.\n\n2. **Product of zeroes:**\n\\[\n\\alpha \\times \\beta = 4 \\times (-2) = -8\n\\]\nUsing the coefficient formula:\n\\[\n\\frac{c}{a} = \\frac{-8}{1} = -8\n\\]\nSince \\(\\alpha \\times \\beta = \\frac{c}{a}\\), the relationship is verified.\n\nTherefore, the zeroes of the polynomial are \\(4\\) and \\(-2\\), and the relationship between the zeroes and the coefficients is verified.",
+          "sourceInfo": "Exercise 2.2 Q1 (i)",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch2_sol_ll_q2",
+          "displayOrder": 2,
+          "questionText": "Find the zeroes of the following quadratic polynomials and verify the relationship between the zeroes and the coefficients: 4s^2 - 4s + 1",
+          "solutionText": "**Solution**\n\nLet the given quadratic polynomial be:\n\\[\np(s) = 4s^2 - 4s + 1\n\\]\n\nTo find the zeroes of \\(p(s)\\), we set \\(p(s) = 0\\).\n\\[\n4s^2 - 4s + 1 = 0\n\\]\n\nBy splitting the middle term, we get:\n\\[\n4s^2 - 2s - 2s + 1 = 0\n\\]\n\\[\n2s(2s - 1) - 1(2s - 1) = 0\n\\]\n\\[\n(2s - 1)(2s - 1) = 0\n\\]\n\nThis gives:\n\\[\n2s - 1 = 0 \\quad \\text{or} \\quad 2s - 1 = 0\n\\]\n\\[\ns = \\frac{1}{2} \\quad \\text{or} \\quad s = \\frac{1}{2}\n\\]\n\nTherefore, the zeroes of the quadratic polynomial \\(4s^2 - 4s + 1\\) are \\(\\alpha = \\frac{1}{2}\\) and \\(\\beta = \\frac{1}{2}\\).\n\n---\n\n**Verification**\n\nComparing the given polynomial \\(4s^2 - 4s + 1\\) with the general form \\(as^2 + bs + c\\), we get:\n\\[\na = 4, \\quad b = -4, \\quad c = 1\n\\]\n\n**1. Sum of zeroes:**\n\\[\n\\text{Sum of zeroes} = \\alpha + \\beta = \\frac{1}{2} + \\frac{1}{2} = 1\n\\]\n\\[\n-\\frac{b}{a} = -\\frac{-4}{4} = 1\n\\]\nTherefore, \n\\[\n\\text{Sum of zeroes} = -\\frac{b}{a} = -\\frac{\\text{Coefficient of } s}{\\text{Coefficient of } s^2}\n\\]\n\n**2. Product of zeroes:**\n\\[\n\\text{Product of zeroes} = \\alpha \\cdot \\beta = \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}\n\\]\n\\[\n\\frac{c}{a} = \\frac{1}{4}\n\\]\nTherefore, \n\\[\n\\text{Product of zeroes} = \\frac{c}{a} = \\frac{\\text{Constant term}}{\\text{Coefficient of } s^2}\n\\]\n\nHence, the relationship between the zeroes and the coefficients is verified.",
+          "sourceInfo": "Exercise 2.2 Q1 (ii)",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch2_sol_ll_q3",
+          "displayOrder": 3,
+          "questionText": "Find the zeroes of the following quadratic polynomials and verify the relationship between the zeroes and the coefficients: 6x^2 - 3 - 7x",
+          "solutionText": "**Solution**\n\n**1. Given**\nThe given quadratic polynomial is \\(p(x) = 6x^2 - 7x - 3\\) (rearranged in standard form).\n\n**2. Finding the Zeroes**\nTo find the zeroes of \\(p(x)\\), set \\(p(x) = 0\\):\n\\[\n6x^2 - 7x - 3 = 0\n\\]\nSplitting the middle term:\n\\[\n6x^2 - 9x + 2x - 3 = 0\n\\]\nFactorising by grouping:\n\\[\n3x(2x - 3) + 1(2x - 3) = 0\n\\]\n\\[\n(3x + 1)(2x - 3) = 0\n\\]\nEquating each factor to zero gives:\n\\[\n3x + 1 = 0 \\implies x = -\\frac{1}{3}\n\\]\n\\[\n2x - 3 = 0 \\implies x = \\frac{3}{2}\n\\]\nTherefore, the zeroes of the polynomial are \\(\\alpha = -\\frac{1}{3}\\) and \\(\\beta = \\frac{3}{2}\\).\n\n**3. Verifying the Relationship between Zeroes and Coefficients**\nComparing the given polynomial \\(6x^2 - 7x - 3\\) with the standard quadratic form \\(ax^2 + bx + c\\), we obtain:\n\\[\na = 6, \\quad b = -7, \\quad c = -3\n\\]\n\n*   **Sum of zeroes:**\n    \\[\n    \\alpha + \\beta = -\\frac{1}{3} + \\frac{3}{2} = \\frac{-2 + 9}{6} = \\frac{7}{6}\n    \\]\n    From the coefficients:\n    \\[\n    -\\frac{b}{a} = -\\left(\\frac{-7}{6}\\right) = \\frac{7}{6}\n    \\]\n    Therefore, \\(\\alpha + \\beta = -\\frac{b}{a}\\).\n\n*   **Product of zeroes:**\n    \\[\n    \\alpha \\beta = \\left(-\\frac{1}{3}\\right) \\times \\left(\\frac{3}{2}\\right) = -\\frac{3}{6} = -\\frac{1}{2}\n    \\]\n    From the coefficients:\n    \\[\n    \\frac{c}{a} = \\frac{-3}{6} = -\\frac{1}{2}\n    \\]\n    Therefore, \\(\\alpha \\beta = \\frac{c}{a}\\).\n\n**Conclusion**\nHence, the relationship between the zeroes and the coefficients is verified.",
+          "sourceInfo": "Exercise 2.2 Q1 (iii)",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch2_sol_ll_q4",
+          "displayOrder": 4,
+          "questionText": "Find the zeroes of the following quadratic polynomials and verify the relationship between the zeroes and the coefficients: 4u^2 + 8u",
+          "solutionText": "Let the given quadratic polynomial be:\n\\[\np(u) = 4u^2 + 8u\n\\]\n\nTo find the zeroes of \\(p(u)\\), set \\(p(u) = 0\\):\n\\[\n\\begin{aligned}\n4u^2 + 8u &= 0 \\\\\n4u(u + 2) &= 0\n\\end{aligned}\n\\]\n\nThis gives:\n\\[\n4u = 0 \\quad \\text{or} \\quad u + 2 = 0\n\\]\n\\[\nu = 0 \\quad \\text{or} \\quad u = -2\n\\]\n\nTherefore, the zeroes of the polynomial \\(4u^2 + 8u\\) are \\(0\\) and \\(-2\\).\n\n---\n\n### Verification of the Relationship between Zeroes and Coefficients\n\nComparing the given polynomial \\(4u^2 + 8u\\) with the standard quadratic form \\(au^2 + bu + c\\):\n\\[\na = 4, \\quad b = 8, \\quad c = 0\n\\]\n\n**1. Sum of zeroes:**\n\\[\n\\text{Sum of zeroes} = 0 + (-2) = -2\n\\]\n\\[\n-\\frac{\\text{Coefficient of } u}{\\text{Coefficient of } u^2} = -\\frac{b}{a} = -\\frac{8}{4} = -2\n\\]\nThus, \n\\[\n\\text{Sum of zeroes} = -\\frac{\\text{Coefficient of } u}{\\text{Coefficient of } u^2}\n\\]\n\n**2. Product of zeroes:**\n\\[\n\\text{Product of zeroes} = 0 \\times (-2) = 0\n\\]\n\\[\n\\frac{\\text{Constant term}}{\\text{Coefficient of } u^2} = \\frac{c}{a} = \\frac{0}{4} = 0\n\\]\nThus,\n\\[\n\\text{Product of zeroes} = \\frac{\\text{Constant term}}{\\text{Coefficient of } u^2}\n\\]\n\nHence, the relationship between the zeroes and the coefficients is verified.",
+          "sourceInfo": "Exercise 2.2 Q1 (iv)",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch2_sol_ll_q5",
+          "displayOrder": 5,
+          "questionText": "Find the zeroes of the following quadratic polynomials and verify the relationship between the zeroes and the coefficients: t^2 - 15",
+          "solutionText": "**Solution**\n\n**1. Given**\nThe given quadratic polynomial is \\(p(t) = t^2 - 15\\).\n\n**2. To Find**\nThe zeroes of the quadratic polynomial \\(p(t)\\) and to verify the relationship between the zeroes and its coefficients.\n\n**3. Calculation of Zeroes**\nTo find the zeroes of \\(p(t)\\), set \\(p(t) = 0\\):\n\\[\nt^2 - 15 = 0\n\\]\n\\[\nt^2 = 15\n\\]\n\\[\nt = \\pm\\sqrt{15}\n\\]\n\nTherefore, the zeroes of the given polynomial are \\(\\alpha = \\sqrt{15}\\) and \\(\\beta = -\\sqrt{15}\\).\n\n**4. Verification of Relationship Between Zeroes and Coefficients**\nComparing the given polynomial \\(t^2 - 15\\) with the standard quadratic form \\(at^2 + bt + c\\), we obtain:\n\\[\na = 1,\\quad b = 0,\\quad c = -15\n\\]\n\n*Sum of zeroes:*\n\\[\n\\alpha + \\beta = \\sqrt{15} + (-\\sqrt{15}) = 0\n\\]\nUsing the coefficients:\n\\[\n-\\frac{b}{a} = -\\frac{0}{1} = 0\n\\]\nThus, \n\\[\n\\alpha + \\beta = -\\frac{b}{a}\n\\]\n\n*Product of zeroes:*\n\\[\n\\alpha \\cdot \\beta = (\\sqrt{15})(-\\sqrt{15}) = -15\n\\]\nUsing the coefficients:\n\\[\n\\frac{c}{a} = \\frac{-15}{1} = -15\n\\]\nThus,\n\\[\n\\alpha \\cdot \\beta = \\frac{c}{a}\n\\]\n\nHence, the relationship between the zeroes and the coefficients is verified.",
+          "sourceInfo": "Exercise 2.2 Q1 (v)",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch2_sol_ll_q6",
+          "displayOrder": 6,
+          "questionText": "Find the zeroes of the following quadratic polynomials and verify the relationship between the zeroes and the coefficients: 3x^2 - x - 4",
+          "solutionText": "**Solution**\n\nLet the given quadratic polynomial be:\n\\[\np(x) = 3x^2 - x - 4\n\\]\nTo find the zeroes of \\(p(x)\\), we set \\(p(x) = 0\\):\n\\[\n3x^2 - x - 4 = 0\n\\]\nBy splitting the middle term, we get:\n\\[\n\\begin{aligned}\n3x^2 - 4x + 3x - 4 &= 0 \\\\\nx(3x - 4) + 1(3x - 4) &= 0 \\\\\n(3x - 4)(x + 1) &= 0\n\\end{aligned}\n\\]\nThis gives:\n\\[\n3x - 4 = 0 \\quad \\text{or} \\quad x + 1 = 0\n\\]\n\\[\nx = \\frac{4}{3} \\quad \\text{or} \\quad x = -1\n\\]\nTherefore, the zeroes of the quadratic polynomial \\(3x^2 - x - 4\\) are \\(\\alpha = \\frac{4}{3}\\) and \\(\\beta = -1\\).\n\n---\n\n**Verification**\n\nComparing the given polynomial \\(3x^2 - x - 4\\) with the general form \\(ax^2 + bx + c\\), we get:\n\\[\na = 3, \\quad b = -1, \\quad c = -4\n\\]\n\n**1. Sum of zeroes:**\n\\[\n\\text{Sum of zeroes} = \\alpha + \\beta = \\frac{4}{3} + (-1) = \\frac{4 - 3}{3} = \\frac{1}{3}\n\\]\n\\[\n-\\frac{\\text{Coefficient of } x}{\\text{Coefficient of } x^2} = -\\frac{b}{a} = -\\frac{-1}{3} = \\frac{1}{3}\n\\]\nTherefore, Sum of zeroes = \\(-\\frac{b}{a}\\).\n\n**2. Product of zeroes:**\n\\[\n\\text{Product of zeroes} = \\alpha \\beta = \\left(\\frac{4}{3}\\right) \\times (-1) = -\\frac{4}{3}\n\\]\n\\[\n\\frac{\\text{Constant term}}{\\text{Coefficient of } x^2} = \\frac{c}{a} = \\frac{-4}{3} = -\\frac{4}{3}\n\\]\nTherefore, Product of zeroes = \\(\\frac{c}{a}\\).\n\nThe relationship between the zeroes and the coefficients is verified.",
+          "sourceInfo": "Exercise 2.2 Q1 (vi)",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch2_sol_ll_q7",
+          "displayOrder": 7,
+          "questionText": "Find a quadratic polynomial each with the given numbers as the sum and product of its zeroes respectively: 1/4, -1",
+          "solutionText": "**Solution**\n\nLet the required quadratic polynomial be \\(ax^2 + bx + c\\), and let its zeroes be \\(\\alpha\\) and \\(\\beta\\).\n\n**Given:**\n\nSum of zeroes, \\(\\alpha + \\beta = \\frac{1}{4}\\)\n\nProduct of zeroes, \\(\\alpha \\beta = -1\\)\n\n---\n\nWe know that the sum and product of the zeroes of a quadratic polynomial \\(ax^2 + bx + c\\) are related to its coefficients by:\n\n\\[\n\\alpha + \\beta = -\\frac{b}{a}\n\\]\n\n\\[\n\\alpha \\beta = \\frac{c}{a}\n\\]\n\nSubstituting the given values into these relations:\n\n\\[\n-\\frac{b}{a} = \\frac{1}{4}\n\\]\n\n\\[\n\\frac{c}{a} = -1 = \\frac{-4}{4}\n\\]\n\nIf we choose \\(a = 4\\), then:\n\n\\[\nb = -1 \\quad \\text{and} \\quad c = -4\n\\]\n\nSubstituting the values of \\(a\\), \\(b\\), and \\(c\\) into the standard form \\(ax^2 + bx + c\\), we get:\n\n\\[\n4x^2 - x - 4\n\\]\n\n---\n\n**Alternative Method:**\n\nA quadratic polynomial with sum of zeroes \\((\\alpha + \\beta)\\) and product of zeroes \\((\\alpha \\beta)\\) can be written in the form:\n\n\\[\nk \\left[ x^2 - (\\alpha + \\beta)x + \\alpha\\beta \\right]\n\\]\n\nwhere \\(k\\) is a non-zero real number.\n\nSubstituting \\(\\alpha + \\beta = \\frac{1}{4}\\) and \\(\\alpha\\beta = -1\\):\n\n\\[\nk \\left( x^2 - \\frac{1}{4}x - 1 \\right)\n\\]\n\nTaking \\(k = 4\\):\n\n\\[\n4 \\left( x^2 - \\frac{1}{4}x - 1 \\right) = 4x^2 - x - 4\n\\]\n\n---\n\nTherefore, the required quadratic polynomial is \\(4x^2 - x - 4\\).",
+          "sourceInfo": "Exercise 2.2 Q2 (i)",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch2_sol_ll_q8",
+          "displayOrder": 8,
+          "questionText": "Find a quadratic polynomial each with the given numbers as the sum and product of its zeroes respectively: sqrt(2), 1/3",
+          "solutionText": "**Given**\n\nLet the zeroes of the required quadratic polynomial be $\\alpha$ and $\\beta$. \n\n* Sum of zeroes $(\\alpha + \\beta) = \\sqrt{2}$\n* Product of zeroes $(\\alpha\\beta) = \\frac{1}{3}$\n\n---\n\n**Solution**\n\nA quadratic polynomial can be written in the form:\n\\[\nx^2 - (\\text{Sum of zeroes})x + (\\text{Product of zeroes})\n\\]\n\nSubstituting the given values into this expression:\n\\[\nx^2 - \\sqrt{2}x + \\frac{1}{3}\n\\]\n\nTo obtain a polynomial with integer coefficients, we multiply the expression by $3$ (or consider the general form $k\\left(x^2 - \\sqrt{2}x + \\frac{1}{3}\\right)$ where $k = 3$):\n\\[\n3\\left(x^2 - \\sqrt{2}x + \\frac{1}{3}\\right) = 3x^2 - 3\\sqrt{2}x + 1\n\\]\n\n---\n\n**Alternative Method**\n\nLet the required quadratic polynomial be $ax^2 + bx + c$.\n\nThe relationship between the coefficients and the zeroes of the polynomial is given by:\n\\[\n\\text{Sum of zeroes } (\\alpha + \\beta) = -\\frac{b}{a} = \\sqrt{2}\n\\]\n\\[\n\\text{Product of zeroes } (\\alpha\\beta) = \\frac{c}{a} = \\frac{1}{3}\n\\]\n\nTo make the denominators equal, we can rewrite the sum as:\n\\[\n-\\frac{b}{a} = \\frac{3\\sqrt{2}}{3}\n\\]\n\nComparing the two equations:\n\\[\na = 3,\\quad b = -3\\sqrt{2},\\quad c = 1\n\\]\n\nSubstituting these values into the general form $ax^2 + bx + c$, we get:\n\\[\n3x^2 - 3\\sqrt{2}x + 1\n\\]\n\n---\n\n**Therefore,** the required quadratic polynomial is $3x^2 - 3\\sqrt{2}x + 1$.",
+          "sourceInfo": "Exercise 2.2 Q2 (ii)",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch2_sol_ll_q9",
+          "displayOrder": 9,
+          "questionText": "Find a quadratic polynomial each with the given numbers as the sum and product of its zeroes respectively: 0, sqrt(5)",
+          "solutionText": "**Given**\n\nLet the zeroes of the required quadratic polynomial be \\(\\alpha\\) and \\(\\beta\\).\n\n* Sum of zeroes, \\(\\alpha + \\beta = 0\\)\n* Product of zeroes, \\(\\alpha\\beta = \\sqrt{5}\\)\n\n---\n\n**Solution**\n\nA quadratic polynomial when the sum and product of its zeroes are given is represented as:\n\\[\np(x) = k \\left[ x^2 - (\\alpha + \\beta)x + \\alpha\\beta \\right]\n\\]\nwhere \\(k\\) is a non-zero real constant.\n\nSubstituting the given values of the sum and product of zeroes into the expression:\n\\[\np(x) = k \\left[ x^2 - (0)x + \\sqrt{5} \\right]\n\\]\n\\[\np(x) = k \\left( x^2 + \\sqrt{5} \\right)\n\\]\n\nTaking \\(k = 1\\), we obtain the quadratic polynomial:\n\\[\nx^2 + \\sqrt{5}\n\\]\n\n**Therefore, the required quadratic polynomial is \\(x^2 + \\sqrt{5}\\).**",
+          "sourceInfo": "Exercise 2.2 Q2 (iii)",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch2_sol_ll_q10",
+          "displayOrder": 10,
+          "questionText": "Find a quadratic polynomial each with the given numbers as the sum and product of its zeroes respectively: 1, 1",
+          "solutionText": "**Solution**\n\nLet the zeroes of the quadratic polynomial be \\(\\alpha\\) and \\(\\beta\\).\n\n**Given:**\n*   Sum of zeroes \\((\\alpha + \\beta) = 1\\)\n*   Product of zeroes \\((\\alpha\\beta) = 1\\)\n\nA quadratic polynomial with zeroes \\(\\alpha\\) and \\(\\beta\\) is given by:\n\\[\np(x) = k [x^2 - (\\alpha + \\beta)x + \\alpha\\beta]\n\\]\nwhere \\(k\\) is a non-zero real constant.\n\nSubstituting the given values into the expression:\n\\[\np(x) = k [x^2 - (1)x + 1]\n\\]\n\\[\np(x) = k(x^2 - x + 1)\n\\]\n\nTaking \\(k = 1\\), the quadratic polynomial is:\n\\[\nx^2 - x + 1\n\\]\n\n---\n\n**Alternative Method**\n\nLet the required quadratic polynomial be \\(ax^2 + bx + c\\), and its zeroes be \\(\\alpha\\) and \\(\\beta\\).\n\nWe know the relationship between the zeroes and the coefficients of a quadratic polynomial:\n\\[\n\\text{Sum of zeroes } (\\alpha + \\beta) = -\\frac{b}{a} = 1 = \\frac{1}{1}\n\\]\n\\[\n\\text{Product of zeroes } (\\alpha\\beta) = \\frac{c}{a} = 1 = \\frac{1}{1}\n\\]\n\nComparing the denominators and numerators, if we choose \\(a = 1\\), we get:\n\\[\nb = -1 \\quad \\text{and} \\quad c = 1\n\\]\n\nSubstituting these values into the general form \\(ax^2 + bx + c\\):\n\\[\n(1)x^2 + (-1)x + 1 = x^2 - x + 1\n\\]\n\nThus, the required quadratic polynomial is \\(x^2 - x + 1\\).",
+          "sourceInfo": "Exercise 2.2 Q2 (iv)",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch2_sol_ll_q11",
+          "displayOrder": 11,
+          "questionText": "Find a quadratic polynomial each with the given numbers as the sum and product of its zeroes respectively: -1/4, 1/4",
+          "solutionText": "### Solution\n\nLet the quadratic polynomial be \\(ax^2 + bx + c\\), where \\(a \\neq 0\\), and let its zeroes be \\(\\alpha\\) and \\(\\beta\\).\n\nAccording to the relationship between the zeroes and the coefficients of a quadratic polynomial:\nSum of zeroes \\((\\alpha + \\beta) = -\\frac{b}{a} = -\\frac{1}{4}\\)\nProduct of zeroes \\((\\alpha \\beta) = \\frac{c}{a} = \\frac{1}{4}\\)\n\nIf we set \\(a = 4\\), then:\n\\(b = 1\\)\n\\(c = 1\\)\n\nSubstituting these values into the general form \\(ax^2 + bx + c\\), we obtain the polynomial:\n\\[4x^2 + x + 1\\]\n\nAlternatively, a quadratic polynomial can be expressed as:\n\\[k \\left[ x^2 - (\\alpha + \\beta)x + (\\alpha \\beta) \\right]\\]\nwhere \\(k\\) is any non-zero real number. Substituting the given values:\n\\[k \\left[ x^2 - \\left( -\\frac{1}{4} \\right)x + \\frac{1}{4} \\right]\\]\n\\[k \\left[ x^2 + \\frac{1}{4}x + \\frac{1}{4} \\right]\\]\n\nFor \\(k = 4\\), the polynomial becomes \\(4x^2 + x + 1\\).\n\nTherefore, the required quadratic polynomial is \\(4x^2 + x + 1\\).",
+          "sourceInfo": "Exercise 2.2 Q2 (v)",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch2_sol_ll_q12",
+          "displayOrder": 12,
+          "questionText": "Find a quadratic polynomial each with the given numbers as the sum and product of its zeroes respectively: 4, 1",
+          "solutionText": "Let the zeroes of the required quadratic polynomial be \\(\\alpha\\) and \\(\\beta\\).\n\n**Given:**\n- Sum of the zeroes, \\(\\alpha + \\beta = 4\\)\n- Product of the zeroes, \\(\\alpha\\beta = 1\\)\n\nA quadratic polynomial with zeroes \\(\\alpha\\) and \\(\\beta\\) is given by:\n\\[\np(x) = k\\left[x^2 - (\\alpha + \\beta)x + \\alpha\\beta\\right]\n\\]\nwhere \\(k\\) is any non-zero real constant.\n\nSubstituting the given values:\n\\[\np(x) = k(x^2 - 4x + 1)\n\\]\n\nTaking \\(k = 1\\), one such quadratic polynomial is:\n\\[\nx^2 - 4x + 1\n\\]\n\nTherefore, the required quadratic polynomial is \\(x^2 - 4x + 1\\).",
+          "sourceInfo": "Exercise 2.2 Q2 (vi)",
+          "options": []
+        }
+      ]
+    }
+  ]
+}

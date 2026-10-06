@@ -23,6 +23,18 @@
           "chapterNumber": 1,
           "friendlyName": "Real Numbers",
           "indexFile": "c10_mathemat_ch1.json"
+        },
+        {
+          "id": "c10_mathemat_ch2",
+          "chapterNumber": 2,
+          "friendlyName": "Polynomials",
+          "indexFile": "c10_mathemat_ch2.json"
+        },
+        {
+          "id": "c10_mathemat_ch3",
+          "chapterNumber": 3,
+          "friendlyName": "Pair of Linier Equations",
+          "indexFile": "c10_mathemat_ch3.json"
         }
       ]
     }
