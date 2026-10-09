@@ -1,0 +1,39 @@
+{
+  "id": "c10_mathemat_ch4",
+  "classNumber": 10,
+  "subject": "Mathematics",
+  "chapterNumber": 4,
+  "friendlyName": "Quadratic Equations",
+  "resources": {
+    "ncert": {
+      "exists": true,
+      "fileName": "c10_mathemat_ch4_ncert.pdf"
+    },
+    "formulaSheet": {
+      "exists": false
+    },
+    "solutions": {
+      "exists": true,
+      "groupCount": 3,
+      "fileName": "c10_mathemat_ch4_sol.json"
+    },
+    "examples": {
+      "exists": false
+    },
+    "pyq": {
+      "exists": false
+    },
+    "referenceFiles": {
+      "exists": false
+    },
+    "mockTests": {
+      "exists": false
+    },
+    "freeFlow": {
+      "exists": false
+    },
+    "assets": {
+      "exists": false
+    }
+  }
+}

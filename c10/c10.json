@@ -35,6 +35,12 @@
           "chapterNumber": 3,
           "friendlyName": "Pair of Linier Equations",
           "indexFile": "c10_mathemat_ch3.json"
+        },
+        {
+          "id": "c10_mathemat_ch4",
+          "chapterNumber": 4,
+          "friendlyName": "Quadratic Equations",
+          "indexFile": "c10_mathemat_ch4.json"
         }
       ]
     }

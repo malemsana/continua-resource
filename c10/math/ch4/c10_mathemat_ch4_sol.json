@@ -1,0 +1,132 @@
+{
+  "id": "c10_mathemat_ch4_sol",
+  "chapterId": "c10_mathemat_ch4",
+  "friendlyName": "NCERT Solutions",
+  "groups": [
+    {
+      "id": "ht",
+      "friendlyName": "Exercise 4.1",
+      "displayOrder": 1,
+      "questions": [
+        {
+          "id": "c10_mathemat_ch4_sol_ht_q1",
+          "displayOrder": 1,
+          "questionText": "Check whether the following are quadratic equations :\n(i) (x + 1)² = 2(x – 3)\n(ii) x² – 2x = (–2) (3 – x)\n(iii) (x – 2)(x + 1) = (x – 1)(x + 3)\n(iv) (x – 3)(2x + 1) = x(x + 5)\n(v) (2x – 1)(x – 3) = (x + 5)(x – 1)\n(vi) x² + 3x + 1 = (x – 2)²\n(vii) (x + 2)³ = 2x (x² – 1)\n(viii) x³ – 4x² – x + 1 = (x – 2)³",
+          "solutionText": "**Solution:**\n\nA quadratic equation in variable \\(x\\) is an equation of the form \\(ax^2 + bx + c = 0\\), where \\(a, b, c\\) are real numbers and \\(a \\neq 0\\). \n\nTo check whether the given equations are quadratic, expand and simplify both sides of each equation to bring them into the standard form \\(ax^2 + bx + c = 0\\).\n\n---\n\n**(i)** Given equation:\n\\[(x + 1)^2 = 2(x - 3)\\]\n\nExpanding the left side and multiplying the right side:\n\\[x^2 + 2x + 1 = 2x - 6\\]\n\nTransposing all terms to the left side:\n\\[x^2 + 2x + 1 - 2x + 6 = 0\\]\n\\[x^2 + 7 = 0\\]\nor \n\\[x^2 + 0 \\cdot x + 7 = 0\\]\n\nSince this is of the form \\(ax^2 + bx + c = 0\\) where \\(a = 1 \\neq 0\\), it is a quadratic equation.\n\n---\n\n**(ii)** Given equation:\n\\[x^2 - 2x = (-2)(3 - x)\\]\n\nExpanding the right side:\n\\[x^2 - 2x = -6 + 2x\\]\n\nTransposing all terms to the left side:\n\\[x^2 - 2x - 2x + 6 = 0\\]\n\\[x^2 - 4x + 6 = 0\\]\n\nSince this is of the form \\(ax^2 + bx + c = 0\\) where \\(a = 1 \\neq 0\\), it is a quadratic equation.\n\n---\n\n**(iii)** Given equation:\n\\[(x - 2)(x + 1) = (x - 1)(x + 3)\\]\n\nMultiplying the binomials on both sides:\n\\[x^2 + x - 2x - 2 = x^2 + 3x - x - 3\\]\n\\[x^2 - x - 2 = x^2 + 2x - 3\\]\n\nSubtracting \\(x^2\\) from both sides:\n\\[-x - 2 = 2x - 3\\]\n\nTransposing all terms to the left side:\n\\[-x - 2 - 2x + 3 = 0\\]\n\\[-3x + 1 = 0\\]\nor\n\\[0 \\cdot x^2 - 3x + 1 = 0\\]\n\nSince the coefficient of \\(x^2\\) is \\(0\\) (i.e., \\(a = 0\\)), this is a linear equation, not a quadratic equation.\n\n---\n\n**(iv)** Given equation:\n\\[(x - 3)(2x + 1) = x(x + 5)\\]\n\nExpanding both sides:\n\\[2x^2 + x - 6x - 3 = x^2 + 5x\\]\n\\[2x^2 - 5x - 3 = x^2 + 5x\\]\n\nTransposing all terms to the left side:\n\\[2x^2 - x^2 - 5x - 5x - 3 = 0\\]\n\\[x^2 - 10x - 3 = 0\\]\n\nSince this is of the form \\(ax^2 + bx + c = 0\\) where \\(a = 1 \\neq 0\\), it is a quadratic equation.\n\n---\n\n**(v)** Given equation:\n\\[(2x - 1)(x - 3) = (x + 5)(x - 1)\\]\n\nExpanding both sides:\n\\[2x^2 - 6x - x + 3 = x^2 - x + 5x - 5\\]\n\\[2x^2 - 7x + 3 = x^2 + 4x - 5\\]\n\nTransposing all terms to the left side:\n\\[2x^2 - x^2 - 7x - 4x + 3 + 5 = 0\\]\n\\[x^2 - 11x + 8 = 0\\]\n\nSince this is of the form \\(ax^2 + bx + c = 0\\) where \\(a = 1 \\neq 0\\), it is a quadratic equation.\n\n---\n\n**(vi)** Given equation:\n\\[x^2 + 3x + 1 = (x - 2)^2\\]\n\nExpanding the right side using \\((a - b)^2 = a^2 - 2ab + b^2\\",
+          "sourceInfo": "Exercise 4.1 Q1",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch4_sol_ht_q2",
+          "displayOrder": 2,
+          "questionText": "Represent the following situations in the form of quadratic equations :\n(i) The area of a rectangular plot is 528 m². The length of the plot (in metres) is one more than twice its breadth. We need to find the length and breadth of the plot.\n(ii) The product of two consecutive positive integers is 306. We need to find the integers.\n(iii) Rohan’s mother is 26 years older than him. The product of their ages (in years) 3 years from now will be 360. We would like to find Rohan’s present age.\n(iv) A train travels a distance of 480 km at a uniform speed. If the speed had been 8 km/h less, then it would have taken 3 hours more to cover the same distance. We need to find the speed of the train.",
+          "solutionText": "\n#### (i) The area of a rectangular plot is $528\\text{ m}^2$. The length of the plot (in metres) is one more than twice its breadth. We need to find the length and breadth of the plot.\n\n**Solution:**\n\nLet the breadth of the rectangular plot be $x\\text{ metres}$.\n\nAccording to the question, the length is one more than twice its breadth:\n\n\n$$\\text{Length} = (2x + 1)\\text{ metres}$$\n\nWe know that:\n\n\n$$\\text{Area of a rectangle} = \\text{Length} \\times \\text{Breadth}$$\n\nGiven:\n\n\n$$\\text{Area} = 528\\text{ m}^2$$\n\nTherefore:\n\n\n$$(2x + 1) \\cdot x = 528$$\n\n$$2x^2 + x = 528$$\n\n$$2x^2 + x - 528 = 0$$\n\nHence, the required quadratic equation representing the given situation is:\n\n\n$$2x^2 + x - 528 = 0$$\n\n*(where $x$ represents the breadth of the plot in metres).*\n\n---\n\n#### (ii) The product of two consecutive positive integers is $306$. We need to find the integers.\n\n**Solution:**\n\nLet the two consecutive positive integers be $x$ and $(x + 1)$.\n\nAccording to the given condition, their product is $306$:\n\n\n$$x(x + 1) = 306$$\n\n$$x^2 + x = 306$$\n\n$$x^2 + x - 306 = 0$$\n\nHence, the required quadratic equation representing the given situation is:\n\n\n$$x^2 + x - 306 = 0$$\n\n*(where $x$ represents the smaller positive integer).*\n\n---\n\n#### (iii) Rohan’s mother is $26$ years older than him. The product of their ages (in years) $3$ years from now will be $360$. We would like to find Rohan’s present age.\n\n**Solution:**\n\nLet Rohan’s present age be $x\\text{ years}$.\n\nThen, his mother’s present age is:\n\n\n$$(x + 26)\\text{ years}$$\n\nAfter $3$ years:\n\n* $\\text{Rohan's age} = (x + 3)\\text{ years}$\n* $\\text{Mother's age} = (x + 26 + 3) = (x + 29)\\text{ years}$\n\nAccording to the given condition, the product of their ages $3$ years from now will be $360$:\n\n\n$$(x + 3)(x + 29) = 360$$\n\nExpanding the product:\n\n\n$$x^2 + 29x + 3x + 87 = 360$$\n\n$$x^2 + 32x + 87 - 360 = 0$$\n\n$$x^2 + 32x - 273 = 0$$\n\nHence, the required quadratic equation representing the given situation is:\n\n\n$$x^2 + 32x - 273 = 0$$\n\n*(where $x$ represents Rohan’s present age in years).*\n\n---\n\n#### (iv) A train travels a distance of $480\\text{ km}$ at a uniform speed. If the speed had been $8\\text{ km/h}$ less, then it would have taken $3\\text{ hours}$ more to cover the same distance. We need to find the speed of the train.\n\n**Solution:**\n\nLet the uniform speed of the train be $x\\text{ km/h}$.\n\n$$\\text{Total distance} = 480\\text{ km}$$\n\n$$\\text{Time taken at uniform speed } (t_1) = \\frac{\\text{Distance}}{\\text{Speed}} = \\frac{480}{x}\\text{ hours}$$\n\nWhen the speed is decreased by $8\\text{ km/h}$:\n\n\n$$\\text{New speed} = (x - 8)\\text{ km/h}$$\n\n$$\\text{Time taken at reduced speed } (t_2) = \\frac{480}{x - 8}\\text{ hours}$$\n\nAccording to the problem, the reduced speed takes $3\\text{ hours}$ more to cover the distance:\n\n\n$$t_2 - t_1 = 3$$\n\n$$\\frac{480}{x - 8} - \\frac{480}{x} = 3$$\n\nTaking $480$ common:\n\n\n$$480 \\left( \\frac{1}{x - 8} - \\frac{1}{x} \\right) = 3$$\n\nDividing both sides by $3$:\n\n\n$$160 \\left( \\frac{x - (x - 8)}{x(x - 8)} \\right) = 1$$\n\n$$160 \\left( \\frac{8}{x^2 - 8x} \\right) = 1$$\n\n$$\\frac{1280}{x^2 - 8x} = 1$$\n\nCross-multiplying:\n\n\n$$x^2 - 8x = 1280$$\n\n$$x^2 - 8x - 1280 = 0$$\n\nHence, the required quadratic equation representing the given situation is:\n\n\n$$x^2 - 8x - 1280 = 0$$\n\n*(where $x$ represents the speed of the train in $\\text{km/h}$).*",
+          "sourceInfo": "Exercise 4.1 Q2",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "ef",
+      "friendlyName": "Exercise 4.2",
+      "displayOrder": 2,
+      "questions": [
+        {
+          "id": "c10_mathemat_ch4_sol_ef_q1",
+          "displayOrder": 1,
+          "questionText": "Find the roots of the following quadratic equations by factorisation:\n(i) x² – 3x – 10 = 0\n(ii) 2x² + x – 6 = 0\n(iii) √2x² + 7x + 5√2 = 0\n(iv) 2x² – x + 1/8 = 0\n(v) 100x² – 20x + 1 = 0",
+          "solutionText": "**Solution:**\n\n**(i)** \\(x^2 - 3x - 10 = 0\\)\n\n\\[\n\\begin{aligned}\nx^2 - 3x - 10 &= 0 \\\\\n(x - 5)(x + 2) &= 0 \\\\\nx - 5 = 0 &\\quad \\text{or} \\quad x + 2 = 0 \\\\\nx = 5 &\\quad \\text{or} \\quad x = -2\n\\end{aligned}\n\\]\n\n**(ii)** \\(2x^2 + x - 6 = 0\\)\n\n\\[\n\\begin{aligned}\n2x^2 + x - 6 &= 0 \\\\\n(2x - 3)(x + 2) &= 0 \\\\\n2x - 3 = 0 &\\quad \\text{or} \\quad x + 2 = 0 \\\\\nx = \\frac{3}{2} &\\quad \\text{or} \\quad x = -2\n\\end{aligned}\n\\]\n\n**(iii)** \\(\\sqrt{2}x^2 + 7x + 5\\sqrt{2} = 0\\)\n\n\\[\n\\begin{aligned}\n\\sqrt{2}x^2 + 7x + 5\\sqrt{2} &= 0 \\\\\n(\\sqrt{2}x + 5)(\\sqrt{2}x + \\sqrt{2}) &= 0 \\\\\n\\sqrt{2}x + 5 = 0 &\\quad \\text{or} \\quad \\sqrt{2}x + \\sqrt{2} = 0 \\\\\nx = -\\frac{5}{\\sqrt{2}} &\\quad \\text{or} \\quad x = -1\n\\end{aligned}\n\\]\n\n**(iv)** \\(2x^2 - x + \\frac{1}{8} = 0\\)\n\n\\[\n\\begin{aligned}\n2x^2 - x + \\frac{1}{8} &= 0 \\\\\n(2x - 1)(x - \\frac{1}{2}) &= 0 \\\\\n2x - 1 = 0 &\\quad \\text{or} \\quad x - \\frac{1}{2} = 0 \\\\\nx = \\frac{1}{2} &\\quad \\text{or} \\quad x = \\frac{1}{4}\n\\end{aligned}\n\\]\n\n**(v)** \\(100x^2 - 20x + 1 = 0\\)\n\n\\[\n\\begin{aligned}\n100x^2 - 20x + 1 &= 0 \\\\\n(10x - 1)^2 &= 0 \\\\\n10x - 1 &= 0 \\\\\nx &= \\frac{1}{10}\n\\end{aligned}\n\\]",
+          "sourceInfo": "Exercise 4.2 Q1",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch4_sol_ef_q2",
+          "displayOrder": 2,
+          "questionText": "Solve the problems given in Example 1.",
+          "solutionText": "**Problem (i)**\n\nJohn and Jivanti together have \\(45\\) marbles. Both of them lost \\(5\\) marbles each, and the product of the number of marbles they now have is \\(124\\). Find how many marbles they had to start with.\n\n**Solution:**\n\nLet the number of marbles John had be \\(x\\).\n\nThen, the number of marbles Jivanti",
+          "sourceInfo": "Exercise 4.2 Q2",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch4_sol_ef_q3",
+          "displayOrder": 3,
+          "questionText": "Find two numbers whose sum is 27 and product is 182.",
+          "solutionText": "**Given**\n\nLet the two numbers be $x$ and $y$.\n\nWe have the following equations based on the problem statement:\n\n1. $x + y = 27$\n​2. $xy = 182$\n\n**To Find**\n\nWe need to find the values of $x$ and $y$.\n\n**Solution**\n\nFrom the first equation, we can express $y$ in terms of $x$:\n\n$$y = 27 - x$$\n\nSubstituting this expression for $y$ into the second equation gives:\n\n$$x(27 - x) = 182$$\n\nExpanding this, we have:\n\n$$27x - x^2 = 182$$\n\nRearranging the equation leads to:\n\n$$x^2 - 27x + 182 = 0$$\n\nNext, we solve for $x$ by factorisation (splitting the middle term). We look for two numbers whose sum is $-27$ and whose product is $182$:\n\n$$-14 + (-13) = -27 \\quad \\text{and} \\quad (-14) \\times (-13) = 182$$\n\nSplitting the middle term:\n\n$$x^2 - 14x - 13x + 182 = 0$$\n\nFactoring by grouping:\n\n$$x(x - 14) - 13(x - 14) = 0$$\n\n$$(x - 14)(x - 13) = 0$$\n\nSetting each factor to zero:\n\n$$x - 14 = 0 \\quad \\Rightarrow \\quad x = 14$$\n\n$$x - 13 = 0 \\quad \\Rightarrow \\quad x = 13$$\n\nWhen $x = 14$, $y = 27 - 14 = 13$.\n\nWhen $x = 13$, $y = 27 - 13 = 14$.\n\nThus, the two numbers are $x = 14$ and $y = 13$.\n\n\n\n**Therefore, the required numbers are 14 and 13.**",
+          "sourceInfo": "Exercise 4.2 Q3",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch4_sol_ef_q4",
+          "displayOrder": 4,
+          "questionText": "Find two consecutive positive integers, sum of whose squares is 365.",
+          "solutionText": "Let the two consecutive positive integers be \\(x\\) and \\(x+1\\).\n\nTheir sum of squares is \\(365\\), so\n\n\\[\nx^2+(x+1)^2=365\n\\]\n\n\\[\nx^2+x^2+2x+1=365\n\\]\n\n\\[\n2x^2+2x-364=0\n\\]\n\n\\[\nx^2+x-182=0\n\\]\n\nNow factorise:\n\n\\[\nx^2+x-182=(x+14)(x-13)=0\n\\]\n\nSo,\n\n\\[\nx=-14 \\quad \\text{or} \\quad x=13\n\\]\n\nSince the integers are positive, \\(x=13\\).\n\nHence, the two consecutive positive integers are\n\n\\[\n13 \\text{ and } 14\n\\]\n\nTherefore, the required integers are **13 and 14**.",
+          "sourceInfo": "Exercise 4.2 Q4",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch4_sol_ef_q5",
+          "displayOrder": 5,
+          "questionText": "The altitude of a right triangle is 7 cm less than its base. If the hypotenuse is 13 cm, find the other two sides.",
+          "solutionText": "### Solution\n\n**Given:**\nIn a right-angled triangle, the hypotenuse is \\(13\\) cm. The altitude is \\(7\\) cm less than the base.\n\n**To Find:**\nThe lengths of the base and the altitude.\n\n**Solution:**\nLet the base of the right triangle be \\(x\\) cm.\nAccording to the given condition, the altitude is \\((x - 7)\\) cm.\n\nBy the Pythagoras theorem, in a right-angled triangle:\n\\[\n(\\text{Base})^2 + (\\text{Altitude})^2 = (\\text{Hypotenuse})^2\n\\]\n\nSubstituting the given values:\n\\[\nx^2 + (x - 7)^2 = 13^2\n\\]\n\nExpanding the equation:\n\\[\nx^2 + (x^2 - 14x + 49) = 169\n\\]\n\\[\n2x^2 - 14x + 49 - 169 = 0\n\\]\n\\[\n2x^2 - 14x - 120 = 0\n\\]\n\nDividing the entire equation by \\(2\\):\n\\[\nx^2 - 7x - 60 = 0\n\\]\n\nTo solve this quadratic equation, we split the middle term:\n\\[\nx^2 - 12x + 5x - 60 = 0\n\\]\n\\[\nx(x - 12) + 5(x - 12) = 0\n\\]\n\\[\n(x - 12)(x + 5) = 0\n\\]\n\nThis gives two possible values for \\(x\\):\n\\[\nx = 12 \\quad \\text{or} \\quad x = -5\n\\]\n\nSince the length of a side of a triangle cannot be negative, we discard \\(x = -5\\).\nTherefore, the base of the triangle is \\(12\\) cm.\n\nThe altitude is:\n\\[\nx - 7 = 12 - 7 = 5 \\text{ cm}\n\\]\n\nThus, the other two sides of the triangle are \\(12\\) cm and \\(5\\) cm.",
+          "sourceInfo": "Exercise 4.2 Q5",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch4_sol_ef_q6",
+          "displayOrder": 6,
+          "questionText": "A cottage industry produces a certain number of pottery articles in a day. It was observed on a particular day that the cost of production of each article (in rupees) was 3 more than twice the number of articles produced on that day. If the total cost of production on that day was ₹ 90, find the number of articles produced and the cost of each article.",
+          "solutionText": "**Solution**\n\nLet the number of pottery articles produced in a day be \\(x\\).\n\nThen the cost of production of each article is \\(3\\) more than twice the number of articles, i.e. \\(2x+3\\) rupees.\n\nThe total cost of production is\n\\[\nx(2x+3)\n\\]\nGiven that the total cost is ₹\\(90\\),\n\\[\nx(2x+3)=90\n\\]\n\\[\n2x^2+3x-90=0\n\\]\n\\[\n(2x+15)(x-6)=0\n\\]\nThus,\n\\[\nx=6 \\quad \\text{or} \\quad x=-\\frac{15}{2}\n\\]\nSince the number of articles cannot be negative, \\(x=6\\).\n\nThe cost of each article is\n\\[\n2(6)+3=15\n\\]\n\nTherefore, the cottage industry produced \\(6\\) pottery articles, and the cost of each article was ₹\\(15\\).",
+          "sourceInfo": "Exercise 4.2 Q6",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "yg",
+      "friendlyName": "Exercise 4.3",
+      "displayOrder": 3,
+      "questions": [
+        {
+          "id": "c10_mathemat_ch4_sol_yg_q1",
+          "displayOrder": 1,
+          "questionText": "Find the nature of the roots of the following quadratic equations. If the real roots exist, find them:\n(i) 2x² – 3x + 5 = 0\n(ii) 3x² – 4√3x + 4 = 0\n(iii) 2x² – 6x + 3 = 0",
+          "solutionText": "**Solution:**\n\n(i) For the equation \\(2x^2 - 3x + 5 = 0\\), the discriminant \\(D\\) is:\n\n\\[\nD = (-3)^2 - 4 \\times 2 \\times 5 = 9 - 40 = -31\n\\]\n\nSince \\(D < 0\\), the equation has no real roots.\n\n(ii) For the equation \\(3x^2 - 4\\sqrt{3}x + 4 = 0\\), the discriminant \\(D\\) is:\n\n\\[\nD = (-4\\sqrt{3})^2 - 4 \\times 3 \\times 4 = 48 - 48 = 0\n\\]\n\nSince \\(D = 0\\), the equation has exactly one real root:\n\n\\[\nx = \\frac{4\\sqrt{3}}{2 \\times 3} = \\frac{2\\sqrt{3}}{3}\n\\]\n\n(iii) For the equation \\(2x^2 - 6x + 3 = 0\\), the discriminant \\(D\\) is:\n\n\\[\nD = (-6)^2 - 4 \\times 2 \\times 3 = 36 - 24 = 12\n\\]\n\nSince \\(D > 0\\), the equation has two distinct real roots:\n\n\\[\nx = \\frac{6 \\pm \\sqrt{12}}{4} = \\frac{6 \\pm 2\\sqrt{3}}{4} = \\frac{3 \\pm \\sqrt{3}}{2}\n\\]",
+          "sourceInfo": "Exercise 4.3 Q1",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch4_sol_yg_q2",
+          "displayOrder": 2,
+          "questionText": "Find the values of k for each of the following quadratic equations, so that they have two equal roots.\n(i) 2x² + kx + 3 = 0\n(ii) kx (x – 2) + 6 = 0",
+          "solutionText": "A quadratic equation \\(ax^2 + bx + c = 0\\) has two equal real roots if and only if its discriminant is equal to zero, that is,\n\\[\nD = b^2 - 4ac = 0\n\\]\n\n---\n\n### **(i) \\(2x^2 + kx + 3 = 0\\)**\n\nComparing the given equation with the standard form \\(ax^2 + bx + c = 0\\), we get:\n\\[\na = 2, \\quad b = k, \\quad c = 3\n\\]\n\nThe discriminant is given by:\n\\[\n\\begin{aligned}\nD &= b^2 - 4ac \\\\\n&= (k)^2 - 4(2)(3) \\\\\n&= k^2 - 24\n\\end{aligned}\n\\]\n\nFor two equal roots, \\(D = 0\\):\n\\[\n\\begin{aligned}\nk^2 - 24 &= 0 \\\\\nk^2 &= 24 \\\\\nk &= \\pm\\sqrt{24} \\\\\nk &= \\pm 2\\sqrt{6}\n\\end{aligned}\n\\]\n\nTherefore, the required values of \\(k\\) are \\(2\\sqrt{6}\\) and \\(-2\\sqrt{6}\\).\n\n---\n\n### **(ii) \\(kx(x - 2) + 6 = 0\\)**\n\nExpanding the given equation:\n\\[\nkx^2 - 2kx + 6 = 0\n\\]\n\nComparing with the standard form \\(ax^2 + bx + c = 0\\), we get:\n\\[\na = k, \\quad b = -2k, \\quad c = 6 \\quad (\\text{where } k \\neq 0)\n\\]\n\nThe discriminant is given by:\n\\[\n\\begin{aligned}\nD &= b^2 - 4ac \\\\\n&= (-2k)^2 - 4(k)(6) \\\\\n&= 4k^2 - 24k\n\\end{aligned}\n\\]\n\nFor two equal roots, \\(D = 0\\):\n\\[\n\\begin{aligned}\n4k^2 - 24k &= 0 \\\\\n4k(k - 6) &= 0\n\\end{aligned}\n\\]\n\nThis gives:\n\\[\nk = 0 \\quad \\text{or} \\quad k = 6\n\\]\n\nIf \\(k = 0\\), the equation ceases to be a quadratic equation because the coefficient of \\(x^2\\) becomes \\(0\\). Hence, \\(k \\neq 0\\).\n\nTherefore, the required value of \\(k\\) is \\(6\\).",
+          "sourceInfo": "Exercise 4.3 Q2",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch4_sol_yg_q3",
+          "displayOrder": 3,
+          "questionText": "Is it possible to design a rectangular mango grove whose length is twice its breadth, and the area is 800 m²? If so, find its length and breadth.",
+          "solutionText": "**Solution:**\n\nLet the breadth of the rectangular grove be \\(x\\) m.\n\nThen, the length is \\(2x\\) m.\n\nThe area of the rectangle is given by:\n\n\\[\n\\text{Area} = \\text{Length} \\times \\text{Breadth} = 2x \\times x = 2x^2\n\\]\n\nGiven that the area is \\(800\\) m²:\n\n\\[\n2x^2 = 800\n\\]\n\n\\[\nx^2 = 400\n\\]\n\n\\[\nx = 20 \\quad \\text{(since length cannot be negative)}\n\\]\n\nTherefore, the breadth is \\(20\\) m and the length is \\(2 \\times 20 = 40\\) m.\n\nThus, the required length and breadth are \\(40\\) m and \\(20\\) m respectively.",
+          "sourceInfo": "Exercise 4.3 Q3",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch4_sol_yg_q4",
+          "displayOrder": 4,
+          "questionText": "Is the following situation possible? If so, determine their present ages.\nThe sum of the ages of two friends is 20 years. Four years ago, the product of their ages in years was 48.",
+          "solutionText": "## Solution\n\nLet the present ages of the two friends be \\(x\\) years and \\((20 - x)\\) years, since their sum is 20.\n\nFour years ago, their ages were \\((x - 4)\\) years and \\((20 - x - 4) = (16 - x)\\) years.\n\nAccording to the given condition, the product of their ages four years ago was 48:\n\n\\[\n(x - 4)(16 - x) = 48\n\\]\n\nExpanding the left-hand side:\n\n\\[\n16x - x^2 - 64 + 4x = 48\n\\]\n\n\\[\n-x^2 + 20x - 64 = 48\n\\]\n\nRearranging:\n\n\\[\nx^2 - 20x + 112 = 0\n\\]\n\nThe discriminant of this quadratic equation is:\n\n\\[\nD = b^2 - 4ac = (-20)^2 - 4(1)(112) = 400 - 448 = -48\n\\]\n\nSince \\(D < 0\\), the quadratic equation has no real roots.\n\n**Therefore, the given situation is not possible.**",
+          "sourceInfo": "Exercise 4.3 Q4",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch4_sol_yg_q5",
+          "displayOrder": 5,
+          "questionText": "Is it possible to design a rectangular park of perimeter 80 m and area 400 m²? If so, find its length and breadth.",
+          "solutionText": "## Solution\n\nLet the length of the rectangular park be \\(l\\) metres and its breadth be \\(b\\) metres.\n\n**Given conditions:**\n\n\\[\n2(l + b) = 80 \\implies l + b = 40\n\\]\n\n\\[\nl \\cdot b = 400\n\\]\n\nFrom the first relation, \\(b = 40 - l\\). Substituting into the area condition:\n\n\\[\nl(40 - l) = 400\n\\]\n\n\\[\nl^2 - 40l + 400 = 0\n\\]\n\nTo check whether real solutions exist, compute the discriminant:\n\n\\[\nD = (-40)^2 - 4(1)(400) = 1600 - 1600 = 0\n\\]\n\nSince \\(D = 0\\), the equation has two equal real roots, so it is indeed possible to design such a park.\n\nThe roots are given by:\n\n\\[\nl = \\frac{40 \\pm \\sqrt{0}}{2} = \\frac{40}{2} = 20\n\\]\n\nTherefore \\(l = 20\\) m, and \\(b = 40 - 20 = 20\\) m.\n\nHence, it is possible to design the rectangular park, and its length and breadth are both **20 m** (the park is a square).",
+          "sourceInfo": "Exercise 4.3 Q5",
+          "options": []
+        }
+      ]
+    }
+  ]
+}
