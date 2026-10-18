@@ -1,0 +1,284 @@
+{
+  "id": "c10_mathemat_ch6_sol",
+  "chapterId": "c10_mathemat_ch6",
+  "friendlyName": "NCERT Solutions",
+  "groups": [
+    {
+      "id": "vr",
+      "friendlyName": "Exercise 6.1",
+      "displayOrder": 1,
+      "questions": [
+        {
+          "id": "c10_mathemat_ch6_sol_vr_q1",
+          "displayOrder": 1,
+          "questionText": "Fill in the blanks using the correct word given in brackets: All circles are ________. (congruent, similar)",
+          "solutionText": "**Solution:**\n\nAll Circles are **similar**.",
+          "sourceInfo": "Exercise 6.1 Q1 (i)",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_vr_q2",
+          "displayOrder": 2,
+          "questionText": "Fill in the blanks using the correct word given in brackets: All squares are ________. (similar, congruent)",
+          "solutionText": "**Solution**\n\nAll squares are **similar**.",
+          "sourceInfo": "Exercise 6.1 Q1 (ii)",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_vr_q3",
+          "displayOrder": 3,
+          "questionText": "Fill in the blanks using the correct word given in brackets: All ________ triangles are similar. (isosceles, equilateral)",
+          "solutionText": "All **equilateral** triangles are similar.",
+          "sourceInfo": "Exercise 6.1 Q1 (iii)",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_vr_q4",
+          "displayOrder": 4,
+          "questionText": "Fill in the blanks using the correct word given in brackets: Two polygons of the same number of sides are similar, if \n(a) their corresponding angles are ________ and \n(b) their corresponding sides are ________. (equal, proportional)",
+          "solutionText": "**Solution**\n\na. their corresponding angles are **equal** and\nb. their corresponding sides are **proportionate**.\n",
+          "sourceInfo": "Exercise 6.1 Q1 (iv)",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_vr_q5",
+          "displayOrder": 5,
+          "questionText": "Give two different examples of pair of (i) similar figures. (ii) non-similar figures.",
+          "solutionText": "**Solution**\n\n**(i) Two different examples of pairs of similar figures:**\n\n1. **Example 1:** Any two circles of different radii, such as a circle of radius \\(2\\) cm and a circle of radius \\(5\\) cm.\n2. **Example 2:** Any two equilateral triangles of different side lengths, such as an equilateral triangle with side \\(3\\) cm and an equilateral triangle with side \\(6\\) cm.\n\n**(ii) Two different examples of pairs of non-similar figures:**\n\n1. **Example 1:** A rectangle and a square, such as a rectangle with sides \\(4\\) cm and \\(2\\) cm and a square with side \\(3\\) cm.\n2. **Example 2:** A triangle and a quadrilateral, such as a triangle and a square.",
+          "sourceInfo": "Exercise 6.1 Q2",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_vr_q6",
+          "displayOrder": 6,
+          "questionText": "State whether the following quadrilaterals are similar or not:\n\n![Figure](assets/sol_q_1792219833371_6_3fbe.webp)\n\n",
+          "solutionText": "**Solution**\n\n**Given:**\nTwo quadrilaterals \\(ABCD\\) and \\(PQRS\\) with side lengths given as:\nIn quadrilateral \\(ABCD\\):\n\\[\nAB = BC = CD = DA = 2.1\\text{ cm}\n\\]\nand all interior angles are \\(90^\\circ\\) (since it is a square).\n\nIn quadrilateral \\(PQRS\\):\n\\[\nPQ = QR = RS = SP = 4.2\\text{ cm}\n\\]\nand the interior angles are oblique (not equal to \\(90^\\circ\\); \\(PQRS\\) is a rhombus).\n\n**To Find:**\nWhether the given quadrilaterals are similar or not.\n\n**Solution:**\n\nTwo polygons of the same number of sides are similar if:\n1. All their corresponding angles are equal, and\n2. All their corresponding sides are in the same ratio (proportion).\n\nComparing the corresponding sides of quadrilateral \\(ABCD\\) and quadrilateral \\(PQRS\\):\n\\[\n\\begin{aligned}\n\\frac{AB}{PQ} &= \\frac{2.1}{4.2} = \\frac{1}{2} \\\\\n\\frac{BC}{QR} &= \\frac{2.1}{4.2} = \\frac{1}{2} \\\\\n\\frac{CD}{RS} &= \\frac{2.1}{4.2} = \\frac{1}{2} \\\\\n\\frac{DA}{SP} &= \\frac{2.1}{4.2} = \\frac{1}{2}\n\\end{aligned}\n\\]\nAlthough the corresponding sides are in the same proportion (\\(1:2\\)), the corresponding angles of the two quadrilaterals are not equal. \n\nIn quadrilateral \\(ABCD\\), each interior angle is \\(90^\\circ\\). However, in quadrilateral \\(PQRS\\), the angles are not \\(90^\\circ\\) (it is a rhombus, whereas \\(ABCD\\) is a square). Since the condition of equality of corresponding angles is not satisfied, the two quadrilaterals are not similar.\n\nThus, the quadrilaterals are not similar.",
+          "sourceInfo": "Exercise 6.1 Q3",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "g1",
+      "friendlyName": "Exercise 6.2",
+      "displayOrder": 2,
+      "questions": [
+        {
+          "id": "c10_mathemat_ch6_sol_g1_q1",
+          "displayOrder": 1,
+          "questionText": "In Fig. 6.17, (i) and (ii), \\(DE \\parallel BC\\). Find $EC$ in (i) and $AD$ in (ii).\n\n![Figure](assets/sol_q_1792219833371_7_256d.webp)",
+          "solutionText": "**Solution:**\n\n**1. Given**\nIn both triangles $\\triangle ABC$, \\(DE \\parallel BC\\).\n*   For figure (i): \\(AD = 1.5\\text{ cm}\\), \\(DB = 3\\text{ cm}\\), and \\(AE = 1\\text{ cm}\\).\n*   For figure (ii): \\(AE = 1.8\\text{ cm}\\), \\(EC = 5.4\\text{ cm}\\), and \\(DB = 7.2\\text{ cm}\\).\n\n**2. To Find**\n*   \\(EC\\) in figure (i)\n*   \\(AD\\) in figure (ii)\n\n**3. Method**\nAccording to Basic Proportionality Theorem (Thales's Theorem), if a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, the other two sides are divided in the same ratio. Therefore, in $\\triangle ABC$ where \\(DE \\parallel BC\\):\n\\[\n\\frac{AD}{DB} = \\frac{AE}{EC}\n\\]\n\n---\n\n**Calculation for (i):**\n\nUsing the Basic Proportionality Theorem:\n\\[\n\\frac{AD}{DB} = \\frac{AE}{EC}\n\\]\n\nSubstitute the given values:\n\\[\n\\frac{1.5}{3} = \\frac{1}{EC}\n\\]\n\n\\[\n\\frac{1}{2} = \\frac{1}{EC}\n\\]\n\n\\[\nEC = 2\\text{ cm}\n\\]\n\n---\n\n**Calculation for (ii):**\n\nUsing the Basic Proportionality Theorem:\n\\[\n\\frac{AD}{DB} = \\frac{AE}{EC}\n\\]\n\nSubstitute the given values:\n\\[\n\\frac{AD}{7.2} = \\frac{1.8}{5.4}\n\\]\n\nSimplify the right-hand side ratio:\n\\[\n\\frac{1.8}{5.4} = \\frac{1}{3}\n\\]\n\nTherefore:\n\\[\n\\frac{AD}{7.2} = \\frac{1}{3}\n\\]\n\n\\[\nAD = \\frac{7.2}{3}\n\\]\n\n\\[\nAD = 2.4\\text{ cm}\n\\]\n\n---\n\n**Conclusion:**\n*   In figure (i), \\(EC = 2\\text{ cm}\\)\n*   In figure (ii), \\(AD = 2.4\\text{ cm}\\)",
+          "sourceInfo": "Exercise 6.2 Q1",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_g1_q2",
+          "displayOrder": 2,
+          "questionText": "E and F are points on the sides PQ and PR respectively of a \\(\\Delta\\) PQR. For each of the following cases, state whether EF \\(||\\) QR : \n\n(i) PE = \\(3.9\\) cm, EQ = \\(3\\) cm, PF = \\(3.6\\) cm and FR = \\(2.4\\) cm \n\n(ii) PE = \\(4\\) cm, QE = \\(4.5\\) cm, PF = \\(8\\) cm and RF = \\(9\\) cm \n\n(iii) PQ = \\(1.28\\) cm, PR = \\(2.56\\) cm, PE = \\(0.18\\) cm and PF = \\(0.36\\) cm",
+          "solutionText": "**Solution:**\n\n**Theorem Used:** Converse of Basic Proportionality Theorem (Converse of Thales's Theorem): If a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side.\n\n---\n\n### (i) \n\n**Given:** \n\\(PE = 3.9\\) cm, \\(EQ = 3\\) cm, \\(PF = 3.6\\) cm, and \\(FR = 2.4\\) cm.\n\nCalculate the ratios of the segments on sides \\(PQ\\) and \\(PR\\):\n\\[\n\\frac{PE}{EQ} = \\frac{3.9}{3} = \\frac{39}{30} = \\frac{13}{10} = 1.3\n\\]\n\n\\[\n\\frac{PF}{FR} = \\frac{3.6}{2.4} = \\frac{36}{24} = \\frac{3}{2} = 1.5\n\\]\n\nSince \n\\[\n\\frac{PE}{EQ} \\neq \\frac{PF}{FR}\n\\]\n\nTherefore, by the converse of the Basic Proportionality Theorem, \\(EF\\) is not parallel to \\(QR\\).\n\n---\n\n### (ii)\n\n**Given:** \n\\(PE = 4\\) cm, \\(QE = 4.5\\) cm, \\(PF = 8\\) cm, and \\(RF = 9\\) cm.\n\nCalculate the ratios of the segments on sides \\(PQ\\) and \\(PR\\):\n\\[\n\\frac{PE}{QE} = \\frac{4}{4.5} = \\frac{40}{45} = \\frac{8}{9}\n\\]\n\n\\[\n\\frac{PF}{RF} = \\frac{8}{9}\n\\]\n\nSince \n\\[\n\\frac{PE}{QE} = \\frac{PF}{RF}\n\\]\n\nTherefore, by the converse of the Basic Proportionality Theorem, \\(EF \\parallel QR\\).\n\n---\n\n### (iii)\n\n**Given:** \n\\(PQ = 1.28\\) cm, \\(PR = 2.56\\) cm, \\(PE = 0.18\\) cm, and \\(PF = 0.36\\) cm.\n\nFirst, find the lengths of \\(EQ\\) and \\(FR\\):\n\\[\nEQ = PQ - PE = 1.28 - 0.18 = 1.10\\text{ cm}\n\\]\n\\[\nFR = PR - PF = 2.56 - 0.36 = 2.20\\text{ cm}\n\\]\n\nNow, calculate the ratios:\n\\[\n\\frac{PE}{EQ} = \\frac{0.18}{1.10} = \\frac{18}{110} = \\frac{9}{55}\n\\]\n\n\\[\n\\frac{PF}{FR} = \\frac{0.36}{2.20} = \\frac{36}{220} = \\frac{9}{55}\n\\]\n\nSince \n\\[\n\\frac{PE}{EQ} = \\frac{PF}{FR}\n\\]\n\nTherefore, by the converse of the Basic Proportionality Theorem, \\(EF \\parallel QR\\).",
+          "sourceInfo": "Exercise 6.2 Q2",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_g1_q3",
+          "displayOrder": 3,
+          "questionText": "In Fig. 6.18, if \\(LM \\parallel CB\\) and \\(LN \\parallel CD\\), prove that \\(\\frac{AM}{AB} = \\frac{AN}{AD}\\).\n\n![Figure](assets/sol_q_1792219833371_9_5542.webp)",
+          "solutionText": "**Given**\n\nIn \\(\\triangle ABC\\), \\(LM \\parallel CB\\).\nIn \\(\\triangle ADC\\), \\(LN \\parallel CD\\).\n\n**To Prove**\n\n\\[\n\\frac{AM}{AB} = \\frac{AN}{AD}\n\\]\n\n**Proof**\n\nConsider \\(\\triangle ABC\\). Since \\(LM \\parallel CB\\), by Basic Proportionality Theorem (Thales' Theorem), we have:\n\n\\[\n\\frac{AM}{MB} = \\frac{AL}{LC}\n\\]\n\nTaking the reciprocals of both sides:\n\n\\[\n\\frac{MB}{AM} = \\frac{LC}{AL}\n\\]\n\nAdding \\(1\\) to both sides:\n\n\\[\n\\frac{MB}{AM} + 1 = \\frac{LC}{AL} + 1\n\\]\n\n\\[\n\\frac{MB + AM}{AM} = \\frac{LC + AL}{AL}\n\\]\n\nFrom the figure, \\(MB + AM = AB\\) and \\(LC + AL = AC\\). Substituting these values gives:\n\n\\[\n\\frac{AB}{AM} = \\frac{AC}{AL}\n\\]\n\nTaking the reciprocals again:\n\n\\[\n\\frac{AM}{AB} = \\frac{AL}{AC} \\quad \\text{--- (1)}\n\\]\n\nNow, consider \\(\\triangle ADC\\). Since \\(LN \\parallel CD\\), by Basic Proportionality Theorem, we have:\n\n\\[\n\\frac{AN}{ND} = \\frac{AL}{LC}\n\\]\n\nTaking the reciprocals of both sides:\n\n\\[\n\\frac{ND}{AN} = \\frac{LC}{AL}\n\\]\n\nAdding \\(1\\) to both sides:\n\n\\[\n\\frac{ND}{AN} + 1 = \\frac{LC}{AL} + 1\n\\]\n\n\\[\n\\frac{ND + AN}{AN} = \\frac{LC + AL}{AL}\n\\]\n\nSince \\(ND + AN = AD\\) and \\(LC + AL = AC\\), we get:\n\n\\[\n\\frac{AD}{AN} = \\frac{AC}{AL}\n\\]\n\nTaking the reciprocals again:\n\n\\[\n\\frac{AN}{AD} = \\frac{AL}{AC} \\quad \\text{--- (2)}\n\\]\n\nFrom equations (1) and (2), the right-hand sides are equal. Therefore, equating the left-hand sides gives:\n\n\\[\n\\frac{AM}{AB} = \\frac{AN}{AD}\n\\]\n\nHence proved.",
+          "sourceInfo": "Exercise 6.2 Q3",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_g1_q4",
+          "displayOrder": 4,
+          "questionText": "In Fig. 6.19, \\( DE \\parallel AC \\) and \\( DF \\parallel AE \\). Prove that \\( \\frac{BF}{FE} = \\frac{BE}{EC} \\).\n\n\n\n![Figure](assets/sol_q_1792219833371_10_f74d.webp)\n\n",
+          "solutionText": "**Given:**\nIn \\( \\triangle ABC \\), \\( DE \\parallel AC \\) and \\( DF \\parallel AE \\).\n\n**To Prove:**\n\\[\n\\frac{BF}{FE} = \\frac{BE}{EC}\n\\]\n\n**Proof:**\nConsider \\( \\triangle ABE \\). \nSince \\( DF \\parallel AE \\), by Basic Proportionality Theorem (Thales' Theorem), we have:\n\\[\n\\frac{BF}{FE} = \\frac{BD}{DA} \\quad \\text{--- (1)}\n\\]\n\nNow, consider \\( \\triangle ABC \\). \nSince \\( DE \\parallel AC \\), by Basic Proportionality Theorem, we have:\n\\[\n\\frac{BE}{EC} = \\frac{BD}{DA} \\quad \\text{--- (2)}\n\\]\n\nFrom equations (1) and (2), the right-hand sides are equal. Therefore, their left-hand sides must also be equal:\n\\[\n\\frac{BF}{FE} = \\frac{BE}{EC}\n\\]\n\nHence proved.",
+          "sourceInfo": "Exercise 6.2 Q4",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_g1_q5",
+          "displayOrder": 5,
+          "questionText": "In Fig. 6.20, \\(DE \\parallel OQ\\) and \\(DF \\parallel OR\\). Show that \\(EF \\parallel QR\\).\n\n![Figure](assets/sol_q_1792219833371_11_b23c.webp)\n\n",
+          "solutionText": "**1. Given**\n\nIn \\(\\triangle PQR\\), \\(O\\) is any point inside the triangle, and points \\(E\\), \\(F\\), and \\(D\\) lie on \\(PQ\\), \\(PR\\), and \\(PO\\) respectively, such that \\(DE \\parallel OQ\\) and \\(DF \\parallel OR\\).\n\n**2. To Prove**\n\n\\[\nEF \\parallel QR\n\\]\n\n**Proof:**\n\nConsider \\(\\triangle PQO\\). Since \\(DE \\parallel OQ\\), by using the Basic Proportionality Theorem (Thales's Theorem), we get:\n\n\\[\n\\frac{PE}{EQ} = \\frac{PD}{DO} \\quad \\text{--- (1)}\n\\]\n\nNow, consider \\(\\triangle PRO\\). Since \\(DF \\parallel OR\\), by using the Basic Proportionality Theorem, we get:\n\n\\[\n\\frac{PF}{FR} = \\frac{PD}{DO} \\quad \\text{--- (2)}\n\\]\n\nFrom equations (1) and (2), the right-hand sides are equal. Therefore, equating their left-hand sides gives:\n\n\\[\n\\frac{PE}{EQ} = \\frac{PF}{FR}\n\\]\n\nIn \\(\\triangle PQR\\), the line segment \\(EF\\) divides the sides \\(PQ\\) and \\(PR\\) in the same ratio. Therefore, by the converse of the Basic Proportionality Theorem, we have:\n\n\\[\nEF \\parallel QR\n\\]\n\nHence proved.",
+          "sourceInfo": "Exercise 6.2 Q5",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_g1_q6",
+          "displayOrder": 6,
+          "questionText": "In Fig. 6.21, A, B and C are points on OP, OQ and OR respectively such that \\(AB \\parallel PQ\\) and \\(AC \\parallel PR\\). Show that \\(BC \\parallel QR\\).\n\n\n\n![Figure](assets/sol_q_1792219833371_12_fc1f.webp)\n\n",
+          "solutionText": "**Given:**\nPoints \\(A\\), \\(B\\), and \\(C\\) are chosen on the line segments \\(OP\\), \\(OQ\\), and \\(OR\\) respectively, such that \\(AB \\parallel PQ\\) and \\(AC \\parallel PR\\).\n\n**To Prove:**\n\\(BC \\parallel QR\\)\n\n**Proof:**\nConsider \\(\\triangle OPQ\\). In this triangle, \\(AB \\parallel PQ\\) is given. \n\nApplying the Basic Proportionality Theorem (Thales's Theorem), we get:\n\\[\n\\frac{OA}{AP} = \\frac{OB}{BQ} \\quad \\text{--- (1)}\n\\]\n\nNext, consider \\(\\triangle OPR\\). In this triangle, \\(AC \\parallel PR\\) is given.\n\nAgain, applying the Basic Proportionality Theorem, we get:\n\\[\n\\frac{OA}{AP} = \\frac{OC}{CR} \\quad \\text{--- (2)}\n\\]\n\nFrom equations (1) and (2), the left-hand sides are equal. Therefore, equating their right-hand sides gives:\n\\[\n\\frac{OB}{BQ} = \\frac{OC}{CR}\n\\]\n\nNow, consider \\(\\triangle OQR\\). The points \\(B\\) and \\(C\\) divide the sides \\(OQ\\) and \\(OR\\) respectively in the same ratio:\n\\[\n\\frac{OB}{BQ} = \\frac{OC}{CR}\n\\]\n\nBy the Converse of the Basic Proportionality Theorem, if a line divides any two sides of a triangle in the same ratio, then the line is parallel to the third side. \n\nTherefore, \n\\[\nBC \\parallel QR\n\\]\n\nHence proved.",
+          "sourceInfo": "Exercise 6.2 Q6",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_g1_q7",
+          "displayOrder": 7,
+          "questionText": "Using Theorem 6.1, prove that a line drawn through the mid-point of one side of a triangle parallel to another side bisects the third side. (Recall that you have proved it in Class IX).",
+          "solutionText": "**Given:** \nA \\(\\triangle ABC\\) in which \\(D\\) is the mid-point of side \\(AB\\), and a line drawn through \\(D\\) parallel to \\(BC\\) intersects \\(AC\\) at \\(E\\).\n\n**To Prove:** \n\\(E\\) is the mid-point of \\(AC\\), i.e., \\(AE = EC\\).\n\n**Proof:**\nIn \\(\\triangle ABC\\), the line \\(DE\\) is drawn parallel to \\(BC\\), intersecting \\(AB\\) at \\(D\\) and \\(AC\\) at \\(E\\).\n\nBy Theorem 6.1 (Basic Proportionality Theorem), if a line is drawn parallel to one side of a triangle to intersect the other two sides in distinct points, the other two sides are divided in the same ratio. Therefore, we have:\n\\[\n\\frac{AD}{DB} = \\frac{AE}{EC}\n\\]\n\nSince \\(D\\) is the mid-point of \\(AB\\), we have:\n\\[\nAD = DB\n\\]\n\nSubstituting \\(AD = DB\\) into the ratio gives:\n\\[\n\\frac{AD}{AD} = \\frac{AE}{EC}\n\\]\n\n\\[\n1 = \\frac{AE}{EC}\n\\]\n\n\\[\nAE = EC\n\\]\n\nThus, \\(E\\) is the mid-point of \\(AC\\).\n\nTherefore, the line drawn through the mid-point of one side of a triangle parallel to another side bisects the third side.",
+          "sourceInfo": "Exercise 6.2 Q7",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_g1_q8",
+          "displayOrder": 8,
+          "questionText": "Using Theorem 6.2, prove that the line joining the mid-points of any two sides of a triangle is parallel to the third side. (Recall that you have done it in Class IX).",
+          "solutionText": "**Given:** \nA triangle \\(ABC\\) in which \\(D\\) and \\(E\\) are the mid-points of the sides \\(AB\\) and \\(AC\\) respectively. The line segment \\(DE\\) joins the mid-points of sides \\(AB\\) and \\(AC\\).\n\n**To Prove:** \n\\(DE \\parallel BC\\)\n\n**Proof:**\nSince \\(D\\) is the mid-point of \\(AB\\), \n\\[\nAD = DB\n\\]\nThis can be written as the ratio:\n\\[\n\\frac{AD}{DB} = 1\n\\]\n\nSimilarly, since \\(E\\) is the mid-point of \\(AC\\), \n\\[\nAE = EC\n\\]\nThis gives the ratio:\n\\[\n\\frac{AE}{EC} = 1\n\\]\n\nComparing the two ratios, we obtain:\n\\[\n\\frac{AD}{DB} = \\frac{AE}{EC}\n\\]\n\nIn \\(\\triangle ABC\\), the line \\(DE\\) divides the sides \\(AB\\) and \\(AC\\) in the same ratio. Therefore, by Theorem 6.2 (Converse of Basic Proportionality Theorem), the line \\(DE\\) is parallel to the third side \\(BC\\).\n\nHence, \n\\[\nDE \\parallel BC\n\\]",
+          "sourceInfo": "Exercise 6.2 Q8",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_g1_q9",
+          "displayOrder": 9,
+          "questionText": "ABCD is a trapezium in which AB \\parallel DC and its diagonals intersect each other at the point O. Show that \\frac{AO}{BO} = \\frac{CO}{DO}.",
+          "solutionText": "**Given:**\n\\(ABCD\\) is a trapezium with \\(AB \\parallel DC\\), and its diagonals \\(AC\\) and \\(BD\\) intersect each other at point \\(O\\).\n\n**To Prove:**\n\\[\n\\frac{AO}{BO} = \\frac{CO}{DO}\n\\]\n\n**Construction:**\nThrough point \\(O\\), draw a line segment \\(EO\\) parallel to \\(AB\\) meeting \\(AD\\) at point \\(E\\).\n\n\\[\nEO \\parallel AB\n\\]\n\nSince \\(AB \\parallel DC\\), it follows that \\(EO \\parallel DC\\) as well.\n\n---\n\n**Proof:**\n\nIn \\(\\triangle ADC\\), since \\(EO \\parallel DC\\), by the Basic Proportionality Theorem:\n\n\\[\n\\frac{AE}{ED} = \\frac{AO}{CO} \\quad \\text{--- (1)}\n\\]\n\nIn \\(\\triangle ABD\\), since \\(EO \\parallel AB\\), by the Basic Proportionality Theorem:\n\n\\[\n\\frac{DE}{EA} = \\frac{DO}{BO}\n\\]\n\nTaking the reciprocal on both sides gives:\n\n\\[\n\\frac{AE}{ED} = \\frac{BO}{DO} \\quad \\text{--- (2)}\n\\]\n\nFrom equations (1) and (2), we get:\n\n\\[\n\\frac{AO}{CO} = \\frac{BO}{DO}\n\\]\n\nRearranging the terms, we obtain:\n\n\\[\n\\frac{AO}{BO} = \\frac{CO}{DO}\n\\]\n\nHence proved.",
+          "sourceInfo": "Exercise 6.2 Q9",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_g1_q10",
+          "displayOrder": 10,
+          "questionText": "The diagonals of a quadrilateral \\(ABCD\\) intersect each other at the point \\(O\\) such that \\(\\frac{AO}{BO} = \\frac{CO}{DO}\\). Show that \\(ABCD\\) is a trapezium.",
+          "solutionText": "**1. Given**\n\nA quadrilateral \\(ABCD\\) whose diagonals \\(AC\\) and \\(BD\\) intersect each other at the point \\(O\\) such that:\n\\[\n\\frac{AO}{BO} = \\frac{CO}{DO}\n\\]\n\n**2. To Prove**\n\nQuadrilateral \\(ABCD\\) is a trapezium.\n\n**3. Construction**\n\nThrough point \\(O\\), draw a line segment \\(EF\\) parallel to \\(AB\\) meeting \\(AD\\) at \\(E\\) and \\(BC\\) at \\(F\\).\n\n**4. Proof**\n\nConsider \\(\\triangle ABD\\). Since \\(EO \\parallel AB\\), by Basic Proportionality Theorem (Thales's Theorem), we have:\n\\[\n\\frac{AE}{ED} = \\frac{BO}{OD}\n\\]\nwhich can be rewritten as:\n\\[\n\\frac{AE}{ED} = \\frac{BO}{DO} \\implies \\frac{ED}{AE} = \\frac{DO}{BO}\n\\]\nFrom the given condition \\(\\frac{AO}{BO} = \\frac{CO}{DO}\\), we can rearrange the terms as:\n\\[\n\\frac{AO}{CO} = \\frac{BO}{DO}\n\\]\nTaking the reciprocal of both sides gives:\n\\[\n\\frac{CO}{AO} = \\frac{DO}{BO}\n\\]\nSubstituting \\(\\frac{DO}{BO} = \\frac{ED}{AE}\\) into the relation:\n\\[\n\\frac{CO}{AO} = \\frac{ED}{AE}\n\\]\nNow, consider \\(\\triangle ADC\\). In \\(\\triangle ADC\\), a line segment \\(EO\\) intersects sides \\(AD\\) and \\(AC\\) such that:\n\\[\n\\frac{AE}{ED} = \\frac{AO}{CO}\n\\]\nBy the converse of the Basic Proportionality Theorem, this implies that:\n\\[\nEO \\parallel DC\n\\]\nBy construction, \\(EO \\parallel AB\\). Therefore, we have:\n\\[\nAB \\parallel EO \\quad \\text{and} \\quad EO \\parallel DC\n\\]\nThis implies that:\n\\[\nAB \\parallel DC\n\\]\nSince one pair of opposite sides of the quadrilateral \\(ABCD\\) is parallel (\\(AB \\parallel DC\\)), the quadrilateral \\(ABCD\\) is a trapezium.\n\nHence, \\(ABCD\\) is a trapezium.",
+          "sourceInfo": "Exercise 6.2 Q10",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "ha",
+      "friendlyName": "Exercise 6.3",
+      "displayOrder": 3,
+      "questions": [
+        {
+          "id": "c10_mathemat_ch6_sol_ha_q1",
+          "displayOrder": 1,
+          "questionText": "State which pairs of triangles in Fig. 6.34 are similar. Write the similarity criterion used by you for answering the question and also write the pairs of similar triangles in the symbolic form.\n\n\n![Figure](assets/sol_q_1792219833371_17_a4ce.webp)\n\n",
+          "solutionText": "**Solution:**\n\nTo determine whether the given pairs of triangles are similar, we use the criteria for similarity of triangles (such as AAA, SSS, or SAS similarity criteria). If two triangles are similar, their corresponding vertices must be written in correct symbolic order.\n\n---\n\n**(i)** In \\(\\triangle ABC\\) and \\(\\triangle PQR\\):\n\\[\n\\begin{aligned}\n\\angle A &= \\angle P = 60^\\circ \\\\\n\\angle B &= \\angle Q = 80^\\circ \\\\\n\\angle C &= \\angle R = 40^\\circ\n\\end{aligned}\n\\]\nSince all corresponding angles of both triangles are equal, by the **AAA similarity criterion**, \n\\[\n\\triangle ABC \\sim \\triangle PQR\n\\]\n\n---\n\n**(ii)** In \\(\\triangle ABC\\) and \\(\\triangle RQP\\):\n\\[\n\\begin{aligned}\n\\frac{AB}{QR} &= \\frac{2}{4} = \\frac{1}{2} \\\\\n\\frac{BC}{RP} &= \\frac{2.5}{5} = \\frac{1}{2} \\\\\n\\frac{CA}{PQ} &= \\frac{3}{6} = \\frac{1}{2}\n\\end{aligned}\n\\]\nThus, the ratios of the corresponding sides are equal:\n\\[\n\\frac{AB}{QR} = \\frac{BC}{RP} = \\frac{CA}{PQ} = \\frac{1}{2}\n\\]\nSince all three corresponding sides are in the same proportion, by the **SSS similarity criterion**, \n\\[\n\\triangle ABC \\sim \\triangle RQP\n\\]\n\n---\n\n**(iii)** In \\(\\triangle LMP\\) and \\(\\triangle DEF\\):\n\\[\n\\begin{aligned}\n\\frac{MP}{DE} &= \\frac{2}{4} = \\frac{1}{2} \\\\\n\\frac{PL}{EF} &= \\frac{3}{5} \\\\\n\\frac{LM}{FD} &= \\frac{2.7}{6} = \\frac{9}{20}\n\\end{aligned}\n\\]\nSince the ratios of the corresponding sides are not equal, the triangles are not similar.\n\n---\n\n**(iv)** In \\(\\triangle MNL\\) and \\(\\triangle QPR\\):\n\\[\n\\begin{aligned}\n\\frac{MN}{QP} &= \\frac{2.5}{5} = \\frac{1}{2} \\\\\n\\frac{ML}{QR} &= \\frac{5}{10} = \\frac{1}{2}\n\\end{aligned}\n\\]\nHere, the ratio of two sides is equal, but the included angle between sides \\(MN\\) and \\(ML\\) in \\(\\triangle MNL\\) is \\(\\angle M = 70^\\circ\\), whereas in \\(\\triangle QPR\\), the angle \\(70^\\circ\\) is \\(\\angle Q\\), which is not included between the sides \\(QP\\) and \\(QR\\) in the same relative position. Therefore, SAS similarity criterion cannot be applied here. \nThus, the triangles are not similar.\n\n---\n\n**(v)** In \\(\\triangle ABC\\) and \\(\\triangle FDE\\):\n\\[\n\\begin{aligned}\n\\frac{AB}{FD} &= \\frac{2.5}{5} = \\frac{1}{2} \\\\\n\\frac{BC}{FE} &= \\frac{3}{6} = \\frac{1}{2}\n\\end{aligned}\n\\]\nThe ratio of two pairs of sides is equal:\n\\[\n\\frac{AB}{FD} = \\frac{BC}{FE} = \\frac{1}{2}\n\\]\nThe included angle between sides \\(AB\\) and \\(BC\\) is \\(\\angle B = 80^\\circ\\), and the included angle between sides \\(FD\\) and \\(FE\\) is \\(\\angle F = 80^\\circ\\).\nThus, \\(\\angle B = \\angle F = 80^\\circ\\).\nBy the **SAS similarity criterion**, \n\\[\n\\triangle ABC \\sim \\triangle FDE\n\\]\n\n---\n\n**(vi)** In \\(\\triangle DEF\\):\nThe third angle can be found using the angle sum property of a triangle:\n\\[\n\\angle F = 180^\\circ - (70^\\circ + 80^\\circ) = 180^\\circ - 150^\\circ = 30^\\circ\n\\]\nIn \\(\\triangle PQR\\):\nThe third angle can also be found:\n\\[\n\\angle P = 180^\\circ - (80^\\circ + 30^\\circ) = 180^\\circ - 110^\\circ = 70^\\circ\n\\]\nComparing the angles of \\(\\triangle DEF\\) and \\(\\triangle PQR\\):\n\\[\n\\begin{aligned}\n\\angle D &= \\angle P = 70^\\circ \\\\\n\\angle E &= \\angle Q = 80^\\circ \\\\\n\\angle F &= \\angle R = 30^\\circ\n\\end{aligned}\n\\]\nSince all corresponding angles are equal, by the **AAA similarity criterion**, \n\\[\n\\triangle DEF \\sim \\triangle PQR\n\\]\n\n---\n\n**Summary of Similar Triangles:**\n- **(i)** \\(\\triangle ABC \\sim \\triangle PQR\\) (by **AAA**)\n- **(ii)** \\(\\triangle ABC \\sim \\triangle RQP\\) (by **SSS**)\n- **(v)** \\(\\triangle ABC \\sim \\triangle FDE\\) (by **SAS**)\n- **(vi)** \\(\\triangle DEF \\sim \\triangle PQR\\) (by **AAA**)",
+          "sourceInfo": "Exercise 6.3 Q1",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_ha_q2",
+          "displayOrder": 2,
+          "questionText": "In Fig. 6.35, \\(\\Delta ODC \\sim \\Delta OBA\\), \\(\\angle BOC = 125^\\circ\\) and \\(\\angle CDO = 70^\\circ\\). Find \\(\\angle DOC\\), \\(\\angle DCO\\) and \\(\\angle OAB\\).\n\n\n![Figure](assets/sol_q_1792219833371_18_3d9a.webp)",
+          "solutionText": "**Solution**\n\n**Given:**\n- \\(\\triangle ODC \\sim \\triangle OBA\\)\n- \\(\\angle BOC = 125^\\circ\\)\n- \\(\\angle CDO = 70^\\circ\\)\n\n**To Find:**\n- \\(\\angle DOC\\)\n- \\(\\angle DCO\\)\n- \\(\\angle OAB\\)\n\n**Calculation:**\n\nConsider the straight line \\(DB\\). The angles \\(\\angle DOC\\) and \\(\\angle BOC\\) form a linear pair. \n\n\\[\n\\angle DOC + \\angle BOC = 180^\\circ\n\\]\n\nSubstitute the given value of \\(\\angle BOC\\):\n\n\\[\n\\angle DOC + 125^\\circ = 180^\\circ\n\\]\n\n\\[\n\\angle DOC = 180^\\circ - 125^\\circ = 55^\\circ\n\\]\n\nNow, consider \\(\\triangle ODC\\). The sum of all interior angles of a triangle is \\(180^\\circ\\). Therefore, for \\(\\triangle ODC\\):\n\n\\[\n\\angle DOC + \\angle DCO + \\angle CDO = 180^\\circ\n\\]\n\nSubstitute the known values of \\(\\angle DOC\\) and \\(\\angle CDO\\):\n\n\\[\n55^\\circ + \\angle DCO + 70^\\circ = 180^\\circ\n\\]\n\n\\[\n125^\\circ + \\angle DCO = 180^\\circ\n\\]\n\n\\[\n\\angle DCO = 180^\\circ - 125^\\circ = 55^\\circ\n\\]\n\nIt is given that \\(\\triangle ODC \\sim \\triangle OBA\\). Corresponding angles of similar triangles are equal. Therefore, we have:\n\n\\[\n\\angle OAB = \\angle DCO\n\\]\n\nSubstitute the value of \\(\\angle DCO\\):\n\n\\[\n\\angle OAB = 55^\\circ\n\\]\n\n**Therefore,**\n- \\(\\angle DOC = 55^\\circ\\)\n- \\(\\angle DCO = 55^\\circ\\)\n- \\(\\angle OAB = 55^\\circ\\)",
+          "sourceInfo": "Exercise 6.3 Q2",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_ha_q3",
+          "displayOrder": 3,
+          "questionText": "Diagonals AC and BD of a trapezium ABCD with \\(AB \\parallel DC\\) intersect each other at the point O. Using a similarity criterion for two triangles, show that \\(\\frac{OA}{OC} = \\frac{OB}{OD}\\).",
+          "solutionText": "**Given:**\nA trapezium \\(ABCD\\) in which \\(AB \\parallel DC\\). The diagonals \\(AC\\) and \\(BD\\) intersect each other at point \\(O\\).\n\n**To Prove:**\n\\[\n\\frac{OA}{OC} = \\frac{OB}{OD}\n\\]\n\n**Proof:**\n\nIn \\(\\triangle AOB\\) and \\(\\triangle COD\\),\n\n\\[\n\\angle OAB = \\angle OCD \\quad (\\text{Alternate interior angles, since } AB \\parallel DC \\text{ and } AC \\text{ is the transversal})\n\\]\n\n\\[\n\\angle OBA = \\angle ODC \\quad (\\text{Alternate interior angles, since } AB \\parallel DC \\text{ and } BD \\text{ is the transversal})\n\\]\n\n\\[\n\\angle AOB = \\angle COD \\quad (\\text{Vertically opposite angles})\n\\]\n\nBy AA similarity criterion,\n\\[\n\\triangle AOB \\sim \\triangle COD\n\\]\n\nSince corresponding sides of similar triangles are proportional,\n\n\\[\n\\frac{OA}{OC} = \\frac{OB}{OD}\n\\]\n\nHence proved.",
+          "sourceInfo": "Exercise 6.3 Q3",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_ha_q4",
+          "displayOrder": 4,
+          "questionText": "In Fig. 6.36, \\(QR/QS = QT/PR\\) and \\(\\angle 1 = \\angle 2\\). Show that \\(\\Delta PQS \\sim \\Delta TQR\\).\n\n\n![Figure](assets/sol_q_1792219833371_20_ce12.webp)\n\n",
+          "solutionText": "**Solution:**\n\n**Given:**\nIn \\(\\triangle TQR\\), \\(\\frac{QR}{QS} = \\frac{QT}{PR}\\) and \\(\\angle 1 = \\angle 2\\).\n\n**To Prove:**\n\\(\\triangle PQS \\sim \\triangle TQR\\)\n\n**Proof:**\n\nConsider \\(\\triangle PQR\\). \nSince \\(\\angle 1 = \\angle 2\\), which means \\(\\angle PQR = \\angle PRQ\\), the sides opposite to these equal angles are equal. \n\nTherefore,\n\\[\nPR = PQ\n\\]\n\nUsing the given relation \\(\\frac{QR}{QS} = \\frac{QT}{PR}\\) and substituting \\(PR = PQ\\), we get:\n\\[\n\\frac{QR}{QS} = \\frac{QT}{PQ}\n\\]\nor rewriting the ratio,\n\\[\n\\frac{QR}{QT} = \\frac{QS}{PQ}\n\\]\n\nNow, in \\(\\triangle PQS\\) and \\(\\triangle TQR\\):\n\\[\n\\frac{QS}{PQ} = \\frac{QR}{QT} \\quad \\text{(proved above)}\n\\]\nand the included angle \\(\\angle Q\\) is common to both triangles, that is:\n\\[\n\\angle PQS = \\angle TQR = \\angle 1\n\\]\n\nTherefore, by the SAS (Side-Angle-Side) similarity criterion,\n\\[\n\\triangle PQS \\sim \\triangle TQR\n\\]\n\nHence proved.",
+          "sourceInfo": "Exercise 6.3 Q4",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_ha_q5",
+          "displayOrder": 5,
+          "questionText": "S and T are points on sides PR and QR of \\(\\Delta PQR\\) such that \\(\\angle P = \\angle RTS\\). Show that \\(\\Delta RPQ \\sim \\Delta RTS\\).",
+          "solutionText": "**1. Given**\n\nIn \\(\\Delta PQR\\), \\(S\\) and \\(T\\) are points on sides \\(PR\\) and \\(QR\\) respectively, such that \\(\\angle P = \\angle RTS\\).\n\n**2. To Prove**\n\n\\(\\Delta RPQ \\sim \\Delta RTS\\)\n\n**3. Proof**\n\nConsider the two triangles \\(\\Delta RPQ\\) and \\(\\Delta RTS\\).\n\nIn \\(\\Delta RPQ\\) and \\(\\Delta RTS\\):\n1. \\(\\angle P = \\angle RTS\\) (Given)\n2. \\(\\angle R = \\angle R\\) (Common angle for both triangles, as \\(\\angle PRQ = \\angle SRT\\))\n\nBy the AA (Angle-Angle) criterion of similarity, if two angles of one triangle are respectively equal to two angles of another triangle, then the two triangles are similar.\n\nTherefore, \n\\[\n\\Delta RPQ \\sim \\Delta RTS\n\\]\n\nHence proved.",
+          "sourceInfo": "Exercise 6.3 Q5",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_ha_q6",
+          "displayOrder": 6,
+          "questionText": "In Fig. 6.37, if \\(\\Delta \\text{ABE} \\cong \\Delta \\text{ACD}\\), show that \\(\\Delta \\text{ADE} \\sim \\Delta \\text{ABC}\\).\n\n![Figure](assets/sol_q_1792219833371_22_44b1.webp)\n\n",
+          "solutionText": "**Given**\n\nIn \\(\\triangle ABC\\), \\(\\triangle ABE \\cong \\triangle ACD\\) as shown in the given figure.\n\n**To Prove**\n\n\\[\n\\triangle ADE \\sim \\triangle ABC\n\\]\n\n**Proof**\n\nSince \\(\\triangle ABE \\cong \\triangle ACD\\), their corresponding parts are equal. Therefore,\n\n\\[\nAB = AC\n\\]\nand\n\\[\nAE = AD\n\\]\n\nFrom the above relations, we can rewrite them as:\n\n\\[\n\\frac{AD}{AB} = 1\n\\]\nand\n\\[\n\\frac{AE}{AC} = 1\n\\]\n\nEquating the two ratios, we get:\n\n\\[\n\\frac{AD}{AB} = \\frac{AE}{AC}\n\\]\n\nNow, considering \\(\\triangle ADE\\) and \\(\\triangle ABC\\), we have:\n\n\\[\n\\frac{AD}{AB} = \\frac{AE}{AC}\n\\]\n\nAdditionally, the angle \\(\\angle A\\) is common to both triangles:\n\n\\[\n\\angle DAE = \\angle BAC\n\\]\n\nTherefore, by the Side-Angle-Side (SAS) similarity criterion for triangles,\n\n\\[\n\\triangle ADE \\sim \\triangle ABC\n\\]\n\nHence proved.",
+          "sourceInfo": "Exercise 6.3 Q6",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_ha_q7",
+          "displayOrder": 7,
+          "questionText": "In Fig. 6.38, altitudes AD and CE of \\(\\Delta ABC\\) intersect each other at the point P. Show that:\n(i) \\(\\Delta AEP \\sim \\Delta CDP\\)\n(ii) \\(\\Delta ABD \\sim \\Delta CBE\\)\n(iii) \\(\\Delta AEP \\sim \\Delta ADB\\)\n(iv) \\(\\Delta PDC \\sim \\Delta BEC\\)\n\n\n![Figure](assets/sol_q_1792219833371_23_f531.webp)\n\n",
+          "solutionText": "**Given:**\nAltitudes \\(AD\\) and \\(CE\\) of \\(\\triangle ABC\\) intersect each other at the point \\(P\\).\n\n---\n\n### (i) Show that \\(\\Delta AEP \\sim \\Delta CDP\\)\n\n**Proof:**\nIn \\(\\triangle AEP\\) and \\(\\triangle CDP\\):\n\\[\n\\angle AEP = \\angle CDP = 90^\\circ \\quad (\\text{since } CE \\perp AB \\text{ and } AD \\perp BC)\n\\]\n\\[\n\\angle APE = \\angle CPD \\quad (\\text{vertically opposite angles})\n\\]\nTherefore, by AA similarity criterion,\n\\[\n\\Delta AEP \\sim \\Delta CDP\n\\]\n\n---\n\n### (ii) Show that \\(\\Delta ABD \\sim \\Delta CBE\\)\n\n**Proof:**\nIn \\(\\triangle ABD\\) and \\(\\triangle CBE\\):\n\\[\n\\angle ADB = \\angle CEB = 90^\\circ \\quad (\\text{since } AD \\perp BC \\text{ and } CE \\perp AB)\n\\]\n\\[\n\\angle ABD = \\angle CBE \\quad (\\text{common angle } \\angle B)\n\\]\nTherefore, by AA similarity criterion,\n\\[\n\\Delta ABD \\sim \\Delta CBE\n\\]\n\n---\n\n### (iii) Show that \\(\\Delta AEP \\sim \\Delta ADB\\)\n\n**Proof:**\nIn \\(\\triangle AEP\\) and \\(\\triangle ADB\\):\n\\[\n\\angle AEP = \\angle ADB = 90^\\circ \\quad (\\text{since } CE \\perp AB \\text{ and } AD \\perp BC)\n\\]\n\\[\n\\angle PAE = \\angle DAB \\quad (\\text{common angle } \\angle A)\n\\]\nTherefore, by AA similarity criterion,\n\\[\n\\Delta AEP \\sim \\Delta ADB\n\\]\n\n---\n\n### (iv) Show that \\(\\Delta PDC \\sim \\Delta BEC\\)\n\n**Proof:**\nIn \\(\\triangle PDC\\) and \\(\\triangle BEC\\):\n\\[\n\\angle PDC = \\angle BEC = 90^\\circ \\quad (\\text{since } AD \\perp BC \\text{ and } CE \\perp AB)\n\\]\n\\[\n\\angle PCD = \\angle BCE \\quad (\\text{common angle } \\angle C)\n\\]\nTherefore, by AA similarity criterion,\n\\[\n\\Delta PDC \\sim \\Delta BEC\n\\]",
+          "sourceInfo": "Exercise 6.3 Q7",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_ha_q8",
+          "displayOrder": 8,
+          "questionText": "E is a point on the side AD produced of a parallelogram ABCD and BE intersects CD at F. Show that Δ ABE ~ Δ CFB.",
+          "solutionText": "**Given:**\n\\(ABCD\\) is a parallelogram. \\(E\\) is a point on the side \\(AD\\) produced, and \\(BE\\) intersects \\(CD\\) at \\(F\\).\n\n**To Prove:**\n\\[\n\\Delta ABE \\sim \\Delta CFB\n\\]\n\n**Proof:**\nIn parallelogram \\(ABCD\\), opposite angles are equal. Therefore,\n\\[\n\\angle A = \\angle C \\quad \\text{--- (1)}\n\\]\n\nSince \\(AD \\parallel BC\\) (opposite sides of parallelogram \\(ABCD\\)) and \\(E\\) is a point on \\(AD\\) produced, it follows that \\(AE \\parallel BC\\).\n\nFor parallel lines \\(AE\\) and \\(BC\\) cut by the transversal \\(BE\\), the alternate interior angles are equal:\n\\[\n\\angle AEB = \\angle CBF \\quad \\text{--- (2)}\n\\]\n\nNow, in \\(\\Delta ABE\\) and \\(\\Delta CFB\\):\n\\[\n\\begin{aligned}\n\\angle A &= \\angle C && \\text{[From (1)]} \\\\\n\\angle AEB &= \\angle CBF && \\text{[From (2)]}\n\\end{aligned}\n\\]\n\nTherefore, by the AA similarity criterion:\n\\[\n\\Delta ABE \\sim \\Delta CFB\n\\]\n\nHence proved.",
+          "sourceInfo": "Exercise 6.3 Q8",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_ha_q9",
+          "displayOrder": 9,
+          "questionText": "In Fig. 6.39, ABC and AMP are two right triangles, right angled at B and M respectively. Prove that: \n(i) \\(\\Delta \\text{ABC} \\sim \\Delta \\text{AMP}\\) \n(ii) \\(\\frac{\\text{CA}}{\\text{PA}} = \\frac{\\text{BC}}{\\text{MP}}\\)\n\n\n\n![Figure](assets/sol_q_1792219833371_25_6695.webp)\n\n",
+          "solutionText": "**Given:**\nTwo right triangles \\(\\triangle ABC\\) and \\(\\triangle AMP\\), right-angled at \\(B\\) and \\(M\\) respectively, such that \\(\\angle ABC = 90^\\circ\\) and \\(\\angle AMP = 90^\\circ\\).\n\n**To Prove:**\n(i) \\(\\triangle ABC \\sim \\triangle AMP\\)\n(ii) \\(\\frac{CA}{PA} = \\frac{BC}{MP}\\)\n\n---\n\n**Proof:**\n\n**(i)** In \\(\\triangle ABC\\) and \\(\\triangle AMP\\):\n\\[\n\\angle ABC = \\angle AMP = 90^\\circ \\quad (\\text{given})\n\\]\nAlso, consider \\(\\angle A\\):\n\\[\n\\angle CAB = \\angle MAP \\quad (\\text{common angle for both triangles})\n\\]\nBy AA (Angle-Angle) similarity criterion,\n\\[\n\\triangle ABC \\sim \\triangle AMP\n\\]\n\n**(ii)** Since the triangles are similar (\\(\\triangle ABC \\sim \\triangle AMP\\)), the ratios of their corresponding sides are equal:\n\\[\n\\frac{AB}{AM} = \\frac{BC}{MP} = \\frac{CA}{PA}\n\\]\nTaking the last two ratios, we get:\n\\[\n\\frac{CA}{PA} = \\frac{BC}{MP}\n\\]\n\nHence proved.",
+          "sourceInfo": "Exercise 6.3 Q9",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_ha_q10",
+          "displayOrder": 10,
+          "questionText": "CD and GH are respectively the bisectors of \\(\\angle ACB\\) and \\(\\angle EGF\\) such that D and H lie on sides AB and FE of \\(\\Delta ABC\\) and \\(\\Delta EFG\\) respectively. If \\(\\Delta ABC \\sim \\Delta FEG\\), show that: \n(i) \\(\\frac{CD}{GH} = \\frac{AC}{FG}\\) \n(ii) \\(\\Delta DCB \\sim \\Delta HGE\\) \n(iii) \\(\\Delta DCA \\sim \\Delta HGF\\)",
+          "solutionText": "**Given:**\n\n\\(CD\\) and \\(GH\\) are the bisectors of \\(\\angle ACB\\) and \\(\\angle EGF\\) such that points \\(D\\) and \\(H\\) lie on sides \\(AB\\) and \\(FE\\) of \\(\\triangle ABC\\) and \\(\\triangle EFG\\) respectively.\n\nAlso, \\(\\triangle ABC \\sim \\triangle FEG\\).\n\n---\n\n**To Prove:**\n\n(i) \\(\\dfrac{CD}{GH} = \\dfrac{AC}{FG}\\)\n\n(ii) \\(\\triangle DCB \\sim \\triangle HGE\\)\n\n(iii) \\(\\triangle DCA \\sim \\triangle HGF\\)\n\n---\n\n**Proof:**\n\nSince \\(\\triangle ABC \\sim \\triangle FEG\\), their corresponding angles are equal:\n\\[\n\\angle A = \\angle F \\tag{1}\n\\]\n\\[\n\\angle B = \\angle E \\tag{2}\n\\]\n\\[\n\\angle ACB = \\angle FGE \\tag{3}\n\\]\n\nGiven that \\(CD\\) is the bisector of \\(\\angle ACB\\) and \\(GH\\) is the bisector of \\(\\angle EGF\\):\n\\[\n\\angle ACD = \\angle DCB = \\frac{1}{2}\\angle ACB\n\\]\n\\[\n\\angle FGH = \\angle HGE = \\frac{1}{2}\\angle FGE\n\\]\n\nFrom equation \\((3)\\), since \\(\\angle ACB = \\angle FGE\\), we have:\n\\[\n\\frac{1}{2}\\angle ACB = \\frac{1}{2}\\angle FGE\n\\]\n\\[\n\\angle ACD = \\angle FGH \\tag{4}\n\\]\n\\[\n\\angle DCB = \\angle HGE \\tag{5}\n\\]\n\n---\n\n**(i) To prove \\(\\dfrac{CD}{GH} = \\dfrac{AC}{FG}\\):**\n\nIn \\(\\triangle DCA\\) and \\(\\triangle HGF\\):\n\\[\n\\angle A = \\angle F \\quad [\\text{From (1)}]\n\\]\n\\[\n\\angle ACD = \\angle FGH \\quad [\\text{From (4)}]\n\\]\n\nTherefore, by the \\(\\text{AA}\\) similarity criterion:\n\\[\n\\triangle DCA \\sim \\triangle HGF\n\\]\n\nSince corresponding sides of similar triangles are proportional:\n\\[\n\\frac{CD}{GH} = \\frac{AC}{FG}\n\\]\n\n---\n\n**(ii) To prove \\(\\triangle DCB \\sim \\triangle HGE\\):**\n\nIn \\(\\triangle DCB\\) and \\(\\triangle HGE\\):\n\\[\n\\angle B = \\angle E \\quad [\\text{From (2)}]\n\\]\n\\[\n\\angle DCB = \\angle HGE \\quad [\\text{From (5)}]\n\\]\n\nTherefore, by the \\(\\text{AA}\\) similarity criterion:\n\\[\n\\triangle DCB \\sim \\triangle HGE\n\\]\n\n---\n\n**(iii) To prove \\(\\triangle DCA \\sim \\triangle HGF\\):**\n\nIn \\(\\triangle DCA\\) and \\(\\triangle HGF\\):\n\\[\n\\angle A = \\angle F \\quad [\\text{From (1)}]\n\\]\n\\[\n\\angle ACD = \\angle FGH \\quad [\\text{From (4)}]\n\\]\n\nTherefore, by the \\(\\text{AA}\\) similarity criterion:\n\\[\n\\triangle DCA \\sim \\triangle HGF\n\\]\n\nHence proved.",
+          "sourceInfo": "Exercise 6.3 Q10",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_ha_q11",
+          "displayOrder": 11,
+          "questionText": "In Fig. 6.40, \\(E\\) is a point on side \\(CB\\) produced of an isosceles triangle \\(ABC\\) with \\(AB = AC\\). If \\(AD \\perp BC\\) and \\(EF \\perp AC\\), prove that \\(\\Delta ABD \\sim \\Delta ECF\\).\n\n![Figure](assets/sol_q_1792219833371_27_c7e2.webp)",
+          "solutionText": "**Given:**\n- Triangle \\(ABC\\) is an isosceles triangle with \\(AB = AC\\).\n- \\(E\\) is a point on side \\(CB\\) produced.\n- \\(AD \\perp BC\\) at \\(D\\).\n- \\(EF \\perp AC\\) at \\(F\\).\n\n**To Prove:**\n\\[\n\\triangle ABD \\sim \\triangle ECF\n\\]\n\n**Proof:**\n\nSince \\(\\triangle ABC\\) is an isosceles triangle with \\(AB = AC\\), the angles opposite to the equal sides are equal. Therefore,\n\\[\n\\angle ABC = \\angle ACB\n\\]\nSince \\(\\angle ABC\\) and \\(\\angle ABD\\) represent the same angle on the straight line \\(BC\\), we have:\n\\[\n\\angle ABD = \\angle ACB\n\\]\nAlso, from the definition of the point \\(E\\) lying on the side \\(CB\\) produced, the points \\(E, B, C, D\\) lie along the straight line segment, so angle \\(\\angle ACB\\) is the same as \\(\\angle ECF\\). Thus,\n\\[\n\\angle ABD = \\angle ECF \\quad \\text{--- (1)}\n\\]\n\nNow, consider the two triangles \\(\\triangle ABD\\) and \\(\\triangle ECF\\):\n1. \\(\\angle ABD = \\angle ECF\\) \\(\\quad\\) (from equation (1))\n2. \\(\\angle ADB = 90^\\circ\\) \\(\\quad\\) (given that \\(AD \\perp BC\\))\n3. \\(\\angle EFC = 90^\\circ\\) \\(\\quad\\) (given that \\(EF \\perp AC\\))\n\nTherefore,\n\\[\n\\angle ADB = \\angle EFC = 90^\\circ \\quad \\text{--- (2)}\n\\]\n\nFrom (1) and (2), by AA (Angle-Angle) similarity criterion, two angles of \\(\\triangle ABD\\) are respectively equal to two angles of \\(\\triangle ECF\\).\n\nHence,\n\\[\n\\triangle ABD \\sim \\triangle ECF\n\\]\n\n**Hence Proved.**",
+          "sourceInfo": "Exercise 6.3 Q11",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_ha_q12",
+          "displayOrder": 12,
+          "questionText": "Sides AB and BC and median AD of a triangle ABC are respectively proportional to sides PQ and QR and median PM of \\(\\Delta PQR\\) (see Fig. 6.41). Show that \\(\\Delta ABC \\sim \\Delta PQR\\).\n\n![Figure](assets/sol_q_1792219833371_28_4a0b.webp)\n\n",
+          "solutionText": "**Given:**\nTriangles \\(ABC\\) and \\(PQR\\) with medians \\(AD\\) and \\(PM\\) respectively, such that:\n\\[\n\\frac{AB}{PQ} = \\frac{BC}{QR} = \\frac{AD}{PM}\n\\]\n\n**To Prove:**\n\\[\n\\triangle ABC \\sim \\triangle PQR\n\\]\n\n**Proof:**\n\nSince \\(AD\\) and \\(PM\\) are medians of \\(\\triangle ABC\\) and \\(\\triangle PQR\\) respectively, \\(D\\) is the midpoint of \\(BC\\) and \\(M\\) is the midpoint of \\(QR\\). Therefore:\n\\[\nBC = 2BD \\quad \\text{and} \\quad QR = 2QM\n\\]\n\nSubstituting these into the given ratio:\n\\[\n\\frac{AB}{PQ} = \\frac{2BD}{2QM} = \\frac{AD}{PM}\n\\]\n\\[\n\\frac{AB}{PQ} = \\frac{BD}{QM} = \\frac{AD}{PM}\n\\]\n\nBy the SSS similarity criterion, triangle \\(ABD\\) is similar to triangle \\(PQM\\):\n\\[\n\\triangle ABD \\sim \\triangle PQM\n\\]\n\nConsequently, corresponding angles are equal:\n\\[\n\\angle B = \\angle Q\n\\]\n\nNow, in \\(\\triangle ABC\\) and \\(\\triangle PQR\\), we have:\n\\[\n\\frac{AB}{PQ} = \\frac{BC}{QR} \\quad \\text{(given)}\n\\]\nand \n\\[\n\\angle B = \\angle Q \\quad \\text{(proved above)}\n\\]\n\nBy the SAS similarity criterion, triangle \\(ABC\\) is similar to triangle \\(PQR\\):\n\\[\n\\triangle ABC \\sim \\triangle PQR\n\\]\n\nHence proved.",
+          "sourceInfo": "Exercise 6.3 Q12",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_ha_q13",
+          "displayOrder": 13,
+          "questionText": "D is a point on the side BC of a triangle ABC such that \\(\\angle \\text{ADC} = \\angle \\text{BAC}\\). Show that \\(CA^2 = CB \\cdot CD\\).",
+          "solutionText": "**Given:**  \nIn \\(\\triangle ABC\\), \\(D\\) is a point on the side \\(BC\\) such that \\(\\angle ADC = \\angle BAC\\).\n\n**To Prove:**  \n\\[\nCA^2 = CB \\cdot CD\n\\]\n\n**Proof:**  \nIn \\(\\triangle ADC\\) and \\(\\triangle BAC\\):\n\n\\[\n\\begin{aligned}\n\\angle ADC &= \\angle BAC \\quad &&(\\text{Given}) \\\\\n\\angle ACD &= \\angle BCA \\quad &&(\\text{Common angle, }\\angle C)\n\\end{aligned}\n\\]\n\nTherefore, by AA similarity criterion,\n\\[\n\\triangle ADC \\sim \\triangle BAC\n\\]\n\nSince the corresponding sides of similar triangles are proportional,\n\\[\n\\frac{CA}{CB} = \\frac{CD}{CA}\n\\]\n\nCross-multiplying the terms:\n\\[\nCA \\cdot CA = CB \\cdot CD\n\\]\n\n\\[\nCA^2 = CB \\cdot CD\n\\]\n\nHence proved.",
+          "sourceInfo": "Exercise 6.3 Q13",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_ha_q14",
+          "displayOrder": 14,
+          "questionText": "Sides AB and AC and median AD of a triangle ABC are respectively proportional to sides PQ and PR and median PM of another triangle PQR. Show that Δ ABC ~ Δ PQR.",
+          "solutionText": "**Given:**\n\nIn \\(\\Delta ABC\\) and \\(\\Delta PQR\\), \\(AD\\) is the median to side \\(BC\\) and \\(PM\\) is the median to side \\(QR\\) such that:\n\n\\[\n\\frac{AB}{PQ} = \\frac{AC}{PR} = \\frac{AD}{PM}\n\\]\n\n**To Prove:**\n\n\\[\n\\Delta ABC \\sim \\Delta PQR\n\\]\n\n**Construction:**\n\nExtend \\(AD\\) to \\(E\\) such that \\(AD = DE\\), and join \\(EC\\).  \nExtend \\(PM\\) to \\(N\\) such that \\(PM = MN\\), and join \\(NR\\).\n\n**Proof:**\n\nIn quadrilateral \\(ABEC\\), the diagonals \\(AE\\) and \\(BC\\) bisect each other at \\(D\\) since \\(AD = DE\\) (by construction) and \\(BD = DC\\) (\\(AD\\) is the median of \\(\\Delta ABC\\)).\n\nTherefore, quadrilateral \\(ABEC\\) is a parallelogram.\n\\[\nAB = EC\n\\]\n\nSimilarly, in quadrilateral \\(PQNR\\), the diagonals \\(PN\\) and \\(QR\\) bisect each other at \\(M\\) since \\(PM = MN\\) (by construction) and \\(QM = MR\\) (\\(PM\\) is the median of \\(\\Delta PQR\\)).\n\nTherefore, quadrilateral \\(PQNR\\) is a parallelogram.\n\\[\nPQ = NR\n\\]\n\nIt is given that:\n\\[\n\\frac{AB}{PQ} = \\frac{AC}{PR} = \\frac{AD}{PM}\n\\]\n\nSubstituting \\(AB = EC\\) and \\(PQ = NR\\) into the above relation gives:\n\\[\n\\frac{EC}{NR} = \\frac{AC}{PR} = \\frac{AD}{PM}\n\\]\n\nSince \\(AE = 2AD\\) and \\(PN = 2PM\\), the ratio of the medians can be written as:\n\\[\n\\frac{AD}{PM} = \\frac{2AD}{2PM} = \\frac{AE}{PN}\n\\]\n\nThus,\n\\[\n\\frac{EC}{NR} = \\frac{AC}{PR} = \\frac{AE}{PN}\n\\]\n\nIn \\(\\Delta AEC\\) and \\(\\Delta PNR\\), all three corresponding sides are proportional. Therefore, by the SSS similarity criterion:\n\\[\n\\Delta AEC \\sim \\Delta PNR\n\\]\n\nSince corresponding angles of similar triangles are equal:\n\\[\n\\angle DAC = \\angle MPR \\quad \\text{--- (1)}\n\\]\n\nSimilarly, by considering \\(\\Delta ABE\\) and \\(\\Delta PQN\\), it can be shown that:\n\\[\n\\Delta ABE \\sim \\Delta PQN\n\\]\n\nwhich gives:\n\\[\n\\angle DAB = \\angle MPQ \\quad \\text{--- (2)}\n\\]\n\nAdding equations (1) and (2):\n\\[\n\\begin{aligned}\n\\angle DAB + \\angle DAC &= \\angle MPQ + \\angle MPR \\\\\n\\angle BAC &= \\angle QPR \\quad \\text{--- (3)}\n\\end{aligned}\n\\]\n\nNow, comparing \\(\\Delta ABC\\) and \\(\\Delta PQR\\):\n\\[\n\\frac{AB}{PQ} = \\frac{AC}{PR} \\quad \\text{(Given)}\n\\]\n\\[\n\\angle BAC = \\angle QPR \\quad \\text{(From (3))}\n\\]\n\nTherefore, by the SAS similarity criterion:\n\\[\n\\Delta ABC \\sim \\Delta PQR\n\\]\n\nHence proved.",
+          "sourceInfo": "Exercise 6.3 Q14",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_ha_q15",
+          "displayOrder": 15,
+          "questionText": "A vertical pole of length 6 m casts a shadow 4 m long on the ground and at the same time a tower casts a shadow 28 m long. Find the height of the tower.",
+          "solutionText": "**Given:**\n\nLength of the vertical pole, \\(AB = 6\\text{ m}\\)  \nLength of the shadow of the pole, \\(BC = 4\\text{ m}\\)  \nLength of the shadow of the tower, \\(QR = 28\\text{ m}\\)\n\n**To Find:**\n\nHeight of the tower, \\(PQ\\).\n\n---\n\n**Solution:**\n\nLet \\(AB\\) represent the vertical pole and \\(BC\\) represent its shadow on the ground.  \nLet \\(PQ\\) represent the vertical tower and \\(QR\\) represent its shadow on the ground.\n\nAt the same time, the angle of elevation of the sun is equal for both objects.\n\nIn \\(\\triangle ABC\\) and \\(\\triangle PQR\\):\n\n\\[\n\\angle B = \\angle Q = 90^\\circ \\quad \\text{(Since both the pole and the tower stand vertical to the ground)}\n\\]\n\n\\[\n\\angle C = \\angle R \\quad \\text{(Angle of elevation of the sun at the same instant)}\n\\]\n\nBy the AA similarity criterion:\n\n\\[\n\\triangle ABC \\sim \\triangle PQR\n\\]\n\nThe corresponding sides of similar triangles are in proportion:\n\n\\[\n\\frac{AB}{PQ} = \\frac{BC}{QR}\n\\]\n\nSubstituting the given values:\n\n\\[\n\\frac{6}{PQ} = \\frac{4}{28}\n\\]\n\n\\[\n\\frac{6}{PQ} = \\frac{1}{7}\n\\]\n\n\\[\nPQ = 6 \\times 7\n\\]\n\n\\[\nPQ = 42\\text{ m}\n\\]\n\nTherefore, the height of the tower is \\(42\\text{ m}\\).",
+          "sourceInfo": "Exercise 6.3 Q15",
+          "options": []
+        },
+        {
+          "id": "c10_mathemat_ch6_sol_ha_q16",
+          "displayOrder": 16,
+          "questionText": "If AD and PM are medians of triangles ABC and PQR, respectively where \\(\\Delta ABC \\sim \\Delta PQR\\), prove that \\(\\frac{AB}{PQ} = \\frac{AD}{PM}\\).",
+          "solutionText": "**Given:**\n\n\\(\\Delta ABC \\sim \\Delta PQR\\)\n\n\\(AD\\) is the median to side \\(BC\\) of \\(\\Delta ABC\\), and \\(PM\\) is the median to side \\(QR\\) of \\(\\Delta PQR\\).\n\n---\n\n**To Prove:**\n\n\\[\n\\frac{AB}{PQ} = \\frac{AD}{PM}\n\\]\n\n---\n\n**Proof:**\n\nSince \\(\\Delta ABC \\sim \\Delta PQR\\), their corresponding sides are proportional and corresponding angles are equal:\n\n\\[\n\\frac{AB}{PQ} = \\frac{BC}{QR} \\quad \\text{--- (1)}\n\\]\n\n\\[\n\\angle B = \\angle Q \\quad \\text{--- (2)}\n\\]\n\nGiven that \\(AD\\) and \\(PM\\) are medians, \\(D\\) is the midpoint of \\(BC\\) and \\(M\\) is the midpoint of \\(QR\\). Therefore:\n\n\\[\nBC = 2BD \\quad \\text{and} \\quad QR = 2QM\n\\]\n\nSubstituting these in equation (1):\n\n\\[\n\\frac{AB}{PQ} = \\frac{2BD}{2QM}\n\\]\n\n\\[\n\\frac{AB}{PQ} = \\frac{BD}{QM} \\quad \\text{--- (3)}\n\\]\n\nNow, in \\(\\Delta ABD\\) and \\(\\Delta PQM\\):\n\n\\[\n\\frac{AB}{PQ} = \\frac{BD}{QM} \\quad \\text{[from (3)]}\n\\]\n\n\\[\n\\angle B = \\angle Q \\quad \\text{[from (2)]}\n\\]\n\nTherefore, by SAS similarity criterion:\n\n\\[\n\\Delta ABD \\sim \\Delta PQM\n\\]\n\nSince the corresponding sides of similar triangles are proportional:\n\n\\[\n\\frac{AB}{PQ} = \\frac{AD}{PM}\n\\]\n\nHence proved.",
+          "sourceInfo": "Exercise 6.3 Q16",
+          "options": []
+        }
+      ]
+    }
+  ]
+}

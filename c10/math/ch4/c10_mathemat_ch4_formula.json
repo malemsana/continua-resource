@@ -1,0 +1,7 @@
+{
+  "id": "c10_mathemat_ch4_formula",
+  "chapterId": "c10_mathemat_ch4",
+  "friendlyName": "Formulae Sheet",
+  "markdownContent": "# Mathematics: Chapter 4 — Quadratic Equations — Formula Sheet\n\n## Standard Form\n\n### Definition\nAn equation of degree 2 in a single variable $x$:\n\n\\[\nax^2 + bx + c = 0\n\\]\n\nWhere:\n- $a, b, c$ — Real numbers\n- $a \\neq 0$\n\n## Roots of a Quadratic Equation\n\n### Quadratic Formula (Sridharacharya's Formula)\nThe roots of the standard quadratic equation $ax^2 + bx + c = 0$ are given by:\n\n\\[\nx = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n\\]\n\nWhere:\n- $a$ — Coefficient of $x^2$ ($a \\neq 0$)\n- $b$ — Coefficient of $x$\n- $c$ — Constant term\n\n### Discriminant\nThe nature of roots is determined by the discriminant $D$:\n\n\\[\nD = b^2 - 4ac\n\\]\n\n### Nature of Roots Table\n| Value of Discriminant ($D$) | Nature of Roots | Roots Formula |\n| :--- | :--- | :--- |\n| $D > 0$ | Two distinct real roots | $x_1 = \\frac{-b + \\sqrt{D}}{2a}, \\quad x_2 = \\frac{-b - \\sqrt{D}}{2a}$ |\n| $D = 0$ | Two equal real roots (coincident roots) | $x = -\\frac{b}{2a}, -\\frac{b}{2a}$ |\n| $D < 0$ | No real roots | Roots do not exist in $\\mathbb{R}$ |\n\n> **Remember:** If $\\alpha$ and $\\beta$ are the roots of $ax^2 + bx + c = 0$, then $\\alpha + \\beta = -\\frac{b}{a}$ and $\\alpha\\beta = \\frac{c}{a}$.\n",
+  "updatedAt": "2026-10-12T04:31:22.231Z"
+}

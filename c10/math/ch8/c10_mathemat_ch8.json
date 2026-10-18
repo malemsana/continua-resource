@@ -1,0 +1,38 @@
+{
+  "id": "c10_mathemat_ch8",
+  "classNumber": 10,
+  "subject": "Mathematics",
+  "chapterNumber": 8,
+  "friendlyName": "Introduction to Trigonometric Ratios",
+  "resources": {
+    "ncert": {
+      "exists": true,
+      "fileName": "c10_mathemat_ch8_ncert.pdf"
+    },
+    "formulaSheet": {
+      "exists": true,
+      "fileName": "c10_mathemat_ch8_formula.json"
+    },
+    "solutions": {
+      "exists": false
+    },
+    "examples": {
+      "exists": false
+    },
+    "pyq": {
+      "exists": false
+    },
+    "referenceFiles": {
+      "exists": false
+    },
+    "mockTests": {
+      "exists": false
+    },
+    "freeFlow": {
+      "exists": false
+    },
+    "assets": {
+      "exists": false
+    }
+  }
+}

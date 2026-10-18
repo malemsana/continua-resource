@@ -1,0 +1,41 @@
+{
+  "id": "c10_mathemat_ch7",
+  "classNumber": 10,
+  "subject": "Mathematics",
+  "chapterNumber": 7,
+  "friendlyName": "Coordinate Geometry",
+  "resources": {
+    "ncert": {
+      "exists": false
+    },
+    "formulaSheet": {
+      "exists": true,
+      "fileName": "c10_mathemat_ch7_formula.json"
+    },
+    "solutions": {
+      "exists": true,
+      "groupCount": 2,
+      "fileName": "c10_mathemat_ch7_sol.json"
+    },
+    "examples": {
+      "exists": false
+    },
+    "pyq": {
+      "exists": false
+    },
+    "referenceFiles": {
+      "exists": false
+    },
+    "mockTests": {
+      "exists": false
+    },
+    "freeFlow": {
+      "exists": false
+    },
+    "assets": {
+      "exists": true,
+      "count": 2,
+      "folder": "assets"
+    }
+  }
+}

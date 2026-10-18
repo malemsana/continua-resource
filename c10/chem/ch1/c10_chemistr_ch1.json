@@ -1,0 +1,38 @@
+{
+  "id": "c10_chemistr_ch1",
+  "classNumber": 10,
+  "subject": "Chemistry",
+  "chapterNumber": 1,
+  "friendlyName": "Chemical Reactions",
+  "resources": {
+    "ncert": {
+      "exists": false
+    },
+    "formulaSheet": {
+      "exists": false
+    },
+    "solutions": {
+      "exists": true,
+      "groupCount": 2,
+      "fileName": "c10_chemistr_ch1_sol.json"
+    },
+    "examples": {
+      "exists": false
+    },
+    "pyq": {
+      "exists": false
+    },
+    "referenceFiles": {
+      "exists": false
+    },
+    "mockTests": {
+      "exists": false
+    },
+    "freeFlow": {
+      "exists": false
+    },
+    "assets": {
+      "exists": false
+    }
+  }
+}

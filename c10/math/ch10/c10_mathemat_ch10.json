@@ -1,0 +1,37 @@
+{
+  "id": "c10_mathemat_ch10",
+  "classNumber": 10,
+  "subject": "Mathematics",
+  "chapterNumber": 10,
+  "friendlyName": "Circles",
+  "resources": {
+    "ncert": {
+      "exists": false
+    },
+    "formulaSheet": {
+      "exists": true,
+      "fileName": "c10_mathemat_ch10_formula.json"
+    },
+    "solutions": {
+      "exists": false
+    },
+    "examples": {
+      "exists": false
+    },
+    "pyq": {
+      "exists": false
+    },
+    "referenceFiles": {
+      "exists": false
+    },
+    "mockTests": {
+      "exists": false
+    },
+    "freeFlow": {
+      "exists": false
+    },
+    "assets": {
+      "exists": false
+    }
+  }
+}

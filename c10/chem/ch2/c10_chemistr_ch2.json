@@ -1,0 +1,39 @@
+{
+  "id": "c10_chemistr_ch2",
+  "classNumber": 10,
+  "subject": "Chemistry",
+  "chapterNumber": 2,
+  "friendlyName": "Acids Bases and Salts",
+  "resources": {
+    "ncert": {
+      "exists": false
+    },
+    "formulaSheet": {
+      "exists": true,
+      "fileName": "c10_chemistr_ch2_formula.json"
+    },
+    "solutions": {
+      "exists": true,
+      "groupCount": 2,
+      "fileName": "c10_chemistr_ch2_sol.json"
+    },
+    "examples": {
+      "exists": false
+    },
+    "pyq": {
+      "exists": false
+    },
+    "referenceFiles": {
+      "exists": false
+    },
+    "mockTests": {
+      "exists": false
+    },
+    "freeFlow": {
+      "exists": false
+    },
+    "assets": {
+      "exists": false
+    }
+  }
+}

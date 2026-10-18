@@ -11,6 +11,18 @@
           "chapterNumber": 3,
           "friendlyName": "Metals and Non-metals",
           "indexFile": "c10_chem_ch3.json"
+        },
+        {
+          "id": "c10_chemistr_ch1",
+          "chapterNumber": 1,
+          "friendlyName": "Chemical Reactions",
+          "indexFile": "c10_chemistr_ch1.json"
+        },
+        {
+          "id": "c10_chemistr_ch2",
+          "chapterNumber": 2,
+          "friendlyName": "Acids Bases and Salts",
+          "indexFile": "c10_chemistr_ch2.json"
         }
       ]
     },
@@ -41,6 +53,66 @@
           "chapterNumber": 4,
           "friendlyName": "Quadratic Equations",
           "indexFile": "c10_mathemat_ch4.json"
+        },
+        {
+          "id": "c10_mathemat_ch5",
+          "chapterNumber": 5,
+          "friendlyName": "Arithmetic Progressions",
+          "indexFile": "c10_mathemat_ch5.json"
+        },
+        {
+          "id": "c10_mathemat_ch6",
+          "chapterNumber": 6,
+          "friendlyName": "Triangles",
+          "indexFile": "c10_mathemat_ch6.json"
+        },
+        {
+          "id": "c10_mathemat_ch7",
+          "chapterNumber": 7,
+          "friendlyName": "Coordinate Geometry",
+          "indexFile": "c10_mathemat_ch7.json"
+        },
+        {
+          "id": "c10_mathemat_ch8",
+          "chapterNumber": 8,
+          "friendlyName": "Introduction to Trigonometric Ratios",
+          "indexFile": "c10_mathemat_ch8.json"
+        },
+        {
+          "id": "c10_mathemat_ch9",
+          "chapterNumber": 9,
+          "friendlyName": "Some Applications of Trigonometry",
+          "indexFile": "c10_mathemat_ch9.json"
+        },
+        {
+          "id": "c10_mathemat_ch10",
+          "chapterNumber": 10,
+          "friendlyName": "Circles",
+          "indexFile": "c10_mathemat_ch10.json"
+        },
+        {
+          "id": "c10_mathemat_ch11",
+          "chapterNumber": 11,
+          "friendlyName": "Areas Related to Circles",
+          "indexFile": "c10_mathemat_ch11.json"
+        },
+        {
+          "id": "c10_mathemat_ch12",
+          "chapterNumber": 12,
+          "friendlyName": "Surface Areas and Volumes",
+          "indexFile": "c10_mathemat_ch12.json"
+        },
+        {
+          "id": "c10_mathemat_ch13",
+          "chapterNumber": 13,
+          "friendlyName": "Statistics",
+          "indexFile": "c10_mathemat_ch13.json"
+        },
+        {
+          "id": "c10_mathemat_ch14",
+          "chapterNumber": 14,
+          "friendlyName": "Probability",
+          "indexFile": "c10_mathemat_ch14.json"
         }
       ]
     }

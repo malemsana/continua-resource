@@ -1,0 +1,320 @@
+{
+  "id": "c10_chemistr_ch1_sol",
+  "chapterId": "c10_chemistr_ch1",
+  "friendlyName": "NCERT Solutions",
+  "groups": [
+    {
+      "id": "kx",
+      "friendlyName": "Exercises",
+      "displayOrder": 2,
+      "questions": [
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q2",
+          "displayOrder": 2,
+          "questionText": "Fe2O3 + 2Al → Al2O3 + 2Fe\nThe above reaction is an example of a",
+          "solutionText": "The reaction is\n\n\\[\n\\text{Fe}_2\\text{O}_3 + 2\\text{Al} \\rightarrow \\text{Al}_2\\text{O}_3 + 2\\text{Fe}\n\\]\n\nHere, aluminium is more reactive than iron, so it displaces iron from iron(III) oxide. This is a single displacement reaction.\n\nTherefore, the correct option is **(D) displacement reaction**.",
+          "sourceInfo": "Exercises Q2",
+          "options": [
+            {
+              "id": "c10_chemistr_ch1_sol_kx_q2_r1_o1",
+              "text": "combination reaction.",
+              "displayOrder": 1,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch1_sol_kx_q2_r1_o2",
+              "text": "double displacement reaction.",
+              "displayOrder": 2,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch1_sol_kx_q2_r1_o3",
+              "text": "decomposition reaction.",
+              "displayOrder": 3,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch1_sol_kx_q2_r1_o4",
+              "text": "displacement reaction.",
+              "displayOrder": 4,
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q3",
+          "displayOrder": 3,
+          "questionText": "What happens when dilute hydrochloric acid is added to iron fillings? Tick the correct answer.",
+          "solutionText": "**Solution:**\n\nDilute hydrochloric acid reacts with iron filings to produce iron(II) chloride and hydrogen gas.\n\n\\[\n\\text{Fe} + 2\\text{HCl} \\rightarrow \\text{FeCl}_2 + \\text{H}_2\n\\]\n\nHydrogen gas is released, and iron chloride is formed.\n\nTherefore, the correct option is **(A)**.",
+          "sourceInfo": "Exercises Q3",
+          "options": [
+            {
+              "id": "c10_chemistr_ch1_sol_kx_q3_r1_o1",
+              "text": "Hydrogen gas and iron chloride are produced.",
+              "displayOrder": 1,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch1_sol_kx_q3_r1_o2",
+              "text": "Chlorine gas and iron hydroxide are produced.",
+              "displayOrder": 2,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch1_sol_kx_q3_r1_o3",
+              "text": "No reaction takes place.",
+              "displayOrder": 3,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch1_sol_kx_q3_r1_o4",
+              "text": "Iron salt and water are produced.",
+              "displayOrder": 4,
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q4",
+          "displayOrder": 4,
+          "questionText": "What is a balanced chemical equation? Why should chemical equations be balanced?",
+          "solutionText": "**Solution**\n\nA balanced chemical equation is a chemical equation in which the number of atoms of each element on the reactant side is equal to the number of atoms of the same element on the product side.\n\nFor example, the burning of magnesium in oxygen is represented as\n\n\\[\n2\\text{Mg} + \\text{O}_2 \\rightarrow 2\\text{MgO}\n\\]\n\nHere, the number of magnesium atoms and oxygen atoms is the same on both sides of the arrow, so the equation is balanced.\n\nChemical equations must be balanced because of the law of conservation of mass. According to this law, mass can neither be created nor destroyed in a chemical reaction. Since atoms are neither gained nor lost during a reaction, the total mass of the reactants must equal the total mass of the products. An unbalanced equation would show a change in the number of atoms, which is not possible in a chemical reaction.\n\nTherefore, balancing a chemical equation makes it consistent with the law of conservation of mass and correctly represents the actual quantities of reactants and products involved in the reaction.",
+          "sourceInfo": "Exercises Q4",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q5",
+          "displayOrder": 5,
+          "questionText": "Translate the following statements into chemical equations and then balance them.\n(a) Hydrogen gas combines with nitrogen to form ammonia.\n(b) Hydrogen sulphide gas burns in air to give water and sulphur dioxide.\n(c) Barium chloride reacts with aluminium sulphate to give aluminium chloride and a precipitate of barium sulphate.\n(d) Potassium metal reacts with water to give potassium hydroxide and hydrogen gas.",
+          "solutionText": "**Solution**\n\n**(a) Hydrogen gas combines with nitrogen to form ammonia.**\n\nWord equation:\n\\[\n\\text{Hydrogen} + \\text{Nitrogen} \\longrightarrow \\text{Ammonia}\n\\]\n\nChemical equation (unbalanced):\n\\[\n\\text{H}_2 + \\text{N}_2 \\longrightarrow \\text{NH}_3\n\\]\n\nBalancing the nitrogen atoms by placing a coefficient of \\(2\\) before \\(\\text{NH}_3\\), and then balancing the hydrogen atoms by placing a coefficient of \\(3\\) before \\(\\text{H}_2\\):\n\\[\n3\\text{H}_2 + \\text{N}_2 \\longrightarrow 2\\text{NH}_3\n\\]\n\n---\n\n**(b) Hydrogen sulphide gas burns in air to give water and sulphur dioxide.**\n\nWord equation:\n\\[\n\\text{Hydrogen sulphide} + \\text{Oxygen} \\longrightarrow \\text{Water} + \\text{Sulphur dioxide}\n\\]\n\nChemical equation (unbalanced):\n\\[\n\\text{H}_2\\text{S} + \\text{O}_2 \\longrightarrow \\text{H}_2\\text{O} + \\text{SO}_2\n\\]\n\nBalancing the hydrogen and sulphur atoms first, and then adjusting the oxygen atoms, we obtain:\n\\[\n2\\text{H}_2\\text{S} + 3\\text{O}_2 \\longrightarrow 2\\text{H}_2\\text{O} + 2\\text{SO}_2\n\\]\n\n---\n\n**(c) Barium chloride reacts with aluminium sulphate to give aluminium chloride and a precipitate of barium sulphate.**\n\nWord equation:\n\\[\n\\text{Barium chloride} + \\text{Aluminium sulphate} \\longrightarrow \\text{Aluminium chloride} + \\text{Barium sulphate}\n\\]\n\nChemical equation (unbalanced):\n\\[\n\\text{BaCl}_2 + \\text{Al}_2(\\text{SO}_4)_3 \\longrightarrow \\text{AlCl}_3 + \\text{BaSO}_4\n\\]\n\nBalancing the sulphate groups and chloride ions by placing appropriate coefficients gives:\n\\[\n3\\text{BaCl}_2 + \\text{Al}_2(\\text{SO}_4)_3 \\longrightarrow 2\\text{AlCl}_3 + 3\\text{BaSO}_4\n\\]\n\n---\n\n**(d) Potassium metal reacts with water to give potassium hydroxide and hydrogen gas.**\n\nWord equation:\n\\[\n\\text{Potassium} + \\text{Water} \\longrightarrow \\text{Potassium hydroxide} + \\text{Hydrogen}\n\\]\n\nChemical equation (unbalanced):\n\\[\n\\text{K} + \\text{H}_2\\text{O} \\longrightarrow \\text{KOH} + \\text{H}_2\n\\]\n\nBalancing the hydrogen and oxygen atoms by adjusting the coefficients of \\(\\text{H}_2\\text{O}\\), \\(\\text{KOH}\\), and \\(\\text{K}\\):\n\\[\n2\\text{K} + 2\\text{H}_2\\text{O} \\longrightarrow 2\\text{KOH} + \\text{H}_2\n\\]",
+          "sourceInfo": "Exercises Q5",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q6",
+          "displayOrder": 6,
+          "questionText": "Balance the following chemical equations.\n(a) HNO3 + Ca(OH)2 → Ca(NO3)2 + H2O\n(b) NaOH + H2SO4 → Na2SO4 + H2O\n(c) NaCl + AgNO3 → AgCl + NaNO3\n(d) BaCl2 + H2SO4 → BaSO4 + HCl",
+          "solutionText": "\\[\n\\begin{aligned}\n\\text{(a)}\\quad &2\\mathrm{HNO_3} + \\mathrm{Ca(OH)_2} \\rightarrow \\mathrm{Ca(NO_3)_2} + 2\\mathrm{H_2O}\\\\[4pt]\n\\text{(b)}\\quad &2\\mathrm{NaOH} + \\mathrm{H_2SO_4} \\rightarrow \\mathrm{Na_2SO_4} + 2\\mathrm{H_2O}\\\\[4pt]\n\\text{(c)}\\quad &\\mathrm{NaCl} + \\mathrm{AgNO_3} \\rightarrow \\mathrm{AgCl} + \\mathrm{NaNO_3}\\\\[4pt]\n\\text{(d)}\\quad &\\mathrm{BaCl_2} + \\mathrm{H_2SO_4} \\rightarrow \\mathrm{BaSO_4} + 2\\mathrm{HCl}\n\\end{aligned}\n\\]\n\nThus, the balanced chemical equations are as given above.",
+          "sourceInfo": "Exercises Q6",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q7",
+          "displayOrder": 7,
+          "questionText": "Write the balanced chemical equations for the following reactions.\n(a) Calcium hydroxide + Carbon dioxide → Calcium carbonate + Water\n(b) Zinc + Silver nitrate → Zinc nitrate + Silver\n(c) Aluminium + Copper chloride → Aluminium chloride + Copper\n(d) Barium chloride + Potassium sulphate → Barium sulphate + Potassium chloride",
+          "solutionText": "**Solution:**\n\nThe balanced chemical equations for the given reactions are:\n\n**(a)** Calcium hydroxide + Carbon dioxide \\(\\rightarrow\\) Calcium carbonate + Water\n\\[\n\\text{Ca(OH)}_2\\text{ (aq)} + \\text{CO}_2\\text{ (g)} \\rightarrow \\text{CaCO}_3\\text{ (s)} + \\text{H}_2\\text{O}\\text{ (l)}\n\\]\n\n**(b)** Zinc + Silver nitrate \\(\\rightarrow\\) Zinc nitrate + Silver\n\\[\n\\text{Zn}\\text{ (s)} + 2\\text{AgNO}_3\\text{ (aq)} \\rightarrow \\text{Zn(NO}_3)_2\\text{ (aq)} + 2\\text{Ag}\\text{ (s)}\n\\]\n\n**(c)** Aluminium + Copper chloride \\(\\rightarrow\\) Aluminium chloride + Copper\n\\[\n2\\text{Al}\\text{ (s)} + 3\\text{CuCl}_2\\text{ (aq)} \\rightarrow 2\\text{AlCl}_3\\text{ (aq)} + 3\\text{Cu}\\text{ (s)}\n\\]\n\n**(d)** Barium chloride + Potassium sulphate \\(\\rightarrow\\) Barium sulphate + Potassium chloride\n\\[\n\\text{BaCl}_2\\text{ (aq)} + \\text{K}_2\\text{SO}_4\\text{ (aq)} \\rightarrow \\text{BaSO}_4\\text{ (s)} + 2\\text{KCl}\\text{ (aq)}\n\\]",
+          "sourceInfo": "Exercises Q7",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q8",
+          "displayOrder": 8,
+          "questionText": "Write the balanced chemical equation for the following and identify the type of reaction in each case.\n(a) Potassium bromide(aq) + Barium iodide(aq) → Potassium iodide(aq) + Barium bromide(s)\n(b) Zinc carbonate(s) → Zinc oxide(s) + Carbon dioxide(g)\n(c) Hydrogen(g) + Chlorine(g) → Hydrogen chloride(g)\n(d) Magnesium(s) + Hydrochloric acid(aq) → Magnesium chloride(aq) + Hydrogen(g)",
+          "solutionText": "**Solution**\n\n**(a)** Potassium bromide reacts with barium iodide to form potassium iodide and barium bromide.\n\n\\[\n2\\text{KBr}(aq) + \\text{BaI}_2(aq) \\rightarrow 2\\text{KI}(aq) + \\text{BaBr}_2(s)\n\\]\n\nHere, the ions of the two reactants exchange partners to form two new compounds, and barium bromide is obtained as a precipitate. Hence, it is a **double displacement reaction** (precipitation reaction).\n\n**(b)** Zinc carbonate on heating decomposes to give zinc oxide and carbon dioxide.\n\n\\[\n\\text{ZnCO}_3(s) \\rightarrow \\text{ZnO}(s) + \\text{CO}_2(g)\n\\]\n\nA single compound breaks down into two simpler substances. Hence, it is a **decomposition reaction** (thermal decomposition).\n\n**(c)** Hydrogen combines with chlorine to form hydrogen chloride.\n\n\\[\n\\text{H}_2(g) + \\text{Cl}_2(g) \\rightarrow 2\\text{HCl}(g)\n\\]\n\nTwo substances combine to form a single new substance. Hence, it is a **combination reaction**.\n\n**(d)** Magnesium displaces hydrogen from hydrochloric acid.\n\n\\[\n\\text{Mg}(s) + 2\\text{HCl}(aq) \\rightarrow \\text{MgCl}_2(aq) + \\text{H}_2(g)\n\\]\n\nA more reactive element displaces a less reactive element from its compound. Hence, it is a **displacement reaction**.",
+          "sourceInfo": "Exercises Q8",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q9",
+          "displayOrder": 9,
+          "questionText": "What does one mean by exothermic and endothermic reactions? Give examples.",
+          "solutionText": "**Solution**\n\nAn **exothermic reaction** is a chemical reaction in which heat is released along with the formation of products. In such reactions, the temperature of the reaction mixture rises.\n\nExample: Burning of natural gas (methane):\n\n\\[\n\\text{CH}_4 + 2\\text{O}_2 \\rightarrow \\text{CO}_2 + 2\\text{H}_2\\text{O} + \\text{heat}\n\\]\n\nAnother example is respiration, which also releases energy.\n\nAn **endothermic reaction** is a chemical reaction in which heat is absorbed. In such reactions, the temperature of the reaction mixture falls.\n\nExample: Decomposition of calcium carbonate on heating:\n\n\\[\n\\text{CaCO}_3 + \\text{heat} \\rightarrow \\text{CaO} + \\text{CO}_2\n\\]\n\nAnother example is the decomposition of lead(II) nitrate on heating:\n\n\\[\n2\\text{Pb(NO}_3\\text{)}_2(s) \\xrightarrow{\\Delta} 2\\text{PbO}(s) + 4\\text{NO}_2(g) + \\text{O}_2(g)\n\\]\n\nIn this reaction, lead(II) nitrate absorbs heat and decomposes into lead(II) oxide, nitrogen dioxide, and oxygen. Since heat is absorbed, it is an endothermic reaction.",
+          "sourceInfo": "Exercises Q9",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q10",
+          "displayOrder": 10,
+          "questionText": "Why is respiration considered an exothermic reaction? Explain.",
+          "solutionText": "Respiration is considered an exothermic reaction because it releases energy.\n\nDuring respiration, glucose is broken down in the presence of oxygen to form carbon dioxide, water, and energy.\n\n\\[\nC_6H_{12}O_6 + 6O_2 \\rightarrow 6CO_2 + 6H_2O + \\text{Energy}\n\\]\n\nThe energy stored in glucose is released during this oxidation process. Some of this energy is used by the body for its activities, and the rest is released as heat. Since the overall reaction releases energy, respiration is an exothermic reaction.",
+          "sourceInfo": "Exercises Q10",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q11",
+          "displayOrder": 11,
+          "questionText": "Why are decomposition reactions called the opposite of combination reactions? Write equations for these reactions.",
+          "solutionText": "Decomposition reactions are called the opposite of combination reactions because in a combination reaction two or more reactants combine to form a single product, whereas in a decomposition reaction a single compound breaks down into two or more simpler substances. Thus, the products of a combination reaction can act as the reactants of a decomposition reaction, and vice versa.\n\nFor example:\n\n**Combination reaction:**\n\\[\n\\mathrm{CaO(s)+CO_2(g)\\rightarrow CaCO_3(s)}\n\\]\n\n**Decomposition reaction:**\n\\[\n\\mathrm{CaCO_3(s)\\xrightarrow{\\Delta} CaO(s)+CO_2(g)}\n\\]\n\nTherefore, decomposition reactions are the reverse of combination reactions.",
+          "sourceInfo": "Exercises Q11",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q12",
+          "displayOrder": 12,
+          "questionText": "Write one equation each for decomposition reactions where energy is supplied in the form of heat, light or electricity.",
+          "solutionText": "The equation for each of the decomposition reactions with heat, light or electricity are as follows: \n\n**1. By heat (thermal decomposition):**\n\n\\[\n{CaCO3(s) ->[\\Delta] CaO(s) + CO2(g)}\n\\]\n\n**2. By light (photochemical decomposition):**\n\n\\[\n{2AgCl(s) ->[\\text{sunlight}] 2Ag(s) + Cl2(g)}\n\\]\n\n**3. By electricity (electrolytic decomposition):**\n\n\\[\n{2H2O(l) ->[\\text{electricity}] 2H2(g) + O2(g)}\n\\]\n\nThese are decomposition reactions because in each case a single compound breaks down into two or more simpler substances.",
+          "sourceInfo": "Exercises Q12",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q13",
+          "displayOrder": 13,
+          "questionText": "What is the difference between displacement and double displacement reactions? Write equations for these reactions.",
+          "solutionText": "**Solution:**\n\nThe difference between displacement and double displacement reactions lies in how the atoms or ions exchange between reactants.\n\n*   **Displacement Reaction:** A chemical reaction in which a more reactive element displaces a less reactive element from its aqueous salt solution. These reactions are generally single replacement reactions of the form \\(A + BC \\rightarrow AC + B\\).\n*   **Double Displacement Reaction:** A chemical reaction in which two different atoms or groups of atoms (ions) are exchanged between two reactants to form two new compounds. These reactions generally take the form \\(AB + CD \\rightarrow AD + CB\\) and often result in the formation of a precipitate.\n\n### Equations for Reactions\n\n**1. Displacement Reaction**\nWhen an iron nail is dipped in a copper sulfate solution, iron displaces copper from the copper sulfate solution to form ferrous sulfate and copper metal.\n\n\\[\n\\text{Fe(s)} + \\text{CuSO}_4(\\text{aq}) \\rightarrow \\text{FeSO}_4(\\text{aq}) + \\text{Cu(s)}\n\\]\n\n**2. Double Displacement Reaction**\nWhen an aqueous solution of sodium sulfate is mixed with an aqueous solution of barium chloride, a white precipitate of barium sulfate is formed along with sodium chloride.\n\n\\[\n\\text{Na}_2\\text{SO}_4(\\text{aq}) + \\text{BaCl}_2(\\text{aq}) \\rightarrow \\text{BaSO}_4(\\text{s}) \\downarrow + 2\\text{NaCl}(\\text{aq})\n\\]",
+          "sourceInfo": "Exercises Q13",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q14",
+          "displayOrder": 14,
+          "questionText": "In the refining of silver, the recovery of silver from silver nitrate solution involved displacement by copper metal. Write down the reaction involved.",
+          "solutionText": "**Solution:**\n\nCopper is more reactive than silver, so it displaces silver from silver nitrate solution.\n\n\\[\n{Cu(s) + 2AgNO3(aq) -> Cu(NO3)2(aq) + 2Ag(s)}\n\\]\n\nIn ionic form:\n\n\\[\n{Cu(s) + 2Ag+(aq) -> Cu^2+(aq) + 2Ag(s)}\n\\]\n\nTherefore, the reaction involved is the displacement of silver by copper from silver nitrate solution.",
+          "sourceInfo": "Exercises Q14",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q15",
+          "displayOrder": 15,
+          "questionText": "What do you mean by a precipitation reaction? Explain by giving examples.",
+          "solutionText": "**Solution**\n\n**Definition**\n\nA precipitation reaction is a chemical reaction in which two soluble salts in aqueous solution react to form an insoluble solid, called a precipitate. It is a type of double displacement reaction.\n\n**Examples**\n\n1. When silver nitrate solution is mixed with sodium chloride solution, a white precipitate of silver chloride is formed.\n\n\\[\n\\text{AgNO}_3(aq) + \\text{NaCl}(aq) \\rightarrow \\text{AgCl}(s)\\downarrow + \\text{NaNO}_3(aq)\n\\]\n\nHere, silver chloride is insoluble in water and separates out as a white precipitate.\n\n2. When barium chloride solution is mixed with sodium sulphate solution, a white precipitate of barium sulphate is formed.\n\n\\[\n\\text{BaCl}_2(aq) + \\text{Na}_2\\text{SO}_4(aq) \\rightarrow \\text{BaSO}_4(s)\\downarrow + 2\\text{NaCl}(aq)\n\\]\n\nHere, barium sulphate is insoluble and appears as a white precipitate.\n\nTherefore, a precipitation reaction involves the formation of an insoluble solid (precipitate) by the exchange of ions between two soluble salts in aqueous solution.",
+          "sourceInfo": "Exercises Q15",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q16",
+          "displayOrder": 16,
+          "questionText": "Explain the following in terms of gain or loss of oxygen with two examples each.\n(a) Oxidation\n(b) Reduction",
+          "solutionText": "**Solution**\n\n**(a) Oxidation:** Oxidation is a chemical change in which a substance gains oxygen.\n\nExamples:\n\n- When copper is heated in air, it gains oxygen to form copper(II) oxide.\n\\[\n2\\text{Cu} + \\text{O}_2 \\rightarrow 2\\text{CuO}\n\\]\nHere, copper is oxidised.\n\n- When magnesium burns in air, it gains oxygen to form magnesium oxide.\n\\[\n2\\text{Mg} + \\text{O}_2 \\rightarrow 2\\text{MgO}\n\\]\nHere, magnesium is oxidised.\n\n**(b) Reduction:** Reduction is a chemical change in which a substance loses oxygen.\n\nExamples:\n\n- When copper(II) oxide is heated with hydrogen, it loses oxygen to form copper.\n\\[\n\\text{CuO} + \\text{H}_2 \\rightarrow \\text{Cu} + \\text{H}_2\\text{O}\n\\]\nHere, copper(II) oxide is reduced to copper.\n\n- When zinc oxide is heated with carbon, it loses oxygen to form zinc.\n\\[\n\\text{ZnO} + \\text{C} \\rightarrow \\text{Zn} + \\text{CO}\n\\]\nHere, zinc oxide is reduced to zinc.\n\nTherefore, oxidation involves gain of oxygen, while reduction involves loss of oxygen.",
+          "sourceInfo": "Exercises Q16",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q17",
+          "displayOrder": 17,
+          "questionText": "A shiny brown coloured element 'X' on heating in air becomes black in colour. Name the element 'X' and the black coloured compound formed.",
+          "solutionText": "The shiny brown coloured element is copper.\n\n\\[\n\\text{X} = \\text{Copper (Cu)}\n\\]\n\nOn heating copper in air, it reacts with oxygen to form black copper(II) oxide.\n\n\\[\n2\\text{Cu} + \\text{O}_2 \\rightarrow 2\\text{CuO}\n\\]\n\nTherefore, the element is copper, and the black coloured compound formed is copper(II) oxide \\((\\text{CuO})\\).",
+          "sourceInfo": "Exercises Q17",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q18",
+          "displayOrder": 18,
+          "questionText": "Why do we apply paint on iron articles?",
+          "solutionText": "Paint is applied on iron articles to protect them from rusting.\n\nIron rusts when it comes in contact with air and moisture. A layer of paint forms a protective coating on the surface of the iron article and prevents direct contact with air and moisture. Thus, painting helps in preventing corrosion of iron.",
+          "sourceInfo": "Exercises Q18",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q19",
+          "displayOrder": 19,
+          "questionText": "Oil and fat containing food items are flushed with nitrogen. Why?",
+          "solutionText": "Oil and fat containing food items undergo oxidation when exposed to oxygen, which makes them rancid and gives them an unpleasant smell and taste.\n\nNitrogen is chemically inert and does not react with oils and fats. When such food items are flushed with nitrogen, oxygen is displaced from the packet, preventing oxidation.\n\nTherefore, oil and fat containing food items are flushed with nitrogen to prevent rancidity and to keep them fresh for a longer time.",
+          "sourceInfo": "Exercises Q19",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q20",
+          "displayOrder": 20,
+          "questionText": "Explain the following terms with one example each.\n(a) Corrosion\n(b) Rancidity",
+          "solutionText": "**20. (a) Corrosion**\n\nCorrosion is the process in which a metal is gradually eaten away by the action of air, moisture, or chemicals such as acids on its surface. The metal gets covered with a layer of its oxide, hydroxide, or carbonate, and loses its shine and strength.\n\n**Example:** When iron is left exposed to moist air, it gets coated with a reddish-brown flaky layer of hydrated iron(III) oxide, commonly called rust. This is known as the rusting of iron.\n\n\\[\n4\\text{Fe} + 3\\text{O}_2 + x\\text{H}_2\\text{O} \\rightarrow 2\\text{Fe}_2\\text{O}_3 \\cdot x\\text{H}_2\\text{O}\n\\]\n\nOther examples include the green coating on copper and the black coating on silver.\n\n**(b) Rancidity**\n\nRancidity is the process in which fats and oils present in food materials get oxidised on exposure to air, moisture, or light, causing an unpleasant change in their smell and taste. Such food is said to have become rancid and is unfit for eating.\n\n**Example:** Butter kept outside for a long time turns rancid. The fats present in it are oxidised by atmospheric oxygen, and the butter develops a foul smell and a sour taste.\n\nRancidity can be delayed by adding antioxidants, by packing food in airtight containers, or by storing it in a refrigerator.",
+          "sourceInfo": "Exercises Q20",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_kx_q1",
+          "displayOrder": 1,
+          "questionText": "Which of the statements about the reaction below are incorrect?\n2PbO(s) + C(s) → 2Pb(s) + CO2(g)\n(a) Lead is getting reduced.\n(b) Carbon dioxide is getting oxidised.\n(c) Carbon is getting oxidised.\n(d) Lead oxide is getting reduced.",
+          "solutionText": "**Solution:**\n\n**Given:**\nThe chemical reaction:\n\\[\n2\\text{PbO(s)} + \\text{C(s)} \\rightarrow 2\\text{Pb(s)} + \\text{CO}_2\\text{(g)}\n\\]\n\n**Analysis of the Reaction:**\n- **Reduction** is defined as the addition of hydrogen or removal of oxygen, or gain of electrons. In this reaction, lead(II) oxide (\\(\\text{PbO}\\)) loses oxygen to form lead (\\(\\text{Pb}\\)). Therefore, **Lead oxide (\\(\\text{PbO}\\)) is getting reduced**. Consequently, statement (d) is correct, while statement (a) (\"Lead is getting reduced\") is incorrect because the element lead itself is the product formed after reduction, not the substance undergoing reduction.\n- **Oxidation** is defined as the addition of oxygen or removal of hydrogen, or loss of electrons. In this reaction, carbon (\\(\\text{C}\\)) gains oxygen to form carbon dioxide (\\(\\text{CO}_2\\)). Therefore, **Carbon (\\(\\text{C}\\)) is getting oxidised**. Consequently, statement (c) is correct, while statement (b) (\"Carbon dioxide is getting oxidised\") is incorrect because carbon dioxide is the product of oxidation, not the substance getting oxidised.\n\nThus, the incorrect statements among the given choices are (a) and (b).\n\nTherefore, the correct option is **(A)**.",
+          "sourceInfo": "Exercises Q1",
+          "options": [
+            {
+              "id": "c10_chemistr_ch1_sol_kx_q1_r2_o1",
+              "text": "(i) (a) and (b)",
+              "displayOrder": 1,
+              "isCorrect": true
+            },
+            {
+              "id": "c10_chemistr_ch1_sol_kx_q1_r2_o2",
+              "text": "(ii) (a) and (c)",
+              "displayOrder": 2,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch1_sol_kx_q1_r2_o3",
+              "text": "(iii) (a), (b) and (c)",
+              "displayOrder": 3,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch1_sol_kx_q1_r2_o4",
+              "text": "(iv) all",
+              "displayOrder": 4,
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "friendlyName": "Examples",
+      "displayOrder": 1,
+      "questions": [
+        {
+          "id": "c10_chemistr_ch1_sol_c5_q1",
+          "displayOrder": 1,
+          "questionText": "Why should a magnesium ribbon be cleaned before burning in air?",
+          "solutionText": "**Solution**\n\nMagnesium is a reactive metal. On exposure to air, it reacts with atmospheric oxygen to form a thin, stable layer of magnesium oxide on its surface:\n\n\\[\n2\\text{Mg} + \\text{O}_2 \\rightarrow 2\\text{MgO}\n\\]\n\nThis oxide layer is chemically inert and coats the ribbon, preventing the underlying magnesium from coming into direct contact with oxygen. As a result, the ribbon does not burn readily or may burn with a dull flame.\n\nRubbing the ribbon with sandpaper removes this oxide layer and exposes the fresh, shiny surface of the metal. The exposed magnesium then reacts easily with oxygen and burns in air with a dazzling white flame.\n\nTherefore, a magnesium ribbon is cleaned before burning to remove the layer of magnesium oxide so that the fresh metal surface is exposed for combustion.",
+          "sourceInfo": "Questions Q1",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_c5_q2",
+          "displayOrder": 2,
+          "questionText": "Write the balanced equation for the following chemical reactions.\n(i) Hydrogen + Chlorine → Hydrogen chloride\n(ii) Barium chloride + Aluminium sulphate → Barium sulphate + Aluminium chloride\n(iii) Sodium + Water → Sodium hydroxide + Hydrogen",
+          "solutionText": "**Solution**\n\n**(i) Hydrogen + Chlorine → Hydrogen chloride**\n\nWord equation:\n\n\\[\n\\text{Hydrogen} + \\text{Chlorine} \\rightarrow \\text{Hydrogen chloride}\n\\]\n\nBalanced chemical equation:\n\n\\[\n\\text{H}_2 + \\text{Cl}_2 \\rightarrow 2\\text{HCl}\n\\]\n\n**(ii) Barium chloride + Aluminium sulphate → Barium sulphate + Aluminium chloride**\n\nWord equation:\n\n\\[\n\\text{Barium chloride} + \\text{Aluminium sulphate} \\rightarrow \\text{Barium sulphate} + \\text{Aluminium chloride}\n\\]\n\nBalanced chemical equation:\n\n\\[\n3\\text{BaCl}_2 + \\text{Al}_2(\\text{SO}_4)_3 \\rightarrow 3\\text{BaSO}_4 + 2\\text{AlCl}_3\n\\]\n\n**(iii) Sodium + Water → Sodium hydroxide + Hydrogen**\n\nWord equation:\n\n\\[\n\\text{Sodium} + \\text{Water} \\rightarrow \\text{Sodium hydroxide} + \\text{Hydrogen}\n\\]\n\nBalanced chemical equation:\n\n\\[\n2\\text{Na} + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{NaOH} + \\text{H}_2\n\\]\n\nTherefore, the balanced chemical equations are:\n\n\\[\n\\text{H}_2 + \\text{Cl}_2 \\rightarrow 2\\text{HCl}\n\\]\n\n\\[\n3\\text{BaCl}_2 + \\text{Al}_2(\\text{SO}_4)_3 \\rightarrow 3\\text{BaSO}_4 + 2\\text{AlCl}_3\n\\]\n\n\\[\n2\\text{Na} + 2\\text{H}_2\\text{O} \\rightarrow 2\\text{NaOH} + \\text{H}_2\n\\]",
+          "sourceInfo": "Questions Q2",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_c5_q3",
+          "displayOrder": 3,
+          "questionText": "Write a balanced chemical equation with state symbols for the following reactions.\n(i) Solutions of barium chloride and sodium sulphate in water react to give insoluble barium sulphate and the solution of sodium chloride.\n(ii) Sodium hydroxide solution (in water) reacts with hydrochloric acid solution (in water) to produce sodium chloride solution and water.",
+          "solutionText": "(i) Aqueous barium chloride reacts with aqueous sodium sulphate to form a precipitate of barium sulphate and aqueous sodium chloride:\n\n\\[\n\\mathrm{BaCl_2(aq) + Na_2SO_4(aq) \\rightarrow BaSO_4(s) + 2NaCl(aq)}\n\\]\n\n(ii) Aqueous sodium hydroxide reacts with aqueous hydrochloric acid to form aqueous sodium chloride and water:\n\n\\[\n\\mathrm{NaOH(aq) + HCl(aq) \\rightarrow NaCl(aq) + H_2O(l)}\n\\]\n\nTherefore, the required balanced chemical equations with state symbols are:\n\n\\[\n\\boxed{\\mathrm{BaCl_2(aq) + Na_2SO_4(aq) \\rightarrow BaSO_4(s) + 2NaCl(aq)}}\n\\]\n\n\\[\n\\boxed{\\mathrm{NaOH(aq) + HCl(aq) \\rightarrow NaCl(aq) + H_2O(l)}}\n\\]",
+          "sourceInfo": "Questions Q3",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_c5_q4",
+          "displayOrder": 4,
+          "questionText": "A solution of a substance 'X' is used for whitewashing.\n(i) Name the substance 'X' and write its formula.\n(ii) Write the reaction of the substance 'X' named in (i) above with water.",
+          "solutionText": "**Solution**\n\n(i) The substance \\(X\\) is **calcium oxide**, commonly called **quick lime**.  \nIts chemical formula is:\n\n\\[\n\\text{CaO}\n\\]\n\n(ii) Calcium oxide reacts with water to form calcium hydroxide, which is used for whitewashing:\n\n\\[\n\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\rightarrow \\text{Ca(OH)}_2(aq) + \\text{heat}\n\\]\n\nTherefore, the substance \\(X\\) is calcium oxide, \\(\\text{CaO}\\), and it reacts with water to form calcium hydroxide, \\(\\text{Ca(OH)}_2\\).",
+          "sourceInfo": "Questions Q1",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_c5_q5",
+          "displayOrder": 5,
+          "questionText": "Why is the amount of gas collected in one of the test tubes in Activity 1.7 double of the amount collected in the other? Name this gas.",
+          "solutionText": "**Solution**\n\nIn Activity 1.7, electric current is passed through acidified water, which decomposes into hydrogen and oxygen:\n\n\\[\n2\\text{H}_2\\text{O} \\xrightarrow{\\text{electric current}} 2\\text{H}_2 + \\text{O}_2\n\\]\n\nA water molecule contains two atoms of hydrogen and one atom of oxygen, that is, hydrogen and oxygen are present in the ratio \\(2:1\\) by volume. Since the composition of water is fixed, the gases are always liberated in this same ratio during electrolysis.\n\nConsequently, the test tube connected to the cathode (negative electrode) collects twice the volume of gas collected in the test tube connected to the anode. The gas collected in larger amount is **hydrogen**, while the gas collected in the smaller amount is oxygen.\n\nTherefore, the gas collected in double the amount is **hydrogen**.",
+          "sourceInfo": "Questions Q2",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_c5_q6",
+          "displayOrder": 6,
+          "questionText": "Why does the colour of copper sulphate solution change when an iron nail is dipped in it?",
+          "solutionText": "When an iron nail is dipped in copper sulphate solution, a displacement reaction takes place because iron is more reactive than copper.\n\n\\[\n\\text{Fe}(s)+\\text{CuSO}_4(aq)\\rightarrow \\text{FeSO}_4(aq)+\\text{Cu}(s)\n\\]\n\nIron displaces copper from copper sulphate solution. The blue colour of copper sulphate solution is due to \\(\\text{Cu}^{2+}\\) ions. As these copper ions are displaced and converted into copper metal, their concentration in the solution decreases. Therefore, the blue colour fades and the solution becomes light green due to the formation of ferrous sulphate.\n\nA reddish-brown coating of copper is also deposited on the iron nail.\n\nThus, the colour change occurs because copper sulphate is converted into ferrous sulphate, while copper metal is deposited on the iron nail.",
+          "sourceInfo": "Questions Q1",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_c5_q7",
+          "displayOrder": 7,
+          "questionText": "Give an example of a double displacement reaction other than the one given in Activity 1.10.",
+          "solutionText": "When lead(II) nitrate solution is mixed with potassium iodide solution, a yellow precipitate of lead(II) iodide is formed.\n\n\\[\n\\mathrm{Pb(NO_3)_2(aq) + 2KI(aq) \\rightarrow PbI_2(s) + 2KNO_3(aq)}\n\\]\n\nIn this reaction, the ions of the two reactants exchange partners, so it is a double displacement reaction.",
+          "sourceInfo": "Questions Q2",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch1_sol_c5_q8",
+          "displayOrder": 8,
+          "questionText": "Identify the substances that are oxidised and the substances that are reduced in the following reactions.\n(i) 4Na(s) + O2(g) → 2Na2O(s)\n(ii) CuO(s) + H2(g) → Cu(s) + H2O(l)",
+          "solutionText": "**Solution**\n\n(i) In the reaction\n\n\\[\n4\\mathrm{Na(s)}+\\mathrm{O_2(g)}\\rightarrow 2\\mathrm{Na_2O(s)}\n\\]\n\nsodium changes from oxidation state \\(0\\) in \\(\\mathrm{Na}\\) to \\(+1\\) in \\(\\mathrm{Na_2O}\\). Hence, sodium is oxidised.\n\nOxygen changes from oxidation state \\(0\\) in \\(\\mathrm{O_2}\\) to \\(-2\\) in \\(\\mathrm{Na_2O}\\). Hence, oxygen is reduced.\n\nTherefore, \\(\\mathrm{Na}\\) is oxidised and \\(\\mathrm{O_2}\\) is reduced.\n\n(ii) In the reaction\n\n\\[\n\\mathrm{CuO(s)}+\\mathrm{H_2(g)}\\rightarrow \\mathrm{Cu(s)}+\\mathrm{H_2O(l)}\n\\]\n\ncopper changes from oxidation state \\(+2\\) in \\(\\mathrm{CuO}\\) to \\(0\\) in \\(\\mathrm{Cu}\\). Hence, \\(\\mathrm{CuO}\\) is reduced.\n\nHydrogen changes from oxidation state \\(0\\) in \\(\\mathrm{H_2}\\) to \\(+1\\) in \\(\\mathrm{H_2O}\\). Hence, \\(\\mathrm{H_2}\\) is oxidised.\n\nTherefore, \\(\\mathrm{H_2}\\) is oxidised and \\(\\mathrm{CuO}\\) is reduced.",
+          "sourceInfo": "Questions Q3",
+          "options": []
+        }
+      ]
+    }
+  ]
+}

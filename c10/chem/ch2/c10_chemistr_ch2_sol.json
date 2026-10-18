@@ -1,0 +1,393 @@
+{
+  "id": "c10_chemistr_ch2_sol",
+  "chapterId": "c10_chemistr_ch2",
+  "friendlyName": "NCERT Solutions",
+  "groups": [
+    {
+      "id": "i1",
+      "friendlyName": "Exercises",
+      "displayOrder": 2,
+      "questions": [
+        {
+          "id": "c10_chemistr_ch2_sol_i1_q1",
+          "displayOrder": 1,
+          "questionText": "A solution turns red litmus blue, its pH is likely to be",
+          "solutionText": "A solution that turns red litmus blue is basic in nature.\n\nFor a basic solution, the pH is greater than \\(7\\).\n\nAmong the given options, only \\(10\\) is greater than \\(7\\).\n\nTherefore, the correct option is **(D) 10**.",
+          "sourceInfo": "Exercises Q1",
+          "options": [
+            {
+              "id": "c10_chemistr_ch2_sol_i1_q1_r1_o1",
+              "text": "1",
+              "displayOrder": 1,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch2_sol_i1_q1_r1_o2",
+              "text": "4",
+              "displayOrder": 2,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch2_sol_i1_q1_r1_o3",
+              "text": "5",
+              "displayOrder": 3,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch2_sol_i1_q1_r1_o4",
+              "text": "10",
+              "displayOrder": 4,
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_i1_q2",
+          "displayOrder": 2,
+          "questionText": "A solution reacts with crushed egg-shells to give a gas that turns lime-water milky. The solution contains",
+          "solutionText": "Egg-shells are made mainly of calcium carbonate, \\(\\mathrm{CaCO_3}\\). The gas that turns lime-water milky is carbon dioxide, \\(\\mathrm{CO_2}\\), which is produced when a carbonate reacts with an acid.\n\nAmong the given substances, only \\(\\mathrm{HCl}\\) is an acid. It reacts with calcium carbonate as:\n\n\\[\n\\mathrm{CaCO_3 + 2HCl \\rightarrow CaCl_2 + H_2O + CO_2}\n\\]\n\nThe carbon dioxide evolved turns lime-water milky:\n\n\\[\n\\mathrm{Ca(OH)_2 + CO_2 \\rightarrow CaCO_3 + H_2O}\n\\]\n\nTherefore, the solution contains \\(\\mathrm{HCl}\\).\n\nHence, the correct option is **(B)**.",
+          "sourceInfo": "Exercises Q2",
+          "options": [
+            {
+              "id": "c10_chemistr_ch2_sol_i1_q2_r1_o1",
+              "text": "NaCl",
+              "displayOrder": 1,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch2_sol_i1_q2_r1_o2",
+              "text": "HCl",
+              "displayOrder": 2,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch2_sol_i1_q2_r1_o3",
+              "text": "LiCl",
+              "displayOrder": 3,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch2_sol_i1_q2_r1_o4",
+              "text": "KCl",
+              "displayOrder": 4,
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_i1_q3",
+          "displayOrder": 3,
+          "questionText": "10 mL of a solution of NaOH is found to be completely neutralised by 8 mL of a given solution of HCl. If we take 20 mL of the same solution of NaOH, the amount of HCl solution (the same solution as before) required to neutralise it will be",
+          "solutionText": "For the same solutions, the volume of HCl required is directly proportional to the volume of NaOH neutralised.\n\n\\[\n10\\text{ mL NaOH} \\rightarrow 8\\text{ mL HCl}\n\\]\n\nSo,\n\n\\[\n20\\text{ mL NaOH} \\rightarrow 2 \\times 8 = 16\\text{ mL HCl}\n\\]\n\nTherefore, the required amount of HCl solution is \\(16\\text{ mL}\\).\n\nHence, the correct option is **(D)**.",
+          "sourceInfo": "Exercises Q3",
+          "options": [
+            {
+              "id": "c10_chemistr_ch2_sol_i1_q3_r1_o1",
+              "text": "4 mL",
+              "displayOrder": 1,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch2_sol_i1_q3_r1_o2",
+              "text": "8 mL",
+              "displayOrder": 2,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch2_sol_i1_q3_r1_o3",
+              "text": "12 mL",
+              "displayOrder": 3,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch2_sol_i1_q3_r1_o4",
+              "text": "16 mL",
+              "displayOrder": 4,
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_i1_q4",
+          "displayOrder": 4,
+          "questionText": "Which one of the following types of medicines is used for treating indigestion?",
+          "solutionText": "Indigestion is caused by excess acid in the stomach. Antacids neutralise this excess acid and provide relief.\n\nTherefore, the correct option is **(C) Antacid**.",
+          "sourceInfo": "Exercises Q4",
+          "options": [
+            {
+              "id": "c10_chemistr_ch2_sol_i1_q4_r1_o1",
+              "text": "Antibiotic",
+              "displayOrder": 1,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch2_sol_i1_q4_r1_o2",
+              "text": "Analgesic",
+              "displayOrder": 2,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch2_sol_i1_q4_r1_o3",
+              "text": "Antacid",
+              "displayOrder": 3,
+              "isCorrect": false
+            },
+            {
+              "id": "c10_chemistr_ch2_sol_i1_q4_r1_o4",
+              "text": "Antiseptic",
+              "displayOrder": 4,
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_i1_q5",
+          "displayOrder": 5,
+          "questionText": "Write word equations and then balanced equations for the reaction taking place when – (a) dilute sulphuric acid reacts with zinc granules. (b) dilute hydrochloric acid reacts with magnesium ribbon. (c) dilute sulphuric acid reacts with aluminium powder. (d) dilute hydrochloric acid reacts with iron filings.",
+          "solutionText": "**Solution:**\n\n*(a)* **Dilute sulphuric acid reacts with zinc granules**\n\n* **Word Equation:**\n  \\[\n  \\text{Zinc} + \\text{Sulphuric acid} \\longrightarrow \\text{Zinc sulphate} + \\text{Hydrogen}\n  \\]\n\n* **Balanced Chemical Equation:**\n  \\[\n  \\text{Zn (s)} + \\text{H}_2\\text{SO}_4\\text{ (aq)} \\longrightarrow \\text{ZnSO}_4\\text{ (aq)} + \\text{H}_2\\text{ (g)}\n  \\]\n\n---\n\n*(b)* **Dilute hydrochloric acid reacts with magnesium ribbon**\n\n* **Word Equation:**\n  \\[\n  \\text{Magnesium} + \\text{Hydrochloric acid} \\longrightarrow \\text{Magnesium chloride} + \\text{Hydrogen}\n  \\]\n\n* **Balanced Chemical Equation:**\n  \\[\n  \\text{Mg (s)} + 2\\text{HCl (aq)} \\longrightarrow \\text{MgCl}_2\\text{ (aq)} + \\text{H}_2\\text{ (g)}\n  \\]\n\n---\n\n*(c)* **Dilute sulphuric acid reacts with aluminium powder**\n\n* **Word Equation:**\n  \\[\n  \\text{Aluminium} + \\text{Sulphuric acid} \\longrightarrow \\text{Aluminium sulphate} + \\text{Hydrogen}\n  \\]\n\n* **Balanced Chemical Equation:**\n  \\[\n  2\\text{Al (s)} + 3\\text{H}_2\\text{SO}_4\\text{ (aq)} \\longrightarrow \\text{Al}_2(\\text{SO}_4)_3\\text{ (aq)} + 3\\text{H}_2\\text{ (g)}\n  \\]\n\n---\n\n*(d)* **Dilute hydrochloric acid reacts with iron filings**\n\n* **Word Equation:**\n  \\[\n  \\text{Iron} + \\text{Hydrochloric acid} \\longrightarrow \\text{Iron(II) chloride} + \\text{Hydrogen}\n  \\]\n\n* **Balanced Chemical Equation:**\n  \\[\n  \\text{Fe (s)} + 2\\text{HCl (aq)} \\longrightarrow \\text{FeCl}_2\\text{ (aq)} + \\text{H}_2\\text{ (g)}\n  \\]",
+          "sourceInfo": "Exercises Q5",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_i1_q6",
+          "displayOrder": 6,
+          "questionText": "Compounds such as alcohols and glucose also contain hydrogen but are not categorised as acids. Describe an Activity to prove it.",
+          "solutionText": "**Activity**\n\nTake dilute solutions of hydrochloric acid, glucose, and ethanol in separate beakers. Set up an electrical conductivity apparatus using a 6 V battery, a bulb, two carbon electrodes or nails, and a switch. Dip the electrodes in the dilute hydrochloric acid solution and switch on the current. The bulb glows. Now repeat the same test separately with glucose solution and ethanol solution.\n\n**Observation**\n\nThe bulb glows when the electrodes are dipped in dilute hydrochloric acid, but it does not glow in glucose solution or ethanol solution.\n\n**Explanation**\n\nAcids produce hydrogen ions, \\( \\text{H}^+ \\), in aqueous solution. These ions are responsible for conducting electricity. Hydrochloric acid ionises in water as\n\n\\[\n\\text{HCl} \\rightarrow \\text{H}^+ + \\text{Cl}^-\n\\]\n\nGlucose and ethanol also contain hydrogen, but they do not ionise in water to produce \\( \\text{H}^+ \\) ions. Therefore, their solutions do not conduct electricity.\n\n**Conclusion**\n\nThe glowing of the bulb with hydrochloric acid and its failure to glow with glucose and ethanol solutions show that glucose and ethanol do not produce hydrogen ions in aqueous solution. Hence, although they contain hydrogen, they are not categorised as acids.",
+          "sourceInfo": "Exercises Q6",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_i1_q7",
+          "displayOrder": 7,
+          "questionText": "Why does distilled water not conduct electricity, whereas rain water does?",
+          "solutionText": "Distilled water is pure water and is free from dissolved salts and ions. Since the conduction of electricity through water requires free ions, distilled water does not conduct electricity.\n\nRain water, while falling through the atmosphere, dissolves gases such as carbon dioxide, sulphur dioxide and nitrogen oxides, along with traces of salts and dust. These dissolved substances produce ions in water. For example, carbon dioxide forms carbonic acid, which ionises to give ions:\n\n\\[\n\\text{CO}_2 + \\text{H}_2\\text{O} \\rightarrow \\text{H}_2\\text{CO}_3\n\\]\n\n\\[\n\\text{H}_2\\text{CO}_3 \\rightarrow 2\\text{H}^+ + \\text{CO}_3^{2-}\n\\]\n\nThe presence of these free ions makes rain water a conductor of electricity.\n\nTherefore, distilled water does not conduct electricity, whereas rain water does.",
+          "sourceInfo": "Exercises Q7",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_i1_q8",
+          "displayOrder": 8,
+          "questionText": "Why does dry HCl gas not show acidic behaviour in the absence of water?",
+          "solutionText": "**Solution:**\n\nAcidic behaviour is due to the formation of hydrogen ions, \\( \\mathrm{H^+} \\), in aqueous solution. Dry HCl gas is a covalent compound and does not dissociate into ions in the absence of water. Therefore, no \\( \\mathrm{H^+} \\) ions are produced, and dry HCl gas does not show acidic properties such as turning blue litmus red.\n\nIn the presence of water, HCl ionises as follows:\n\n\\[\n\\mathrm{HCl(aq) \\rightleftharpoons H^+(aq) + Cl^-(aq)}\n\\]\n\nor,\n\n\\[\n\\mathrm{HCl + H_2O \\rightarrow H_3O^+ + Cl^-}\n\\]\n\nHence, water is essential for HCl to produce hydrogen ions and show acidic behaviour.",
+          "sourceInfo": "Exercises Q8",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_i1_q9",
+          "displayOrder": 9,
+          "questionText": "Five solutions A, B, C, D and E when tested with universal indicator showed pH as 4, 1, 11, 7 and 9, respectively. Which solution is (a) neutral? (b) strongly alkaline? (c) strongly acidic? (d) weakly acidic? (e) weakly alkaline? Arrange the pH in increasing order of hydrogen-ion concentration.",
+          "solutionText": "The pH scale is used to measure the acidity or alkalinity of a solution:\n\n- pH \\(=7\\): neutral  \n- pH \\(<7\\): acidic  \n- pH \\(>7\\): alkaline  \n\nGiven:\n\n\\[\n\\text{A}:\\text{pH}=4,\\quad \\text{B}:\\text{pH}=1,\\quad \\text{C}:\\text{pH}=11,\\quad \\text{D}:\\text{pH}=7,\\quad \\text{E}:\\text{pH}=9\n\\]\n\n(a) Neutral solution: **D**, since its pH is \\(7\\).\n\n(b) Strongly alkaline solution: **C**, since its pH is \\(11\\), the highest given.\n\n(c) Strongly acidic solution: **B**, since its pH is \\(1\\), the lowest given.\n\n(d) Weakly acidic solution: **A**, since its pH is \\(4\\), which is less than \\(7\\) but not as low as \\(1\\).\n\n(e) Weakly alkaline solution: **E**, since its pH is \\(9\\), which is greater than \\(7\\) but less than \\(11\\).\n\nHydrogen-ion concentration increases as pH decreases. Therefore, the pH values in increasing order of hydrogen-ion concentration are:\n\n\\[\n11,\\ 9,\\ 7,\\ 4,\\ 1\n\\]\n\ni.e.\n\n\\[\n\\text{C} < \\text{E} < \\text{D} < \\text{A} < \\text{B}\n\\]\n\nin increasing order of hydrogen-ion concentration.",
+          "sourceInfo": "Exercises Q9",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_i1_q10",
+          "displayOrder": 10,
+          "questionText": "Equal lengths of magnesium ribbons are taken in test tubes A and B. Hydrochloric acid (HCl) is added to test tube A, while acetic acid (CH3COOH) is added to test tube B. Amount and concentration taken for both the acids are same. In which test tube will the fizzing occur more vigorously and why?",
+          "solutionText": "**Solution**\n\nMagnesium reacts with both acids to liberate hydrogen gas, which appears as fizzing:\n\n\\[\n\\text{Mg} + 2\\text{HCl} \\rightarrow \\text{MgCl}_2 + \\text{H}_2\n\\]\n\n\\[\n\\text{Mg} + 2\\text{CH}_3\\text{COOH} \\rightarrow (\\text{CH}_3\\text{COO})_2\\text{Mg} + \\text{H}_2\n\\]\n\nThe vigour of the fizzing depends on the rate at which hydrogen is evolved, and this rate depends on the concentration of hydrogen ions, \\(\\text{H}^+\\), furnished by the acid.\n\nHydrochloric acid is a strong acid and ionises almost completely in aqueous solution:\n\n\\[\n\\text{HCl} \\rightarrow \\text{H}^+ + \\text{Cl}^-\n\\]\n\nAcetic acid is a weak acid and ionises only partially:\n\n\\[\n\\text{CH}_3\\text{COOH} \\rightleftharpoons \\text{CH}_3\\text{COO}^- + \\text{H}^+\n\\]\n\nSince both acids are taken in the same amount and of the same concentration, the solution of hydrochloric acid contains a much larger number of \\(\\text{H}^+\\) ions than the solution of acetic acid. The greater availability of \\(\\text{H}^+\\) ions makes the reaction with magnesium faster in test tube A.\n\nTherefore, fizzing occurs more vigorously in test tube A, because hydrochloric acid is a strong acid and furnishes more \\(\\text{H}^+\\) ions than the weak acetic acid.",
+          "sourceInfo": "Exercises Q10",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_i1_q11",
+          "displayOrder": 11,
+          "questionText": "Fresh milk has a pH of 6. How do you think the pH will change as it turns into curd? Explain your answer.",
+          "solutionText": "**Solution**\n\nThe pH of milk will **decrease** as it turns into curd.\n\nFresh milk has a pH of \\(6\\), so it is slightly acidic. When milk changes into curd, bacteria such as *Lactobacillus* convert lactose (milk sugar) into lactic acid. The production of lactic acid increases the concentration of hydrogen ions \\((H^+)\\) in the mixture, making it more acidic.\n\nSince a decrease in pH indicates an increase in acidity, the pH of curd becomes lower than \\(6\\). Thus, as milk turns into curd, its pH falls below \\(6\\).",
+          "sourceInfo": "Exercises Q11",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_i1_q12",
+          "displayOrder": 12,
+          "questionText": "A milkman adds a very small amount of baking soda to fresh milk. (a) Why does he shift the pH of the fresh milk from 6 to slightly alkaline? (b) Why does this milk take a long time to set as curd?",
+          "solutionText": "**Solution:**\n\nFresh milk has a pH of about \\(6\\), i.e. it is slightly acidic.\n\n**(a)** Baking soda is sodium hydrogencarbonate \\(\\left(\\mathrm{NaHCO_3}\\right)\\), which is a mild base. When a small amount of it is added to fresh milk, it neutralises the acid already present and shifts the pH of the milk from \\(6\\) to a slightly alkaline value (about \\(7\\)–\\(8\\)).\n\nFresh milk turns sour and curdles on standing because bacteria present in it convert lactose into lactic acid. If the milk is kept acidic, this acid formation causes the milk to curdle quickly and spoil during transport and storage. By making the milk slightly alkaline, the milkman slows down this acid formation, so the milk can be preserved for a longer time before it is sold.\n\n**(b)** Curd is formed when lactic acid produced by *Lactobacillus* bacteria acts on the milk protein casein and coagulates it. In the milk to which baking soda has been added, the acid produced by the bacteria is first used up in neutralising the added base. Therefore, the acidity required to coagulate the milk protein builds up only after some time, and the milk takes a long time to set as curd.",
+          "sourceInfo": "Exercises Q12",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_i1_q13",
+          "displayOrder": 13,
+          "questionText": "Plaster of Paris should be stored in a moisture-proof container. Explain why?",
+          "solutionText": "**Solution:**\n\nPlaster of Paris is calcium sulphate hemihydrate, \\(\\mathrm{CaSO_4\\cdot\\frac{1}{2}H_2O}\\). It has a strong tendency to absorb moisture from the air. When it comes in contact with water or moisture, it combines with it to form gypsum, \\(\\mathrm{CaSO_4\\cdot 2H_2O}\\), which sets into a hard, solid mass:\n\n\\[\n\\mathrm{CaSO_4\\cdot\\frac{1}{2}H_2O + 1\\frac{1}{2}H_2O \\rightarrow CaSO_4\\cdot 2H_2O}\n\\]\n\nThus, if Plaster of Paris is exposed to moist air, it absorbs moisture, sets into a hard mass inside the container, and becomes unfit for further use, as it can no longer be moulded into the required shapes.\n\nTherefore, Plaster of Paris is stored in a moisture-proof container to prevent its reaction with moisture and its setting into gypsum.",
+          "sourceInfo": "Exercises Q13",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_i1_q14",
+          "displayOrder": 14,
+          "questionText": "What is a neutralisation reaction? Give two examples.",
+          "solutionText": "**Neutralisation Reaction**\n\nA neutralisation reaction is a reaction in which an acid reacts with a base to form salt and water. The reaction is accompanied by the evolution of heat.\n\n\\[\n\\text{Acid} + \\text{Base} \\longrightarrow \\text{Salt} + \\text{Water}\n\\]\n\n**Examples:**\n\n1. Sodium hydroxide reacts with hydrochloric acid to give sodium chloride and water.\n\n\\[\n\\mathrm{NaOH} + \\mathrm{HCl} \\longrightarrow \\mathrm{NaCl} + \\mathrm{H_2O}\n\\]\n\n2. Calcium hydroxide reacts with sulphuric acid to give calcium sulphate and water.\n\n\\[\n\\mathrm{Ca(OH)_2} + \\mathrm{H_2SO_4} \\longrightarrow \\mathrm{CaSO_4} + 2\\mathrm{H_2O}\n\\]\n\nTherefore, a neutralisation reaction is one in which an acid and a base combine to form salt and water.",
+          "sourceInfo": "Exercises Q14",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_i1_q15",
+          "displayOrder": 15,
+          "questionText": "Give two important uses of washing soda and baking soda.",
+          "solutionText": "**Uses of Washing Soda (Sodium Carbonate, \\(\\text{Na}_2\\text{CO}_3 \\cdot 10\\text{H}_2\\text{O}\\))**\n\n1. It is used in the manufacture of glass, soap, and paper.\n2. It is used for softening hard water.\n\n**Uses of Baking Soda (Sodium Hydrogen Carbonate, \\(\\text{NaHCO}_3\\))**\n\n1. It is used in baking powder to make cakes and bread soft and spongy.\n2. It is used in antacids to neutralise excess acid in the stomach.",
+          "sourceInfo": "Exercises Q15",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "fe",
+      "friendlyName": "Examples",
+      "displayOrder": 1,
+      "questions": [
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q1",
+          "displayOrder": 1,
+          "questionText": "You have been provided with three test tubes. One of them contains distilled water and the other two contain an acidic solution and a basic solution, respectively. If you are given only red litmus paper, how will you identify the contents of each test tube?",
+          "solutionText": "**Solution**\n\nDip a piece of red litmus paper in each of the three test tubes.\n\n- The test tube in which the red litmus paper turns blue contains the **basic solution**.\n- The red litmus paper remains red in the other two test tubes, which contain the **acidic solution** and **distilled water**.\n\nTo distinguish between these two, take a fresh piece of red litmus paper and dip it in the basic solution identified above. The red litmus paper turns blue, so it now acts as blue litmus paper.\n\nNow test the remaining two solutions separately with this blue litmus paper.\n\n- The solution in which the blue litmus paper turns red is the **acidic solution**.\n- The solution in which the blue litmus paper remains blue is **distilled water**.\n\nTherefore, the basic solution is identified first, then the acidic solution and distilled water are distinguished using the blue litmus paper prepared from the red litmus paper.",
+          "sourceInfo": "In-text Q1",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q2",
+          "displayOrder": 2,
+          "questionText": "Why should curd and sour substances not be kept in brass and copper vessels?",
+          "solutionText": "**Answer:**\n\nCurd and other sour substances contain acids — for example, curd contains lactic acid, and sour foods contain citric acid, acetic acid, and similar acids.\n\nBrass and copper are metals. Copper, and the copper present in brass, react with these acids to form copper salts:\n\n\\[\n\\text{Acid} + \\text{Copper} \\rightarrow \\text{Copper salt} + \\text{Hydrogen gas}\n\\]\n\nThese copper salts are poisonous and harmful to health. When curd or sour substances are kept in brass or copper vessels, the acid present in them reacts with the metal and the resulting salts mix with the food, making it unfit for consumption. The vessels also get corroded and damaged in the process.\n\nTherefore, curd and sour substances should not be kept in brass and copper vessels, as the acids present in them react with the metal to form poisonous salts and spoil both the food and the vessel.",
+          "sourceInfo": "In-text Q2",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q3",
+          "displayOrder": 3,
+          "questionText": "Which gas is usually liberated when an acid reacts with a metal? Illustrate with an example. How will you test for the presence of this gas?",
+          "solutionText": "**Solution**\n\nWhen an acid reacts with a metal, **hydrogen gas** is usually liberated.\n\n**Example:**\n\nZinc granules react with dilute hydrochloric acid to form zinc chloride and hydrogen gas.\n\n\\[\n\\text{Zn} + 2\\text{HCl} \\rightarrow \\text{ZnCl}_2 + \\text{H}_2\n\\]\n\nSimilarly, with dilute sulphuric acid:\n\n\\[\n\\text{Zn} + \\text{H}_2\\text{SO}_4 \\rightarrow \\text{ZnSO}_4 + \\text{H}_2\n\\]\n\n**Test for hydrogen gas:**\n\nBring a burning splinter or candle near the mouth of the test tube in which the gas is collected. The gas burns with a **pop sound**, which confirms the presence of hydrogen gas.\n\nTherefore, the gas liberated is **hydrogen**, and it is tested by the **pop sound test**.",
+          "sourceInfo": "In-text Q3",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q4",
+          "displayOrder": 4,
+          "questionText": "Metal compound A reacts with dilute hydrochloric acid to produce effervescence. The gas evolved extinguishes a burning candle. Write a balanced chemical equation for the reaction if one of the compounds formed is calcium chloride.",
+          "solutionText": "The gas evolved extinguishes a burning candle, so it is carbon dioxide, \\(\\mathrm{CO_2}\\). Since one of the compounds formed is calcium chloride, compound A is calcium carbonate, \\(\\mathrm{CaCO_3}\\).\n\n\\[\n\\mathrm{CaCO_3(s) + 2HCl(aq) \\rightarrow CaCl_2(aq) + CO_2(g) + H_2O(l)}\n\\]\n\nTherefore, the required balanced chemical equation is:\n\n\\[\n\\boxed{\\mathrm{CaCO_3 + 2HCl \\rightarrow CaCl_2 + CO_2 + H_2O}}\n\\]\n\nHere, compound A is calcium carbonate.",
+          "sourceInfo": "In-text Q4",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q5",
+          "displayOrder": 5,
+          "questionText": "Why do HCl, HNO3, etc., show acidic characters in aqueous solutions while solutions of compounds like alcohol and glucose do not show acidic character?",
+          "solutionText": "**Solution:**\n\nAcidic character in an aqueous solution is due to the formation of hydrogen ions, \\(\\text{H}^+\\), which exist in water as hydronium ions, \\(\\text{H}_3\\text{O}^+\\).\n\n\\(\\text{HCl}\\) and \\(\\text{HNO}_3\\) ionise in water and produce hydrogen ions:\n\n\\[\n\\text{HCl} + \\text{H}_2\\text{O} \\rightarrow \\text{H}_3\\text{O}^+ + \\text{Cl}^-\n\\]\n\n\\[\n\\text{HNO}_3 + \\text{H}_2\\text{O} \\rightarrow \\text{H}_3\\text{O}^+ + \\text{NO}_3^-\n\\]\n\nSince these solutions contain \\(\\text{H}^+\\) (or \\(\\text{H}_3\\text{O}^+\\)) ions, they show acidic character.\n\nOn the other hand, compounds such as alcohol and glucose dissolve in water but do not ionise to give hydrogen ions. They remain mainly as molecules in solution. Hence, they do not produce \\(\\text{H}^+\\) ions and therefore do not show acidic character.\n\nThus, acidic character depends not merely on the presence of hydrogen atoms but on the ability of the compound to give hydrogen ions in aqueous solution.",
+          "sourceInfo": "In-text Q5",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q6",
+          "displayOrder": 6,
+          "questionText": "Why does an aqueous solution of an acid conduct electricity?",
+          "solutionText": "**Solution**\n\nAn acid ionises or dissociates in water to produce free ions. For example,\n\n\\[\n\\mathrm{HCl(aq) \\rightarrow H^+(aq)+Cl^-(aq)}\n\\]\n\nor, more correctly,\n\n\\[\n\\mathrm{HCl(aq)+H_2O(l) \\rightarrow H_3O^+(aq)+Cl^-(aq)}\n\\]\n\nThese ions are free to move in the aqueous solution. When an electric potential is applied, the positive and negative ions move towards the oppositely charged electrodes and carry electric current.\n\nTherefore, an aqueous solution of an acid conducts electricity due to the presence of free ions formed by its dissociation in water.",
+          "sourceInfo": "In-text Q6",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q7",
+          "displayOrder": 7,
+          "questionText": "Why does dry HCl gas not change the colour of the dry litmus paper?",
+          "solutionText": "Dry HCl gas does not change the colour of dry litmus paper because the acidic character of HCl is shown only in the presence of water.\n\nAcids produce hydrogen ions \\(\\left(\\text{H}^+\\right)\\) only when they are dissolved in water:\n\n\\[\n\\text{HCl}(g) + \\text{H}_2\\text{O}(l) \\rightarrow \\text{H}_3\\text{O}^+(aq) + \\text{Cl}^-(aq)\n\\]\n\nLitmus changes colour only in the presence of ions such as \\(\\text{H}^+\\) (or \\(\\text{OH}^-\\)) in solution. In dry HCl gas, there is no water, so no \\(\\text{H}^+\\) ions are produced, and the dry litmus paper remains unchanged.\n\nTherefore, dry HCl gas does not change the colour of dry litmus paper because ionisation of HCl and hence the formation of \\(\\text{H}^+\\) ions requires water.",
+          "sourceInfo": "In-text Q7",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q8",
+          "displayOrder": 8,
+          "questionText": "While diluting an acid, why is it recommended that the acid should be added to water and not water to the acid?",
+          "solutionText": "Dilution of a concentrated acid is a highly exothermic process. When water is added to a concentrated acid, the heat produced is concentrated in a small amount of water, which may cause the water to boil suddenly. This can result in violent splashing of the acid, causing severe burns.\n\nOn the other hand, when the acid is added slowly to a large amount of water with constant stirring, the heat produced is absorbed and distributed throughout the water. This prevents sudden boiling and splashing.\n\nTherefore, while diluting an acid, the acid should be added to water and not water to the acid.",
+          "sourceInfo": "In-text Q8",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q9",
+          "displayOrder": 9,
+          "questionText": "How is the concentration of hydronium ions (H3O+) affected when a solution of an acid is diluted?",
+          "solutionText": "When an acid solution is diluted with water, the volume of the solution increases while the amount of acid remains the same. Therefore, the number of hydronium ions per unit volume decreases.\n\nFor a weak acid, dilution also shifts the ionisation equilibrium slightly in the forward direction, but the increase in ionisation is not enough to compensate for the increase in volume. Hence, the concentration of hydronium ions still decreases.\n\n\\[\n\\text{Concentration of } \\mathrm{H_3O^+} = \\frac{\\text{moles of } \\mathrm{H_3O^+}}{\\text{volume of solution}}\n\\]\n\nSince the volume increases on dilution, the concentration of \\(\\mathrm{H_3O^+}\\) ions decreases.\n\nTherefore, on diluting an acid solution, the concentration of hydronium ions \\(\\mathrm{H_3O^+}\\) decreases.",
+          "sourceInfo": "In-text Q9",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q10",
+          "displayOrder": 10,
+          "questionText": "How is the concentration of hydroxide ions (OH–) affected when excess base is dissolved in a solution of sodium hydroxide?",
+          "solutionText": "When excess base is dissolved in a solution of sodium hydroxide, it dissociates to produce additional hydroxide ions:\n\n\\[\n\\text{NaOH(s)} \\rightarrow \\text{Na}^+(aq) + \\text{OH}^-(aq)\n\\]\n\nTherefore, the concentration of hydroxide ions \\((\\text{OH}^-)\\) increases, and the solution becomes more basic.",
+          "sourceInfo": "In-text Q10",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q11",
+          "displayOrder": 11,
+          "questionText": "You have two solutions, A and B. The pH of solution A is 6 and pH of solution B is 8. Which solution has more hydrogen ion concentration? Which of this is acidic and which one is basic?",
+          "solutionText": " **Given:**  \npH of solution A \\(= 6\\)  \npH of solution B \\(= 8\\)\n\nThe hydrogen ion concentration is related to pH by\n\n\\[\n\\text{pH} = -\\log[\\text{H}^+]\n\\]\n\nso\n\n\\[\n[\\text{H}^+] = 10^{-\\text{pH}}\n\\]\n\nFor solution A:\n\n\\[\n[\\text{H}^+] = 10^{-6}\\ \\text{M}\n\\]\n\nFor solution B:\n\n\\[\n[\\text{H}^+] = 10^{-8}\\ \\text{M}\n\\]\n\nSince \\(10^{-6} > 10^{-8}\\), solution A has more hydrogen ion concentration. In fact, it has \\(100\\) times the hydrogen ion concentration of solution B.\n\nAt room temperature, a solution with pH less than \\(7\\) is acidic and a solution with pH greater than \\(7\\) is basic.\n\nTherefore, solution A is acidic and solution B is basic.",
+          "sourceInfo": "In-text Q11",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q12",
+          "displayOrder": 12,
+          "questionText": "What effect does the concentration of H+(aq) ions have on the nature of the solution?",
+          "solutionText": "The concentration of \\(\\mathrm{H^+(aq)}\\) ions determines whether a solution is acidic, basic, or neutral.\n\n- If the concentration of \\(\\mathrm{H^+(aq)}\\) ions is high, the solution is **acidic**.\n- If the concentration of \\(\\mathrm{H^+(aq)}\\) ions is low, the solution is **basic**.\n- If the concentrations of \\(\\mathrm{H^+(aq)}\\) and \\(\\mathrm{OH^-(aq)}\\) ions are equal, the solution is **neutral**.\n\nTherefore, a higher concentration of \\(\\mathrm{H^+(aq)}\\) ions makes the solution more acidic, while a lower concentration makes it less acidic or basic.",
+          "sourceInfo": "In-text Q12",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q13",
+          "displayOrder": 13,
+          "questionText": "Do basic solutions also have H+(aq) ions? If yes, then why are these basic?",
+          "solutionText": "**Solution**\n\nYes, basic solutions also contain \\(\\mathrm{H^+(aq)}\\) ions. This is because water ionises slightly to produce both hydrogen ions and hydroxide ions:\n\n\\[\n\\mathrm{H_2O(l) \\rightleftharpoons H^+(aq) + OH^-(aq)}\n\\]\n\nWhen a base is dissolved in water, it increases the concentration of hydroxide ions, \\(\\mathrm{OH^-}\\), in the solution. For example,\n\n\\[\n\\mathrm{NaOH(aq) \\rightarrow Na^+(aq) + OH^-(aq)}\n\\]\n\nThe added \\(\\mathrm{OH^-}\\) ions combine with some \\(\\mathrm{H^+}\\) ions to form water, thereby decreasing the concentration of \\(\\mathrm{H^+}\\) ions.\n\nThus, in a basic solution,\n\n\\[\n[\\mathrm{OH^-}] > [\\mathrm{H^+}]\n\\]\n\nTherefore, a basic solution contains \\(\\mathrm{H^+(aq)}\\) ions, but it is basic because the concentration of \\(\\mathrm{OH^-}\\) ions is greater than that of \\(\\mathrm{H^+}\\) ions.",
+          "sourceInfo": "In-text Q13",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q14",
+          "displayOrder": 14,
+          "questionText": "Under what soil condition do you think a farmer would treat the soil of his fields with quick lime (calcium oxide) or slaked lime (calcium hydroxide) or chalk (calcium carbonate)?",
+          "solutionText": "**Answer:**\n\nA farmer would treat the soil of his fields with quick lime, slaked lime, or chalk when the soil is **too acidic**, that is, when its pH is low. Such acidic soils are usually found in regions of heavy rainfall, where the bases present in the soil get washed away (leached) by rain water, leaving the soil acidic.\n\nQuick lime (calcium oxide, \\( \\text{CaO} \\)), slaked lime (calcium hydroxide, \\( \\text{Ca(OH)}_2 \\)), and chalk (calcium carbonate, \\( \\text{CaCO}_3 \\)) are all **basic** in nature. When added to the soil, they neutralise the excess acid present in it and raise the pH to a level suitable for the healthy growth of plants. This process is called **treatment of soil with lime**.\n\nFor example, slaked lime neutralises the soil acid as follows:\n\n\\[\n\\text{Ca(OH)}_2 + \\text{acid} \\rightarrow \\text{salt} + \\text{water}\n\\]\n\nThus, lime is added to **neutralise soil acidity** and make the soil fit for cultivation.",
+          "sourceInfo": "In-text Q14",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q15",
+          "displayOrder": 15,
+          "questionText": "What is the common name of the compound Ca(ClO)2?",
+          "solutionText": "The compound \\(\\mathrm{Ca(ClO)_2}\\) is calcium hypochlorite.\n\nIts common name is **bleaching powder**.",
+          "sourceInfo": "In-text Q15",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q16",
+          "displayOrder": 16,
+          "questionText": "Name the substance which on treatment with chlorine yields bleaching powder.",
+          "solutionText": "The substance is **dry slaked lime**, i.e. **calcium hydroxide**, \\(\\mathrm{Ca(OH)_2}\\).\n\n\\[\n\\mathrm{Ca(OH)_2 + Cl_2 \\rightarrow CaOCl_2 + H_2O}\n\\]\n\nTherefore, dry slaked lime on treatment with chlorine yields bleaching powder.",
+          "sourceInfo": "In-text Q16",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q17",
+          "displayOrder": 17,
+          "questionText": "Name the sodium compound which is used for softening hard water.",
+          "solutionText": "The sodium compound used for softening hard water is **sodium carbonate**, commonly known as **washing soda**.\n\n\\[\n\\text{Na}_2\\text{CO}_3 \\quad \\text{or} \\quad \\text{Na}_2\\text{CO}_3\\cdot 10\\text{H}_2\\text{O}\n\\]\n\nTherefore, the required compound is **sodium carbonate (washing soda)**.",
+          "sourceInfo": "In-text Q17",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q18",
+          "displayOrder": 18,
+          "questionText": "What will happen if a solution of sodium hydrogencarbonate is heated? Give the equation of the reaction involved.",
+          "solutionText": "On heating, sodium hydrogencarbonate decomposes to form sodium carbonate, water and carbon dioxide gas.\n\n\\[\n2\\text{NaHCO}_3 \\xrightarrow{\\Delta} \\text{Na}_2\\text{CO}_3 + \\text{H}_2\\text{O} + \\text{CO}_2\n\\]\n\nThus, carbon dioxide gas is evolved during the reaction.",
+          "sourceInfo": "In-text Q18",
+          "options": []
+        },
+        {
+          "id": "c10_chemistr_ch2_sol_fe_q19",
+          "displayOrder": 19,
+          "questionText": "Write an equation to show the reaction between Plaster of Paris and water.",
+          "solutionText": "**Solution**\n\nPlaster of Paris is chemically calcium sulfate hemihydrate (\\(\\text{CaSO}_4 \\cdot \\frac{1}{2}\\text{H}_2\\text{O}\\)). When mixed with water, it sets into a hard solid mass called gypsum, which is calcium sulfate dihydrate (\\(\\text{CaSO}_4 \\cdot 2\\text{H}_2\\text{O}\\)).\n\nThe chemical equation for this reaction is:\n\n\\[\n\\text{CaSO}_4 \\cdot \\frac{1}{2}\\text{H}_2\\text{O} + 1\\frac{1}{2}\\text{H}_2\\text{O} \\longrightarrow \\text{CaSO}_4 \\cdot 2\\text{H}_2\\text{O}\n\\]\n\nAlternatively, multiplying the entire equation by \\(2\\) to use whole-number coefficients:\n\n\\[\n2\\text{CaSO}_4 \\cdot \\frac{1}{2}\\text{H}_2\\text{O} + 3\\text{H}_2\\text{O} \\longrightarrow 2\\text{CaSO}_4 \\cdot 2\\text{H}_2\\text{O}\n\\]",
+          "sourceInfo": "In-text Q19",
+          "options": []
+        }
+      ]
+    }
+  ]
+}
