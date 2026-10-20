@@ -1,0 +1,40 @@
+{
+  "id": "c9_mathemat_ch1",
+  "classNumber": 9,
+  "subject": "Mathematics",
+  "chapterNumber": 1,
+  "friendlyName": "Number Systems",
+  "resources": {
+    "ncert": {
+      "exists": false
+    },
+    "formulaSheet": {
+      "exists": false
+    },
+    "solutions": {
+      "exists": true,
+      "groupCount": 3,
+      "fileName": "c9_mathemat_ch1_sol.json"
+    },
+    "examples": {
+      "exists": false
+    },
+    "pyq": {
+      "exists": false
+    },
+    "referenceFiles": {
+      "exists": false
+    },
+    "mockTests": {
+      "exists": false
+    },
+    "freeFlow": {
+      "exists": false
+    },
+    "assets": {
+      "exists": true,
+      "count": 2,
+      "folder": "assets"
+    }
+  }
+}

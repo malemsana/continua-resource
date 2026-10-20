@@ -1,0 +1,18 @@
+{
+  "id": "c9",
+  "classNumber": 9,
+  "subjects": [
+    {
+      "name": "Mathematics",
+      "abbreviation": "math",
+      "chapters": [
+        {
+          "id": "c9_mathemat_ch1",
+          "chapterNumber": 1,
+          "friendlyName": "Number Systems",
+          "indexFile": "c9_mathemat_ch1.json"
+        }
+      ]
+    }
+  ]
+}

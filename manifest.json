@@ -1,7 +1,7 @@
 {
   "appName": "Continua Content CDN",
   "schemaVersion": "1.0.0",
-  "publishedAt": "2026-10-18T09:01:26.176Z",
+  "publishedAt": "2026-10-20T08:34:43.097Z",
   "classes": [
     {
       "classNumber": 8,
@@ -10,17 +10,23 @@
     },
     {
       "classNumber": 9,
-      "chapterCount": 0,
-      "subjects": []
+      "chapterCount": 1,
+      "subjects": [
+        {
+          "name": "Mathematics",
+          "abbreviation": "math",
+          "chapterCount": 1
+        }
+      ]
     },
     {
       "classNumber": 10,
-      "chapterCount": 17,
+      "chapterCount": 18,
       "subjects": [
         {
           "name": "Chemistry",
           "abbreviation": "chem",
-          "chapterCount": 3
+          "chapterCount": 4
         },
         {
           "name": "Mathematics",
